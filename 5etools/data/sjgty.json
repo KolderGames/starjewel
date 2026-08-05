@@ -1,0 +1,1639 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SJGtY",
+				"abbreviation": "SJGtY",
+				"full": "Starjewel Guide to Ythlanta",
+				"version": "1.0.0",
+				"authors": [
+					"Amala"
+				],
+				"color": "7f0000",
+				"colorNight": "7f0000"
+			}
+		]
+	},
+	"background": [
+		{
+			"name": "Khârnite Initiate",
+			"source": "SJGtY",
+			"page": 0,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"magic initiate; cleric|xphb": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"religion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						{
+							"item": "book|xphb",
+							"displayName": "Book (Prayers)"
+						},
+						{
+							"item": "calligrapher's supplies|xphb"
+						},
+						{
+							"item": "holy symbol|xphb"
+						},
+						{
+							"item": "parchment|xphb",
+							"quantity": 10
+						},
+						{
+							"item": "robe|xphb"
+						},
+						{
+							"value": 800
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Intelligence, Wisdom, Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XPHB} (Cleric)"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Insight|XPHB}, {@skill Religion|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "{@item Calligrapher's Supplies|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Calligrapher's Supplies|XPHB}, {@item Book|XPHB|Book (prayers)}, {@item Holy Symbol|XPHB}, {@item Parchment|XPHB} (10 sheets), {@item Robe|xphb}, 8 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Leanar Annointed",
+			"source": "SJGtY",
+			"page": 0,
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"cult of the dragon initiate|frhof": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"stealth": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						"calligrapher's supplies|xphb",
+						"dagger|xphb",
+						"glass bottle|xphb",
+						"lamp|xphb",
+						"manacles|xphb",
+						{
+							"item": "oil|xphb",
+							"displayName": "Oil (5 flasks)"
+						},
+						{
+							"item": "pouch|xphb",
+							"displayName": "Pouches",
+							"quantity": 2
+						},
+						"robe|xphb",
+						"rope|xphb",
+						{
+							"value": 3000
+						}
+					],
+					"B": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Dexterity, Constitution, Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Cult of the Dragon Initiate|FRHoF}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Deception|XPHB} and {@skill Stealth|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Calligrapher's Supplies|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "Choose A or B: (A) {@item Calligrapher's Supplies|XPHB}, {@item Dagger|XPHB}, {@item Glass Bottle|XPHB}, {@item Lamp|XPHB}, {@item Manacles|XPHB}, {@item Oil|XPHB} (5 flasks), 2 {@item Pouch|XPHB|Pouches}, {@item Robe|XPHB}, {@item Rope|XPHB}, 30 GP; or (B) 50 GP"
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	],
+	"condition": [
+		{
+			"name": "Ageless",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Ageless condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Vigorous",
+							"entries": [
+								"You do not age, and effects that would cause you to age don't work on you."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Dread condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Dread Levels",
+							"entries": [
+								"This condition is cumulative. Each time you receive it, you gain 1 Dread level. After you gain a Dread level you must roll one d20 and add your Dread level to the roll. Consult the Dread Effects table to see what happens."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "D20 Tests Affected",
+							"entries": [
+								"When you make a D20 Test the roll is reduced by your Dread level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Removing Dread Levels",
+							"entries": [
+								"Finishing a {@variantrule Long Rest|XPHB} removes 1 of your Dread levels. When your Dread level reaches 0, the condition ends."
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Roll",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1-10",
+							"Nothing happens."
+						],
+						[
+							"11-20",
+							"You receive the {@condition Frightened|XPHB} condition."
+						],
+						[
+							"21-30",
+							"[Minor effect]"
+						],
+						[
+							"31-40",
+							"[Major effect]"
+						],
+						[
+							"41+",
+							"[Epic effect]"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Fused",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ageless",
+							"entries": [
+								"You have the {@condition Ageless|SJGtY} condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Paralyzed",
+							"entries": [
+								"You have the {@condition Paralyzed|SJGtY} condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Partial Immersion",
+							"entries": [
+								"If you are only partially immersed within a crystalline substance, anyone can pull you free, ending the Fused condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Complete Immersion",
+							"entries": [
+								"If you are completely immersed within a crystalline substance, only creatures with the Phasing trait can pull you free."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Infused",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Infused condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Damage Immunity",
+							"entries": [
+								"You are immune to the damage type related to the primal force you are infused with."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Damage Vulnerabilities",
+							"entries": [
+								"You are vulnerable to the damage type of any primal force opposed to the one you are infused with."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lost",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Lost condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "???",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Phased",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Phased condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Insubstantial",
+							"entries": [
+								"You are not entirely solid and can move effortlessly through nonmagical crystalline materials without disturbing them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Impervious",
+							"entries": [
+								"You are immune to bludgeoning, piercing and slashing attacks from nonmagical crystalline weapons."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Vulnerable",
+							"entries": [
+								"You are vulnerable to bludgeoning, piercing and slashing attacks from non-crystalline weapons."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Magic",
+							"entries": [
+								"Attacks, damaging spells and other harmful effects that inflict Acid, Cold, Fire, Lightning, Necrotic, Poison, Radiant, or Thunder Damage pass right through you. Unless you are immune to it, when struck by such an effect, you are considered to be vulnerable to that damage type. If you have resistance to the damage type, you take normal damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hummingbird",
+							"entries": [
+								"You emit a clearly audible humming sound while partially or completely exposed to air. The sound increases in volume and pitch the faster you move."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Shimmering Image",
+							"entries": [
+								"Your body shimmers as if not completely solid."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Osmotic Breath",
+							"entries": [
+								"You can breathe normally while immersed in substances that contain oxygen. If less than half of your body is immersed in such a substance, you can no longer breathe and are considered to be holding your breath."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conscious Action",
+							"entries": [
+								"If you lose consciousness while at least partially within a solid substance, you and all items and creatures Phased by you immediately suffer the {@condition Fused|SJGtY} condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fusing",
+							"entries": [
+								"If you release an object or creature without phasing ability while at least partially within a solid substance, it immediately suffers the {@condition Fused|SJGtY} condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Powerless",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Powerless condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Impervious",
+							"entries": [
+								"You cannot be directly targeted or affected by spells or other magical effects. Spells that require direct interaction, such as charm person or healing word, have no effect on you. However, spells that alter the environment, like wall of stone or cloudkill, still interact normally, as long as they don't target you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Saving Throws",
+							"entries": [
+								"If you are within the area of a spell or effect that requires a saving throw, you automatically succeed on the saving throw."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Undetectable",
+							"entries": [
+								"You cannot be detected or examined using Othersense."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Resonating",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Resonating condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Attuned",
+							"entries": [
+								"You have affinity with one of the primal forces. This affects the selection of spells you may learn and cast, and also the way spells and hazards affect you."
+							]
+						},
+						{
+							"type": "",
+							"name": "Overriding Resonance",
+							"entries": [
+								"You can only resonate with a single primal force. Every time the Resonating condition is applied to you, it replaces your current Resonating condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Roaming",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Roaming condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Disconnected",
+							"entries": [
+								"Your body has the {@condition Blinded|XPHB} and {@condition Incapacitated|XPHB} conditions."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Immunities",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Soulless",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Soulless condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "No Aura",
+							"entries": [
+								"You do not have a spirit and have no aura that can be examined."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Undetectable",
+							"entries": [
+								"You cannot be detected or examined using Ghostsight."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unfettered",
+			"source": "SJGtY",
+			"page": 0,
+			"entries": [
+				"While you have the Unfettered condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ageless",
+							"entries": [
+								"You have the {@condition Ageless|SJGtY} condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Powerless",
+							"entries": [
+								"You have the {@condition Powerless|SJGtY} condition."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Soulless",
+							"entries": [
+								"You have the {@condition Soulless|SJGtY} condition."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"disease": [
+
+	],
+	"feat": [
+		{
+			"name": "Agile",
+			"source": "SJGtY",
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Snatch",
+					"entries": [
+						"You can use your reaction to reduce the damage from a ranged weapon attack by 1d8 + your Dexterity modifier. If you reduce the damage to 0 in this way, you catch the weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura Reading",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Study Aura",
+					"entries": [
+						"Once per long rest, you can study the aura of a spirit for one minute, after which you must make a Wisdom ({@skill Insight}) check. On a success, you learn the spirit's auspice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Fate",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Dan Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Fire",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Pen Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Force",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Mas Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Fury",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Fel Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Lightning",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Tek Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Radiance",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Lin Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Shadow",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Nok Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of Primal Spirit",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"otherSummary": {
+						"entry": "Ahn Resonance",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of the Mirror",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Ghostsight",
+					"entries": [
+						"You have {@sense Ghostsight} with a range of 60 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boon of the Veil",
+			"source": "SJGtY",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Othersense",
+					"entries": [
+						"You have {@sense Othersense|SJGtY} with a range of 60 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flow Reading",
+			"source": "SJGtY",
+			"category": "G",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Othersense",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Study Flow",
+					"entries": [
+						"Once per long rest, you can touch a creature and study it for one minute, after which you must make a Intelligence ({@skill Arcana}) check. On a success, you learn which ongoing spells, curses, or magical afflictions, are currently affecting it, if any."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harmonious Magic",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Primal Tranquility",
+					"entries": [
+						"You are unaffected by effects that change your resonance. Environments that alter spellcasting through resonance, such as overflows, have no effect on your spellcasting."
+					]
+				}
+			]
+		},
+		{
+			"name": "Linking",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Mind Link",
+					"entries": [
+						"You can link your mind with others to cast enhanced spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Manifestation",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pattern Reading",
+			"source": "SJGtY",
+			"category": "G",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Othersense",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Identify Pattern",
+					"entries": [
+						"You can touch an object and study it for one minute, after which you must make an Intelligence ({@skill Arcana}) check. The DC of the check is based on the rarity of the object, as given in the Pattern Reading table. On a success, if the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires {@variantrule Attunement|XPHB}, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name. If you fail the check you can attempt to read the same object only after a long rest.",
+						{
+							"type": "table",
+							"caption": "Pattern Reading",
+							"colStyles": [
+								"col-8",
+								"col-4"
+							],
+							"colLabels": [
+								"Rarity",
+								"DC"
+							],
+							"rows": [
+								[
+									"Common",
+									"10"
+								],
+								[
+									"Uncommon",
+									"12"
+								],
+								[
+									"Rare",
+									"15"
+								],
+								[
+									"Very Rare",
+									"20"
+								],
+								[
+									"Legendary",
+									"25"
+								],
+								[
+									"Artifact",
+									"30"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Phasebreaking",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Possession",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Resonance Adept",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Resonance Reading",
+			"source": "SJGtY",
+			"category": "G",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Othersense",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Identify Resonance",
+					"entries": [
+						"You study a creature for a full round, after which you must make a Wisdom ({@skill Insight|XPHB}) check. If you succeed, you learn the creature's Resonance."
+					]
+				}
+			]
+		},
+		{
+			"name": "Siren's Song",
+			"source": "SJGtY",
+			"category": "G",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"cha": 13
+						}
+					],
+					"otherSummary": {
+						"entry": "Moran lineage",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unraveling",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Valiant",
+			"source": "SJGtY",
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Fearless",
+					"entries": [
+						"Finishing a Long Rest removes 2 of your Dread levels."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vocal Focus",
+			"source": "SJGtY",
+			"category": "G",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "...",
+					"entries": [
+						"..."
+					]
+				}
+			]
+		}
+	],
+	"hazard": [
+		{
+			"name": "Withering",
+			"source": "SJGtY",
+			"page": 0,
+			"trapHazType": "ENV",
+			"entries": [
+				"A creature takes 1 Void damage at the start of each of its turns for each stack of withering. As an action, it can remove all dark matter by giving itself the {@condition Prone|XPHB} condition and rolling on the ground. If the withering is not removed by the end of the creature's turn, it grows by one stack."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Aero",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"T"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Glogh",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 15,
+			"value": 3000,
+			"weaponCategory": "simple",
+			"property": [
+				"H",
+				"2H",
+				"R"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "2d8",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hesek",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 80000,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"R"
+			],
+			"mastery": [
+				"Cleave|XPHB",
+				"Graze|XPHB"
+			],
+			"dmg1": "2d8",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Maklidh",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Nick|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"dmg2": "1d12",
+			"weapon": true,
+			"entries": [
+				""
+			]
+		}
+	],
+	"language": [
+		{
+			"name": "Kresh",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "rare",
+			"origin": "Gnarls"
+		},
+		{
+			"name": "Tarmagh",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "rare",
+			"origin": "Luàth"
+		},
+		{
+			"name": "Tarmelindala",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "common",
+			"origin": "Tirrans"
+		},
+		{
+			"name": "Ûr",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "rare",
+			"origin": "Garan"
+		},
+		{
+			"name": "Vajani",
+			"source": "SJGtY",
+			"page": 0,
+			"type": "common",
+			"origin": "Travellers"
+		}
+	],
+	"sense": [
+		{
+			"name": "Ghostsight",
+			"source": "SJGtY",
+			"page": 0,
+			"srd52": true,
+			"entries": [
+				"With Ghostsight you can peer into Din Iòmar within a specified range to see spirits and examine their auras. Ghostsight can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. It is not affected by normal or magical darkness. Since illusions have no substance in Din Iòmar, you automatically detect visual illusions and succeed on saving throws against them. You can see Invisible creatures and objects normally and perceive the original form of shapechangers or creatures transformed by magic, provided they have a spirit. For more information about Din Iòmar, see Chapter 2: Story of Ythlanta.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Aura Sense",
+							"entries": [
+								"Ghostsight allows you to study the aura of a spirit to learn more about it. You must spend a full round studying the aura of a spirit, after which you must succeed on a Wisdom (Insight) check to learn the spirit's Totem and Auspice. You may study only one aura at a time."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Othersense",
+			"source": "SJGtY",
+			"page": 0,
+			"srd52": true,
+			"entries": [
+				"With Othersense you can sense the flow of primal forces within a specified range. Othersense can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			]
+		}
+	]
+}
