@@ -1,0 +1,2513 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EHGtI",
+				"abbreviation": "EH:GtI",
+				"full": "Everhold: Guide to Ithlan",
+				"version": "1.0.0",
+				"authors": [
+					"Kolder Games"
+				],
+				"convertedBy": [
+					"Kolder"
+				],
+				"color": "cc4400",
+				"colorNight": "cc4400"
+			}
+		],
+		"optionalFeatureTypes": {
+			"AU": "Auspice",
+			"GL": "Gameplay Level",
+			"RE": "Resonance"
+		}
+	},
+	"spell": [
+		{
+			"name": "Primal Darts",
+			"source": "EHGtI",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create three darts of magical force. Each dart hits a creature of your choice that you can see within range. The darts all strike simultaneously, and you can direct them to hit one creature or several. The type of darts created and the damage they inflict is based on your {@condition resonating|EHGtI} primal force, as listed in the Primal Forces table.",
+				{
+					"type": "table",
+					"caption": "Primal Forces",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Effect"
+					],
+					"rows": [
+						[
+							"Ahn",
+							"Multicolored darts dealing {@damage 1d4 + 1} Psychic damage"
+						],
+						[
+							"Dan",
+							"Golden darts dealing {@damage 1d4 + 1} Thunder damage"
+						],
+						[
+							"Fel",
+							"Green darts dealing {@damage 1d4 + 1} Poison damage"
+						],
+						[
+							"Lin",
+							"White darts dealing {@damage 1d4 + 1} Radiant damage"
+						],
+						[
+							"Mas",
+							"Pink darts dealing {@damage 1d4 + 1} Force damage"
+						],
+						[
+							"Nok",
+							"Black darts dealing {@damage 1d4 + 1} Necrotic damage"
+						],
+						[
+							"Pen",
+							"Fiery darts dealing {@damage 1d4 + 1} Fire damage"
+						],
+						[
+							"Tek",
+							"Blue darts dealing {@damage 1d4 + 1} Lightning damage"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The spell creates one more dart for each spell slot level above 1."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT",
+				"ST"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Primal"
+			],
+			"uniqueId": "1dadc8d9-1f1a-4f98-b92c-012c57eff0b9"
+		},
+		{
+			"name": "Othersense",
+			"source": "EHGtI",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a dried carrot"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"For the duration, a willing creature you touch has {@sense Othersense|EHGtI} with a range of 150 feet."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "08f2294b-8c9b-4ff5-932e-4cbd85080832"
+		},
+		{
+			"name": "Ghostsight",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration, a willing creature you touch has {@sense Ghostsight|EHGtI} with a range of 150 feet."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "20899469-f877-4908-8305-bc50efbab6a3"
+		},
+		{
+			"name": "Invigorate",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You invigorate a creature you touch with renewed energy. You can reduce the target's {@condition Exhaustion|XPHB} level by one, but gain one level of {@condition Exhaustion|XPHB} yourself."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "5fac1889-4ce6-4d02-8a68-93ba033a288f"
+		},
+		{
+			"name": "` Resonate",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Apply Resonating condition to the target with the primal force you resonate with.]"
+			],
+			"source": "EHGtI",
+			"subschools": [
+				"Primal"
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "00c70352-16f7-45c5-908f-8f69bebf2c13"
+		},
+		{
+			"name": "` Unveil",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Opens the veil between Realms in the area, making spirits and dream emanations visible to all. This is not as exact as ghostsight, but visualizes spirits through enhancing their auras.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "25d54a8f-3f82-496a-ab29-ef35979fc6d3"
+		},
+		{
+			"name": "Exorcism",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You attempt to stop a spirit from possessing a creature. The target must succeed on a Charisma saving throw or be exorcised from the creature it possesses."
+			],
+			"source": "EHGtI",
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+					]
+				}
+			],
+			"uniqueId": "4da68b97-89d0-47be-9f9b-b6d5c39bc3a4"
+		},
+		{
+			"name": "` Call Totem",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Call out a creature's totem, transforming it into a more powerful version of itself.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "b1034025-b465-4934-8d23-c1421c482f5f"
+		},
+		{
+			"name": "Cleanse",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"One creature you can see within range is engulfed by primal fire, cleansing it of a condition or effect based on the primal force used, as described below.",
+				{
+					"type": "entries",
+					"name": "Ahn",
+					"entries": [
+						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dan",
+					"entries": [
+						"Light blue flames..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fel",
+					"entries": [
+						"Green flames..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lin",
+					"entries": [
+						"White flames..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mas",
+					"entries": [
+						"..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nok",
+					"entries": [
+						"Black flames..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pen",
+					"entries": [
+						"..."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tek",
+					"entries": [
+						"..."
+					]
+				}
+			],
+			"source": "EHGtI",
+			"subschools": [
+				"Primal"
+			],
+			"uniqueId": "ecbf3099-0837-4e9b-9d47-675207bf03e5",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			}
+		},
+		{
+			"name": "Conjure Minor Primals",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You conjure primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHGtI} primal force.",
+				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"subschools": [
+				"Primal"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 2d8} for each spell slot level above 4."
+					]
+				}
+			],
+			"uniqueId": "9e5d8e93-7523-421c-845d-494e53a2842a"
+		},
+		{
+			"name": "` Deluminate",
+			"level": 0,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[You remove the illumination of a single light source. This can be a candle, lantern, fireplace, etc. It just snuffs out the light, it can be lit again normally.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "09abe10e-3004-4bda-bb56-5be6b96ef3d3"
+		},
+		{
+			"name": "Dispel Spirits",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration, Spirits have {@variantrule Disadvantage|XPHB} on attack rolls against you. You can end the spell early by using either of the following special functions.",
+				{
+					"type": "entries",
+					"name": "Break Enchantment",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you touch a creature that has the {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Possessed|EHGtI} condition from one or more creatures of the types above. The target is no longer {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Possessed|EHGtI} by such creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dismissal",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already."
+					]
+				}
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "powdered silver and iron"
+			},
+			"conditionInflict": [
+				"charmed",
+				"frightened",
+				"possessed|EHGtI"
+			],
+			"uniqueId": "25c1b940-b66e-469f-960b-c16857a24689"
+		},
+		{
+			"name": "Obviate",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to taking damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You ward yourself against destructive energy, reducing the damage taken by {@dice 2d6} plus your spellcasting ability modifier."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"uniqueId": "75ccf82d-f074-413f-822a-163f752016aa"
+		},
+		{
+			"name": "Detect Spirits",
+			"source": "EHGtI",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you sense the location of any Spirit within 30 feet of yourself. You also sense whether a creature within range has the {@condition Soulless|EHGtI} condition.",
+				"The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"celestial",
+				"elemental",
+				"fey",
+				"fiend",
+				"undead"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"soulless",
+				"soulless|EHGtI"
+			],
+			"uniqueId": "a6e46ef5-846d-46e6-892b-a0bae1b91db9"
+		},
+		{
+			"name": "Read Aura",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration, you can sense and examine the aura of any creature within 30 feet of you. If you examine an aura in this way, you can use your action to learn the creature's totem and to which force it is attuned.",
+				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			],
+			"source": "EHGtI",
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"areaTags": [
+				"ST"
+			],
+			"uniqueId": "8904aec0-168e-4736-b718-3d7f41ae89c5"
+		},
+		{
+			"name": "Hexbeam",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"A beam of energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes damage based on the resonating primal force, as described below.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ahn",
+							"entries": [
+								"The beam is blue and causes {@damage 1d10} psychic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dan",
+							"entries": [
+								"..."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fel",
+							"entries": [
+								"..."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Lin",
+							"entries": [
+								"The beam is white and causes {@damage 1d10} radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Mas",
+							"entries": [
+								"..."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Nok",
+							"entries": [
+								"The beam is black and causes {@damage 1d10} necrotic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Pen",
+							"entries": [
+								"..."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tek",
+							"entries": [
+								"..."
+							]
+						}
+					]
+				}
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+					]
+				}
+			],
+			"uniqueId": "d05acafe-41a4-4f76-8494-700d77906254"
+		},
+		{
+			"name": "Overflow",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"For the duration, the primal force you are resonating with overflows from a point within range and fills a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}.",
+				"If any of this spell's area overlaps with an area that Overflows with another primal force created by a spell of level 5 or lower, that other spell is dispelled."
+			],
+			"source": "EHGtI",
+			"subschools": [
+				"Primal"
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "7e6e5e24-f6f4-4a59-834d-faaf1b3eb373"
+		},
+		{
+			"name": "Spirit Ward",
+			"source": "EHGtI",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a flask of Holy Water worth 25+ GP, which the spell consumes",
+					"cost": 2500,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have {@variantrule Disadvantage|XPHB} on attack rolls against the target. The target also can't be possessed by or gain the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} conditions from them. If the target is already possessed, {@condition Charmed|XPHB}, or {@condition Frightened|XPHB} by such a creature, the target has {@variantrule Advantage|XPHB} on any new saving throw against the relevant effect."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"celestial",
+				"elemental",
+				"fey",
+				"fiend",
+				"undead"
+			],
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "d982a3b8-2fbb-431c-95fd-66eb332bfe4c"
+		},
+		{
+			"name": "` Unphase",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Remove the {@condition phased|EHGtI} condition from a target]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true
+			},
+			"uniqueId": "da74c113-3698-40eb-829e-dc90cb8d0612"
+		},
+		{
+			"name": "Conjure Primal",
+			"source": "EHGtI",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a Large, intangible Primal that appears in an unoccupied space within range. The Primal's damage type depends on your {@condition resonating|EHGtI} primal force. The Primal lasts for the duration.",
+				"Whenever a creature you can see enters the Primal's space or starts its turn within 5 feet of the primal, you can force that creature to make a Dexterity saving throw if the primal has no creature {@condition Restrained|XPHB}. On failed save, the target takes {@damage 10d8} damage of the Primal's type, and the target has the {@condition Restrained|XPHB} condition until the spell ends. At the start of each of its turns, the {@condition Restrained|XPHB} target repeats the save. On a failed save, the target takes {@damage 5d8} damage of the Primal's type, as described in the Primal Forces table. On a successful save, the target isn't {@condition Restrained|XPHB} by the Primal.",
+				{
+					"type": "table",
+					"caption": "Primal Forces",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Damage Type"
+					],
+					"rows": [
+						[
+							"Ahn",
+							"Psychic"
+						],
+						[
+							"Dan",
+							"Thunder"
+						],
+						[
+							"Fel",
+							"Poison"
+						],
+						[
+							"Lin",
+							"Radiant"
+						],
+						[
+							"Mas",
+							"Force"
+						],
+						[
+							"Nok",
+							"Necrotic"
+						],
+						[
+							"Pen",
+							"Fire"
+						],
+						[
+							"Tek",
+							"Lightning"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 8d8;4d8|5-9|2d8} for each spell slot level above 6."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning",
+				"thunder",
+				"fire",
+				"cold"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Primal"
+			],
+			"uniqueId": "869ca36c-8d3f-4a68-b187-82c69bbe8817"
+		},
+		{
+			"name": "Ignore",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You magically befuddle the mind of one creature you can see within range. The target must succeed on a Wisdom saving throw or be unable to see you for the duration, as if you had the {@condition Invisibility|XPHB} condition. The target succeeds automatically if you have cast this spell on it within the past 24 hours."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"invisibility"
+			],
+			"uniqueId": "1b10dd33-ab76-4078-8d35-8836e33771f5"
+		},
+		{
+			"name": "Soothe",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You invigorate a creature you touch with renewed energy. You can reduce the target's {@condition Dread|EHGtI} level by one, but gain one level of {@condition Dread|EHGtI} yourself."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "f1964f88-ac39-4aa7-8b9f-e42797b663f3"
+		},
+		{
+			"name": "Nullmass",
+			"level": 2,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.",
+				"The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a {@action Magic|XPHB} action to move the target, which must remain within the spell's range.",
+				"When the spell ends, the target floats gently to the ground if it is still aloft."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "1ccf10fb-a3ba-4bb6-a49f-e08d8b44774f"
+		},
+		{
+			"name": "Primal Sword",
+			"source": "EHGtI",
+			"page": 302,
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a miniature sword worth 250+ GP",
+					"cost": 25000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a spectral sword that hovers within range. It lasts for the duration.",
+				"When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes damage equal to {@damage 4d12} plus your spellcasting ability modifier. The damage type depends on your {@condition resonating|EHGtI} primal force, as described in the Primal Forces table.",
+				{
+					"type": "table",
+					"caption": "Primal Forces",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Effect"
+					],
+					"rows": [
+						[
+							"Ahn",
+							"Psychic damage"
+						],
+						[
+							"Dan",
+							"Thunder damage"
+						],
+						[
+							"Fel",
+							"Poison damage"
+						],
+						[
+							"Lin",
+							"Radiant damage"
+						],
+						[
+							"Mas",
+							"Force damage"
+						],
+						[
+							"Nok",
+							"Necrotic damage"
+						],
+						[
+							"Pen",
+							"Fire damage"
+						],
+						[
+							"Tek",
+							"Lightning damage"
+						]
+					]
+				},
+				"On your later turns, you can take a {@variantrule Bonus Action|XPHB} to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one."
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Primal"
+			],
+			"uniqueId": "5fba0002-e019-43ed-96db-787e525d499d"
+		},
+		{
+			"name": "` Primal Fountain",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Call forth a fountain of the primal force you resonate with to infuse all within 10 feet.]"
+			],
+			"source": "EHGtI",
+			"subschools": [
+				"Primal"
+			],
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "3a6458e4-4bc6-4458-8dc7-0554be50ca77"
+		},
+		{
+			"name": "` Primal Wellspring",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Call forth a wellspring of the primal force you resonate with to make all resonate with that primal force.]"
+			],
+			"source": "EHGtI",
+			"subschools": [
+				"Primal"
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "736d2272-c401-4a58-ad61-c1f4db091cd7"
+		},
+		{
+			"name": "Unravel",
+			"source": "EHGtI",
+			"level": 6,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lodestone and dust"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a purple ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by {@spell Wall of Force|XPHB}.",
+				"A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} Void damage. If this damage reduces it to 0 {@variantrule Hit Points|XPHB}, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
+				"This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-{@variantrule Cube [Area of Effect]|XPHB|Cube} portion of it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 10d6 + 40|6-9|3d6} for each spell slot level above 6."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"void"
+			],
+			"uniqueId": "6cbe2c82-5616-4cd0-ac0e-fb74ac7b1c49"
+		},
+		{
+			"name": "` Splice",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Splice items into multiple, for example to launch a barrage of arrows or to stab your opponent with a dagger multiple times.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "95590d01-4453-4c1d-819e-f2f78439e039"
+		},
+		{
+			"name": "` Trueshot",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Touch an arrow or bullet. When fired, the arrow or bullet hits any target within range that the shooter can see.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "7ef948d2-ce85-4705-b034-793d72d5f74e"
+		},
+		{
+			"name": "Force Bolt",
+			"alias": [
+				"Firebolt"
+			],
+			"source": "EHGtI",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You hurl a mote of primal force at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} damage. The damage type depends on your resonating primal force, as listed in the Primal Forces table.",
+				{
+					"type": "table",
+					"caption": "Primal Forces",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Effect"
+					],
+					"rows": [
+						[
+							"Ahn",
+							"Multicolored bolt dealing {@damage 1d10} Psychic damage"
+						],
+						[
+							"Dan",
+							"Golden bolt dealing {@damage 1d10} Thunder damage"
+						],
+						[
+							"Fel",
+							"Green bolt dealing {@damage 1d10} Poison damage"
+						],
+						[
+							"Lin",
+							"White bolt dealing {@damage 1d10} Radiant damage"
+						],
+						[
+							"Mas",
+							"Pink bolt dealing {@damage 1d10} Force damage"
+						],
+						[
+							"Nok",
+							"Black bolt dealing {@damage 1d10} Necrotic damage"
+						],
+						[
+							"Pen",
+							"Fiery bolt dealing {@damage 1d10} Fire damage"
+						],
+						[
+							"Tek",
+							"Blue bolt dealing {@damage 1d10} Lightning damage"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The damage increases by {@damage 1d10} when you reach levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Fire damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "7db7cd83-71ca-4ae4-9daa-919d15c0859d"
+		},
+		{
+			"name": "` Reveal",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Opens the veil between Realms in the area, making primal force emanations visible to all. This is not as precise as othersense, but creates points of light that visualize the flow of primal forces.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "69b5cd6b-0fb7-4e7c-b425-a47893de2a1c"
+		},
+		{
+			"name": "Stabilizing Field",
+			"source": "EHGtI",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lump of lead"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"An aura of antiphasing surrounds you in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. No one can initiate Phasing inside the aura, and anything with the {@condition Phased|EH:Set} condition has it instantly removed."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"celestial",
+				"elemental",
+				"fey",
+				"fiend",
+				"undead"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "c9a5f71e-ed60-4d28-b68a-54be91dc9c3e",
+			"conditionInflict": [
+				"phased|eh:set"
+			]
+		},
+		{
+			"name": "` Recalibrate",
+			"level": 7,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Recalibrate the resonance of all creatures in the area to the desired primal force.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "3edd58fe-942a-4a73-9c47-ab45f6126189"
+		},
+		{
+			"name": "Void",
+			"level": 7,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "..."
+			},
+			"uniqueId": "1ecc8952-7205-47d0-bd0b-1dc7e722c6f7",
+			"entries": [
+				"A void extends from you in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. No one can cast spells, take {@action Magic|XPHB} actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.",
+				"Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.",
+				"Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.",
+				"{@spell Dispel Magic|XPHB} has no effect on the aura, and the auras created by different {@spell Void|XPHB} spells don't nullify each other."
+			]
+		},
+		{
+			"name": "Immovability",
+			"level": 3,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You can cause the object you touch to become magically fixed in place. The object doesn't move, even if it defies gravity. It can hold up to 1,000 pounds of weight. More weight causes the spell to break and the object to fall."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "96a67bd8-d572-4491-a01d-86c6c0c04b30"
+		},
+		{
+			"name": "Mind Void",
+			"level": 1,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to taking Psychic damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"The creature that damaged you is {@condition Stunned} for one round. It makes a Wisdom saving throw, taking {@dice 2d10} Void damage on a failed save or half as much damage on a successful one."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 1d10} for each spell slot level above 1."
+					]
+				}
+			],
+			"uniqueId": "d4419beb-5bf8-4b0d-b592-485c0aca4515"
+		},
+		{
+			"name": "Wither",
+			"level": 0,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You hurl a blob of dark slime at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Void damage and gains one stack of {@hazard withering|EHGtI}."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The spell creates two blobs at level 5, three blobs at level 11, and four blobs at level 17. Make a separate attack roll for each blob. The target gains one stack of {@hazard withering|EHGtI} for each blob that hits."
+					]
+				}
+			],
+			"uniqueId": "e7cd8b2a-7763-4065-9b8d-c728e870b5ed"
+		},
+		{
+			"name": "` Suppress Core",
+			"level": 8,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Suppresses a creature's core and renders it Powerless.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "55225046-a680-4ba9-9500-5a0e148ab7d8"
+		},
+		{
+			"name": "Roam",
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": []
+			},
+			"entries": [
+				"You project your spirit into Din Iòmar (the spell ends instantly if you are not in Tal Urùk). Your body is left behind in a state of suspended animation; it has the {@condition Ageless|EHGtI} and {@condition Unconscious|XPHB} conditions and doesn't need food or air.",
+				"Your dream form resembles your body in almost every way, replicating its game statistics and possessions.",
+				"Any damage or other effects that apply to your dream form have no effect on your body and vice versa. If your body or dream form drops to 0 {@variantrule Hit Points|XPHB}, the spell ends. The spell also ends if you take a {@action Magic|XPHB} action to dismiss it.",
+				"When the spell ends and you are not dead, you reappear in your body and exit the state of suspended animation."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true
+			},
+			"uniqueId": "934ab007-1dd1-49a6-bba2-98e7baee0a62"
+		},
+		{
+			"name": "` Primal Burst",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Send bursts of primal force in all directions, causing effects to anyone who is hit. Effects are random, targets should roll {@dice 1d8} to see what happens.]"
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "d0b38711-01cf-4dbb-8f9f-934e15fbe8b6"
+		},
+		{
+			"name": "Phaselock",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"Each {@condition Phased|EH:GtI} creature or object in a 20-foot radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within range becomes becomes {@condition Fused|EH:GtI} for the duration."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"uniqueId": "6db71be3-327e-4ccd-85e6-337896ddd3d4"
+		},
+		{
+			"name": "Summon Primal",
+			"source": "EHGtI",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "...",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a Primal. It manifests in an unoccupied space that you can see within range and uses the {@creature Primal Servant|EHGtI} stat block. When you cast the spell, choose a primal force: ahn, dan, fel, lin, mas, nok, pen, or tek. The creature resembles a bipedal form wreathed in the chosen primal force, which determines certain details in its stat block. The creature disappears when it drops to 0 {@variantrule Hit Points|XPHB} or when the spell ends.",
+				"The creature is an ally to you and your allies. In combat, the creature shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"Use the spell slot's level for the spell's level in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "318181af-3e18-4058-8da9-2d2b32b536d8"
+		}
+	]
+}

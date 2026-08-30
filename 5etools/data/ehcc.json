@@ -2,22 +2,30 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SJCC",
-				"abbreviation": "SJCC",
-				"full": "Starjewel: Creature Compendium",
+				"json": "EHCC",
+				"abbreviation": "EH:CC",
+				"full": "Everhold: Creature Compendium",
 				"version": "1.0.0",
 				"authors": [
-					"Amala"
+					"Kolder Games"
 				],
-				"color": "7f0000",
-				"colorNight": "7f0000"
+				"convertedBy": [
+					"Kolder"
+				],
+				"color": "cc4400",
+				"colorNight": "cc4400"
 			}
-		]
+		],
+		"optionalFeatureTypes": {
+			"AU": "Auspice",
+			"GL": "Gameplay Level",
+			"RE": "Resonance"
+		}
 	},
 	"monster": [
 		{
 			"name": "Thunder Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"size": [
 				"L"
 			],
@@ -137,7 +145,7 @@
 			"savingThrowForced": [
 				"strength"
 			],
-			"uniqueId": "5248ef30-5b92-4f67-98a0-5ee577a4e65e"
+			"uniqueId": "ff5a2fe4-1b4b-49fc-bc41-1ccb177e4a14"
 		},
 		{
 			"name": "Brite",
@@ -150,7 +158,7 @@
 					"lin"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				13
@@ -228,7 +236,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/brite_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/brite_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -239,7 +247,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/brite.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/brite.png"
 						}
 					}
 				]
@@ -279,10 +287,10 @@
 				"Damage Absorption",
 				"Illumination"
 			],
-			"uniqueId": "82b04fdf-175c-4522-a151-62504ede280e",
 			"damageTags": [
 				"R"
-			]
+			],
+			"uniqueId": "1ce7e962-26ce-466e-8bd3-807d123decc5"
 		},
 		{
 			"name": "Chaka",
@@ -290,7 +298,7 @@
 				"T"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				13
@@ -312,7 +320,7 @@
 			"cr": "1/8",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/chaka_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chaka_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -323,12 +331,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/chaka.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/chaka.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "592e4ccd-8660-42c7-bf23-746437c92878"
+			"uniqueId": "660ac24a-6191-477b-96c4-792daca5049b"
 		},
 		{
 			"name": "Chimeris",
@@ -341,7 +349,7 @@
 					"ahn"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -378,7 +386,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/chimeris_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chimeris_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -389,12 +397,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/chimeris.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/chimeris.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "33eacd21-ee59-43c7-9ee2-b86ad48bfedc"
+			"uniqueId": "08c99182-92be-487e-a0d9-556e14262007"
 		},
 		{
 			"name": "Cloud of Darkness",
@@ -407,7 +415,7 @@
 					"nok"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -444,7 +452,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/cloud_of_darkness_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cloud_of_darkness_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -455,12 +463,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/cloud_of_darkness.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/cloud_of_darkness.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "43699fce-eb7b-4674-9ea8-34120e21cf3e"
+			"uniqueId": "d8232b51-14c2-490f-9d85-100853c8972d"
 		},
 		{
 			"name": "Felkar",
@@ -468,7 +476,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -505,7 +513,7 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/felkar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/felkar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -516,12 +524,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/felkar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/felkar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "eb79e6ad-9d87-4f07-b831-59be2c9d346a"
+			"uniqueId": "6be2b577-5137-4152-8d62-b1a09938dce3"
 		},
 		{
 			"name": "Foliet",
@@ -529,7 +537,7 @@
 				"T"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -551,7 +559,7 @@
 			"cr": "1/4",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/foliet_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/foliet_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -559,12 +567,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/foliet.jpg"
+							"url": "http://5etools:5050/img/bestiary/EHCC/foliet.jpg"
 						}
 					}
 				]
 			},
-			"uniqueId": "2ab8cfd8-f0cc-45ef-9b42-aff41aad8aa5"
+			"uniqueId": "f0897c78-4669-459c-ac64-9ed2c23f072f"
 		},
 		{
 			"name": "Glimmerfang",
@@ -572,7 +580,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				14
@@ -633,7 +641,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/glimmerfang_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/glimmerfang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -641,15 +649,15 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/glimmerfang.jpg"
+							"url": "http://5etools:5050/img/bestiary/EHCC/glimmerfang.jpg"
 						}
 					}
 				]
 			},
-			"uniqueId": "6697dad1-b3b6-42eb-97ae-bf05dc9449a5",
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "ad625964-4092-466c-8c5b-b8df6d5e31d4"
 		},
 		{
 			"name": "Figment of Imagination",
@@ -662,7 +670,7 @@
 					"ahn"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				13
@@ -684,7 +692,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/figment_of_imagination_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/figment_of_imagination_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -695,12 +703,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/figment_of_imagination.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/figment_of_imagination.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "0ee15a01-977a-4119-aedb-8adf64c79caa"
+			"uniqueId": "5365a706-df3d-4bfe-b795-60d688591698"
 		},
 		{
 			"name": "Force of Light",
@@ -713,7 +721,7 @@
 					"lin"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				13
@@ -763,7 +771,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/force_of_light_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/force_of_light_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -774,12 +782,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/force_of_light.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/force_of_light.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2db8c0e5-0085-45fd-83dd-6c18fe03f1d6"
+			"uniqueId": "6191d1dd-8d4e-465f-b263-9bf565e06b3d"
 		},
 		{
 			"name": "Gray Walker",
@@ -787,7 +795,7 @@
 				"H"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -809,7 +817,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/gray_walker_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gray_walker_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -820,12 +828,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/gray_walker.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/gray_walker.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "831891c8-ec74-4521-940a-c857b535dc63"
+			"uniqueId": "f8cd1043-4965-45bf-8a76-81550064d6b5"
 		},
 		{
 			"name": "Furius",
@@ -838,7 +846,7 @@
 					"fel"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -860,7 +868,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/furius_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/furius_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -871,12 +879,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/furius.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/furius.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "7f666e68-4a39-497d-92e1-1851c5a6b95e"
+			"uniqueId": "46afb363-023d-46d7-9447-bcd31b7c028e"
 		},
 		{
 			"name": "Miregrim",
@@ -884,7 +892,7 @@
 				"L"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -908,7 +916,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/miregrim_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/miregrim_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -919,12 +927,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/miregrim.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/miregrim.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "8b5b59fc-ce98-4cd6-b615-be7d8aced8bc"
+			"uniqueId": "a6b2569a-6d9e-4ab8-ba28-83d3c2c6a0cd"
 		},
 		{
 			"name": "Hand of Fate",
@@ -937,7 +945,7 @@
 					"dan"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -959,7 +967,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/hand_of_fate_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/hand_of_fate_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -970,12 +978,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/hand_of_fate.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/hand_of_fate.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "deced6b6-ae05-4381-852c-4980cfe58052"
+			"uniqueId": "cda0d9b1-4ffd-462e-ad72-5c394cc5179b"
 		},
 		{
 			"name": "Mass of Fury",
@@ -988,7 +996,7 @@
 					"fel"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1012,7 +1020,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/mass_of_fury_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mass_of_fury_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1023,12 +1031,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/mass_of_fury.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/mass_of_fury.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2933549b-1041-42c1-94eb-be420e87ff3a"
+			"uniqueId": "846eb2ab-7165-4702-9e9a-7e5a2129322b"
 		},
 		{
 			"name": "Relek",
@@ -1036,7 +1044,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1060,7 +1068,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/relek_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/relek_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1071,12 +1079,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/relek.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/relek.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "c309b4a0-8ad3-4cf1-b3e6-9bbce3cbf9b9"
+			"uniqueId": "a1e03284-5d31-430e-810f-765b14d917ef"
 		},
 		{
 			"name": "Pandemonial",
@@ -1089,7 +1097,7 @@
 					"dan"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1113,7 +1121,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pandemonial_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pandemonial_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1121,12 +1129,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pandemonial.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pandemonial.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "05a249ad-5228-4ab5-ae9f-c24f626aaa32"
+			"uniqueId": "49c3e0b6-b9de-4a94-a8b8-a65bef9e6e8a"
 		},
 		{
 			"name": "Slythermink",
@@ -1134,7 +1142,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1158,7 +1166,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/slythermink_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slythermink_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1166,12 +1174,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/slythermink.jpg"
+							"url": "http://5etools:5050/img/bestiary/EHCC/slythermink.jpg"
 						}
 					}
 				]
 			},
-			"uniqueId": "af497a8e-8fc8-4cd0-aecd-7cbcb6295d73"
+			"uniqueId": "baa42cc8-bc3f-46ed-a67e-26052e3e1f35"
 		},
 		{
 			"name": "Tenebrian",
@@ -1184,7 +1192,7 @@
 					"nok"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1208,7 +1216,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/tenebrian_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/tenebrian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1219,12 +1227,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/tenebrian.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/tenebrian.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "937ee7c4-85b0-42c6-ab4c-114689b22bb3"
+			"uniqueId": "9c0da805-02fd-43b3-8b03-7ae0c87d1ed0"
 		},
 		{
 			"name": "Yakut, Peairnean",
@@ -1232,7 +1240,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1256,7 +1264,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/yakut_peairnean_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yakut_peairnean_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1264,12 +1272,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/yakut_peairnean.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/yakut_peairnean.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "75a23426-599f-4487-a27b-47f2ab17054e"
+			"uniqueId": "63105c7b-331f-48d2-9208-6c574f2e8edb"
 		},
 		{
 			"name": "Scribblet",
@@ -1277,7 +1285,7 @@
 				"T"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1301,7 +1309,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/scribblet_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/scribblet_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1309,12 +1317,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/scribblet.jpg"
+							"url": "http://5etools:5050/img/bestiary/EHCC/scribblet.jpg"
 						}
 					}
 				]
 			},
-			"uniqueId": "c6166543-16cc-4d29-bb2f-f5787b26932f"
+			"uniqueId": "ce41c589-7d1d-4d31-aa52-4f52d28f7d1d"
 		},
 		{
 			"name": "Chaka Swarm",
@@ -1325,7 +1333,7 @@
 				"type": "aberration",
 				"swarmSize": "T"
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -1347,7 +1355,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/chaka_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chaka_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1358,12 +1366,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/chaka.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/chaka.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "35ebf2f8-2192-4260-813e-e29df9fa77c7"
+			"uniqueId": "474ae8a5-9198-4573-aa42-3f0a616f89fc"
 		},
 		{
 			"name": "Gnarl - Akaragh",
@@ -1376,7 +1384,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				15
@@ -1398,7 +1406,7 @@
 			"cr": "3",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/akaragh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/akaragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1409,19 +1417,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/akaragh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/akaragh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "adcc4b44-fc14-464f-a917-58bcfebcf2c3",
 			"skill": {
 				"perception": "+4",
 				"stealth": "+3"
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "35a78d2c-7d82-4af6-9bb6-2f57118c6201"
 		},
 		{
 			"name": "Gnarl - Andragh",
@@ -1434,7 +1442,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				14
@@ -1456,7 +1464,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/andragh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/andragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1467,19 +1475,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/andragh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/andragh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "536f883e-9eb8-4726-9565-72c9cbc5195d",
 			"skill": {
 				"perception": "+4",
 				"survival": "+2"
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "85b336e0-2282-40ea-9818-65f667959480"
 		},
 		{
 			"name": "Gnarl - Lithuar",
@@ -1492,7 +1500,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				15
@@ -1515,7 +1523,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lithuar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lithuar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1526,19 +1534,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lithuar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lithuar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "91725a01-3667-4dd1-9cd3-8ebb1cf98f5f",
 			"languages": [
 				"Kresh"
 			],
 			"skill": {
 				"perception": "+4",
 				"survival": "+2"
-			}
+			},
+			"uniqueId": "5163510a-ca8a-40e4-afc7-a26ee763e5f1"
 		},
 		{
 			"name": "Gnarl - Grolagh",
@@ -1551,7 +1559,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				15
@@ -1574,7 +1582,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/grolagh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/grolagh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1585,19 +1593,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/grolagh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/grolagh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "f8baab90-871a-4ae2-be91-b92464af0b3d",
 			"skill": {
 				"perception": "+4",
 				"stealth": "+5"
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "b037842e-732c-4ec5-983e-1d30174de338"
 		},
 		{
 			"name": "Gnarl - Kolar",
@@ -1610,7 +1618,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				13
@@ -1633,7 +1641,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kolar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kolar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1644,19 +1652,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kolar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kolar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "b2562592-80db-4995-b2d9-375b06b63b1b",
 			"skill": {
 				"perception": "+4",
 				"survival": "+2"
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "ea401dff-7de5-4a1d-bd90-29e88e67688e"
 		},
 		{
 			"name": "Gnarl - Eralar",
@@ -1669,7 +1677,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				15
@@ -1691,7 +1699,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/eralar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/eralar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1702,19 +1710,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/eralar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/eralar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "3d288f4d-a012-4447-8073-dc4b39050ed3",
 			"languages": [
 				"Kresh"
 			],
 			"skill": {
 				"perception": "+4",
 				"stealth": "+5"
-			}
+			},
+			"uniqueId": "b584caee-5ae5-41a5-8760-d7185636cf14"
 		},
 		{
 			"name": "Gnarl - Ildar",
@@ -1727,7 +1735,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				14
@@ -1749,7 +1757,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ildar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ildar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1760,19 +1768,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ildar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ildar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "8a0436cd-e09b-4420-985b-2cbc1a8f4488",
 			"skill": {
 				"survival": "+2",
 				"perception": "+4"
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "e98d47fb-e0b0-4798-90be-746e986ec09e"
 		},
 		{
 			"name": "Ghost",
@@ -1780,7 +1788,7 @@
 				"M"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -1807,7 +1815,7 @@
 			"cr": "4",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ghost_ythlantean_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ghost_ythlantean_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1818,12 +1826,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ghost_ythlantean.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ghost_ythlantean.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "5fbff26d-aa45-4d4c-8bdf-a929bfe58ba9"
+			"uniqueId": "936d085f-a915-45bc-89e8-cf6faa03e4b5"
 		},
 		{
 			"name": "Nalkor",
@@ -1831,7 +1839,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -1855,7 +1863,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nalkor_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nalkor_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1863,12 +1871,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nalkor.jpg"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nalkor.jpg"
 						}
 					}
 				]
 			},
-			"uniqueId": "3fdaa5af-2552-40ef-90b0-770263f82797"
+			"uniqueId": "7baca1f8-ba0a-49ba-aa65-51669c50230f"
 		},
 		{
 			"name": "Ember Dragon Wyrmling",
@@ -1881,7 +1889,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -1904,7 +1912,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_ember_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1915,12 +1923,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_ember_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "e75ef765-1fc5-4fa4-997a-8ffbdb627173"
+			"uniqueId": "233a036e-9df0-4991-a593-028e0576bb28"
 		},
 		{
 			"name": "Glacier Dragon Wyrmling",
@@ -1933,7 +1941,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -1963,16 +1971,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_glacier_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "39e698c3-633e-4736-9463-067b6dde39f2",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_glacier_baby_token.png"
-			}
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_baby_token.png"
+			},
+			"uniqueId": "b34c238c-eb43-4220-b0ee-8d95016dfc2e"
 		},
 		{
 			"name": "Reef Dragon Wyrmling",
@@ -1980,7 +1988,7 @@
 				"M"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2005,7 +2013,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_reef_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2016,12 +2024,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_reef_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "a32b94ea-269f-4f42-ad68-57ff90adb996"
+			"uniqueId": "8b371ab9-0bc9-41d3-aa00-79cd2143f459"
 		},
 		{
 			"name": "Verdant Dragon, Young",
@@ -2034,7 +2042,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2059,7 +2067,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_verdant_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_young_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -2067,12 +2075,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_verdant_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ab011d16-3db1-4dec-a2a4-ff7c4b4a294a"
+			"uniqueId": "11d30088-0e43-4c59-9136-5be31ffff364"
 		},
 		{
 			"name": "Mimora",
@@ -2080,7 +2088,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2104,7 +2112,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/mimora_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mimora_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2115,12 +2123,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/mimora.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/mimora.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "cd5972ab-404e-4f74-9020-e5239871a592"
+			"uniqueId": "1701e83a-49d8-41fc-afb2-4204ef3e1a76"
 		},
 		{
 			"name": "Rell",
@@ -2128,7 +2136,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2150,7 +2158,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "f054500a-abff-4b30-a831-88cd190a1d9f"
+			"uniqueId": "593932e8-40e6-47c6-bcf1-0608d03ab1f0"
 		},
 		{
 			"name": "Szinek, Adult",
@@ -2158,7 +2166,7 @@
 				"L"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2183,7 +2191,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/szinek_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/szinek_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2194,12 +2202,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/szinek_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/szinek_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d5b0bccb-8543-4ba4-b995-3d96303799e1"
+			"uniqueId": "bee20ebd-904d-42c4-90ef-849b55ef689e"
 		},
 		{
 			"name": "Pranker - Jinxer",
@@ -2212,7 +2220,7 @@
 					"fel"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2234,7 +2242,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "aff0e587-b051-4756-b437-bcf8a23f2869",
 			"fluff": {
 				"entries": [
 					"Create a fantasy watercolor style image of a small fantastical creature that is like a green cloud of poisonous gas with green piercing eyes poking out. The creature has two large wings that appear like wisps of smoke and tendrils extend from the bottom of the cloud. The creature is mischievous and whimsical in nature. Render the creature's full body on a white background with the entire drawing within the frame."
@@ -2244,14 +2251,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pranker_fel.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_fel.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pranker_fel_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_fel_token.png"
 			},
 			"trait": [
 				{
@@ -2269,7 +2276,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "23f35e4e-b119-406a-ac1b-8a63299d8c72"
 		},
 		{
 			"name": "Shiner",
@@ -2282,7 +2290,7 @@
 					"lin"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2304,7 +2312,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "12c04101-6438-4951-b5c4-1278353886e7",
 			"fluff": {
 				"entries": [
 					"Create a fantasy watercolor style image of a small fantastical creature that is like a radiant cloud with orange eyes poking out. The creature has two large wings that appear like wisps of smoke and tendrils extend from the bottom of the cloud. The creature is mischievous and whimsical in nature. Render the creature's full body on a white background with the entire drawing within the frame."
@@ -2314,15 +2321,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pranker_lin.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_lin.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pranker_lin_token.png"
-			}
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_lin_token.png"
+			},
+			"uniqueId": "20ed75f3-d9e6-4f2e-8774-838a9617a221"
 		},
 		{
 			"name": "Pranker - Gagger",
@@ -2335,7 +2343,7 @@
 					"nok"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2357,7 +2365,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "e77abe98-35f3-4fbe-bf58-dc66976618ed",
 			"fluff": {
 				"entries": [
 					"Create a fantasy watercolor style image of a small fantastical creature that is like a puff of black smoke with glowing red eyes poking out. The creature has two large wings that appear like wisps of smoke and tendrils extend from the bottom of the cloud. The creature is mischievous and whimsical in nature. Render the creature's full body on a white background with the entire drawing within the frame."
@@ -2367,14 +2374,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pranker_nok.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_nok.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pranker_nok_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_nok_token.png"
 			},
 			"trait": [
 				{
@@ -2392,7 +2399,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "b8315b1c-0b7d-4b0d-b776-7c7c3ec36153"
 		},
 		{
 			"name": "Pranker - Larker",
@@ -2405,7 +2413,7 @@
 					"ahn"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2427,7 +2435,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "b7f63730-d72e-4284-8e30-e485da34135d",
 			"trait": [
 				{
 					"name": "Death Burst",
@@ -2444,7 +2451,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "9b9b6247-de34-4c03-b0cd-436022e01e07"
 		},
 		{
 			"name": "Pranker - Reveler",
@@ -2457,7 +2465,7 @@
 					"ahn"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2479,7 +2487,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "c0f109e8-2da4-4c1f-b10b-7135c5763287",
 			"fluff": {
 				"entries": [
 					"Create a fantasy watercolor style image of a small fantastical creature that is like a purple cloud with glowing eyes poking out. The creature has two large wings that appear like wisps of smoke and tendrils extend from the bottom of the cloud. The creature is mischievous and whimsical in nature. Render the creature's full body on a white background with the entire drawing within the frame."
@@ -2489,14 +2496,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pranker_ahn.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_ahn.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pranker_ahn_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_ahn_token.png"
 			},
 			"trait": [
 				{
@@ -2514,7 +2521,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "ecca3369-9321-44fc-974a-67897e83f481"
 		},
 		{
 			"name": "Pranker - Caper",
@@ -2527,7 +2535,7 @@
 					"mas"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2593,13 +2601,13 @@
 				"fire",
 				"psychic"
 			],
-			"uniqueId": "f91e8233-e0db-4025-8f7f-d46b6a5100ba",
 			"damageTags": [
 				"O"
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "f07ec9a4-f749-4aa8-8126-d7ce88ccabfa"
 		},
 		{
 			"name": "Pranker - Hotfoot",
@@ -2612,7 +2620,7 @@
 					"pen"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2634,7 +2642,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "2194dc98-9895-4747-bc2b-3bb814efcdf2",
 			"trait": [
 				{
 					"name": "Death Burst",
@@ -2651,7 +2658,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "2cd58473-30c2-4720-a3f0-e8de3b66682e"
 		},
 		{
 			"name": "Pranker - Shocker",
@@ -2664,7 +2672,7 @@
 					"tek"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -2686,7 +2694,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "fe1aba80-93b8-42a2-9877-e348b3ce2a2b",
 			"trait": [
 				{
 					"name": "Death Burst",
@@ -2703,7 +2710,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "d870e4e5-2c13-4d19-a42d-cab62bf4d759"
 		},
 		{
 			"name": "Eldritch Orb",
@@ -2711,7 +2719,7 @@
 				"L"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -2733,7 +2741,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/eldritch_orb_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/eldritch_orb_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -2741,12 +2749,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/eldritch_orb.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/eldritch_orb.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "929b9f9e-a993-46e8-a4c0-a93c566f1dcf"
+			"uniqueId": "9b6b39c0-bd9b-426f-950e-087f955be19d"
 		},
 		{
 			"name": "Szinek Wyrmling",
@@ -2754,7 +2762,7 @@
 				"M"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -2779,7 +2787,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/szinek_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/szinek_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2790,12 +2798,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/szinek_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/szinek_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "60121970-1074-4bda-aeba-ee9e5619af32"
+			"uniqueId": "f0035f16-7ec1-41a2-8866-f9db70637b6b"
 		},
 		{
 			"name": "Ember Dragon, Young",
@@ -2808,7 +2816,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -2831,7 +2839,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_ember_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2842,12 +2850,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_ember_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "6ead1dfe-3009-49cc-8448-97f4dfd2f272"
+			"uniqueId": "f6a425de-996e-406b-a341-60c5eefa574c"
 		},
 		{
 			"name": "Ember Dragon, Adult",
@@ -2860,7 +2868,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -2883,7 +2891,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_ember_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2894,12 +2902,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_ember_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2cd5c0eb-1b9e-4b8d-8ff7-628ec8c884e1"
+			"uniqueId": "c1679801-400a-448c-a2e4-593cdd8296b6"
 		},
 		{
 			"name": "Ember Dragon, Ancient",
@@ -2912,7 +2920,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -2935,7 +2943,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_ember_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2946,12 +2954,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_ember_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "629d1a2a-035b-4d13-9daf-baacd4fe845c"
+			"uniqueId": "cd1825c5-60b0-4737-9a15-41ccce9abde0"
 		},
 		{
 			"name": "Glacier Dragon, Young",
@@ -2964,7 +2972,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -2987,7 +2995,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_glacier_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2998,12 +3006,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_glacier_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "bdf56798-77e9-4cd3-9005-e83ddbe0b864"
+			"uniqueId": "f6b3f156-8121-438c-8d82-b81472109f7a"
 		},
 		{
 			"name": "Glacier Dragon, Adult",
@@ -3016,7 +3024,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -3039,7 +3047,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_glacier_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3050,12 +3058,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_glacier_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "e735a70f-8003-464d-b28d-d24b0e4ea5cc"
+			"uniqueId": "29023149-8e84-4987-920e-29437229d89b"
 		},
 		{
 			"name": "Glacier Dragon, Ancient",
@@ -3068,7 +3076,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -3091,7 +3099,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_glacier_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3102,12 +3110,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_glacier_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "c0db9552-9fb5-4275-b584-3f22ae5a3f0c"
+			"uniqueId": "fd449564-b996-465a-a239-cbf188c0cfdd"
 		},
 		{
 			"name": "Reef Dragon, Young",
@@ -3115,7 +3123,7 @@
 				"L"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3140,7 +3148,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_reef_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3151,12 +3159,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_reef_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "aef961f1-5b98-4731-bc20-011b9793029c"
+			"uniqueId": "0351f09c-c670-44a3-bc9e-5b65eea17f65"
 		},
 		{
 			"name": "Reef Dragon, Adult",
@@ -3164,7 +3172,7 @@
 				"H"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3189,7 +3197,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_reef_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3200,12 +3208,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_reef_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "05d61c19-6bf8-40f1-9373-6023fa24efd6"
+			"uniqueId": "e01bb4b4-6cc7-403f-b7d6-9defe195b112"
 		},
 		{
 			"name": "Reef Dragon, Ancient",
@@ -3213,7 +3221,7 @@
 				"G"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3238,7 +3246,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_reef_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3249,12 +3257,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_reef_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "4ba4ae05-38d4-42eb-87fd-0a653ea2e8b9"
+			"uniqueId": "587c8601-cde5-4dcf-ba7e-a41e8bb4311c"
 		},
 		{
 			"name": "Verdant Dragon, Adult",
@@ -3267,7 +3275,7 @@
 					"Drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3292,7 +3300,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_verdant_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3303,12 +3311,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_verdant_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "1014a3ea-c316-4626-822f-41ffd9d63a4a"
+			"uniqueId": "d4defe30-a02b-45ca-a847-d5206c04ce15"
 		},
 		{
 			"name": "Verdant Dragon, Ancient",
@@ -3321,7 +3329,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3346,7 +3354,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_verdant_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3357,12 +3365,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_verdant_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "970bd0af-1c74-4230-ac8e-fc4a5d6d8b7f"
+			"uniqueId": "6bae2a04-3d75-48ea-9fea-b59f2369ac91"
 		},
 		{
 			"name": "Melder - Bol-daragh",
@@ -3370,7 +3378,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3401,16 +3409,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/bol-daragh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/bol-daragh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "b3b2b8fe-0277-4c30-9bf0-e4309f96aa15",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/bol-daragh_token.webp"
-			}
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/bol-daragh_token.webp"
+			},
+			"uniqueId": "0d11f796-7fad-41eb-8d58-edf47c21fdc5"
 		},
 		{
 			"name": "Borovis",
@@ -3418,7 +3426,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				12
@@ -3440,7 +3448,7 @@
 			"cr": "2",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/borovis_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/borovis_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3452,7 +3460,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/borovis.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/borovis.png"
 						}
 					}
 				]
@@ -3471,10 +3479,10 @@
 			"miscTags": [
 				"MA"
 			],
-			"uniqueId": "28ca0d59-8be0-42bb-a208-38743544291c",
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "63219963-7e39-4eda-8bb7-4944b203c1c4"
 		},
 		{
 			"name": "Brum",
@@ -3482,7 +3490,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -3514,7 +3522,7 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/brum_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/brum_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3525,12 +3533,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/brum.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/brum.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ddccbb0d-2759-408c-a729-fac92db2e26a"
+			"uniqueId": "75ec0acd-ea30-43a8-9b2d-def23394ad42"
 		},
 		{
 			"name": "Cruor",
@@ -3538,7 +3546,7 @@
 				"T"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3562,7 +3570,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/cruor_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cruor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3573,12 +3581,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/cruor.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/cruor.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "f1b9d3b6-494a-4939-84c1-dd3946708826"
+			"uniqueId": "dd88a7d5-d09b-4bba-8728-039879c71617"
 		},
 		{
 			"name": "Cruor Swarm",
@@ -3589,7 +3597,7 @@
 				"type": "ooze",
 				"swarmSize": "T"
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3613,7 +3621,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/cruor_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cruor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3624,12 +3632,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/cruor.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/cruor.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "df3fe310-b92d-4938-8d37-95f6c0002bd3"
+			"uniqueId": "494b8527-405f-4e21-8f65-9066fdbb3d3f"
 		},
 		{
 			"name": "Melder - Ealàiagh",
@@ -3637,7 +3645,7 @@
 				"L"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3661,7 +3669,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ealaiagh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ealaiagh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3672,12 +3680,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ealaiagh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ealaiagh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "759fc77a-dfd3-4a65-a2f9-0e557f5cf971"
+			"uniqueId": "9b119be7-542d-45af-b2d8-5f85c10ef36c"
 		},
 		{
 			"name": "Grom",
@@ -3685,7 +3693,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -3707,7 +3715,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/grom_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/grom_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3718,12 +3726,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/grom.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/grom.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "b92a6253-171e-42cd-98ff-49014a427611"
+			"uniqueId": "866fb5ac-527a-4f28-9af1-d97979ad17ab"
 		},
 		{
 			"name": "Melder - Laidìr",
@@ -3731,7 +3739,7 @@
 				"L"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3755,7 +3763,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/laidir_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/laidir_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3766,12 +3774,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/laidir.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/laidir.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "cbbf6ef6-60a6-4b05-9529-33fc42cd4dd8"
+			"uniqueId": "7cdf737f-2d4b-439c-abf0-909ef2844b09"
 		},
 		{
 			"name": "Gnarl - Nuàragh",
@@ -3784,7 +3792,7 @@
 					"gnarl"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				15
@@ -3806,7 +3814,7 @@
 			"cr": "2",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nuaragh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nuaragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3817,19 +3825,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nuaragh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nuaragh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2c5031ac-0dfc-41f2-ab58-e84ec3109f1c",
 			"languages": [
 				"Kresh"
 			],
 			"skill": {
 				"perception": "+4",
 				"stealth": "+5"
-			}
+			},
+			"uniqueId": "f3712b21-2b69-4d34-bd96-79640bbc9129"
 		},
 		{
 			"name": "Snowraven",
@@ -3837,7 +3845,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3861,7 +3869,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/snowraven_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/snowraven_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3872,12 +3880,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/snowraven.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/snowraven.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "1fc8070c-8fbe-4fc3-9861-fb7aaf6c9c70"
+			"uniqueId": "d586a043-c4cd-4994-9ee1-1a887207ef79"
 		},
 		{
 			"name": "Shadowraven",
@@ -3885,7 +3893,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -3909,7 +3917,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/shadowraven_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/shadowraven_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -3917,12 +3925,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/shadowraven.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/shadowraven.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "8c9d9714-ce4f-4e4d-86ee-e927e014f349"
+			"uniqueId": "e60df10b-3d5a-4447-a118-223c11c55a2b"
 		},
 		{
 			"name": "T'kari",
@@ -3930,7 +3938,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"U"
 			],
@@ -3983,7 +3991,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/t'kari_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/t'kari_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3994,15 +4002,15 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/t'kari.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/t'kari.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "7ef9f071-695d-4e75-ac4e-3848e329f947",
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "c035bb95-408d-4c5a-acd0-2a945ba8fa25"
 		},
 		{
 			"name": "Yi'chin",
@@ -4010,7 +4018,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4034,7 +4042,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/yi'chin_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yi'chin_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4045,12 +4053,11 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/yi'chin.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/yi'chin.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ee4f042d-6ff5-4914-9552-808ceadb95d8",
 			"trait": [
 				{
 					"name": "Agile",
@@ -4081,7 +4088,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "5a7284f2-9b86-4c10-bb7a-072f1814ec82"
 		},
 		{
 			"name": "Syphir",
@@ -4089,7 +4097,7 @@
 				"M"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4111,7 +4119,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "8ce2e0a7-2569-4130-9919-b2abb8ae2d68"
+			"uniqueId": "351104ed-a1ec-4c5a-a30d-4775897d7cdf"
 		},
 		{
 			"name": "Ruàth",
@@ -4119,7 +4127,7 @@
 				"M"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4141,7 +4149,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "f8c5ca5f-7a6f-4a22-a471-8352af785237"
+			"uniqueId": "e1ad9acc-9479-408f-a8cc-b4308fb277af"
 		},
 		{
 			"name": "Mor-tag",
@@ -4149,7 +4157,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4173,7 +4181,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/mor-tag_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mor-tag_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4184,12 +4192,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/mor-tag.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/mor-tag.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d3dcabe2-d755-496a-b28d-ebae13ddec72"
+			"uniqueId": "643e0708-ed5b-4e70-9ac0-350deda01eeb"
 		},
 		{
 			"name": "Melder - Sildar",
@@ -4197,7 +4205,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4221,7 +4229,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sildar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sildar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4232,12 +4240,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sildar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sildar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "c04140d1-4cfe-4a34-bc91-ab99bf1849b2"
+			"uniqueId": "47d6189d-1fe0-48a4-815b-208b9bee1503"
 		},
 		{
 			"name": "Clay Bear",
@@ -4245,7 +4253,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4269,7 +4277,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/clay_bear_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/clay_bear_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -4277,12 +4285,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/clay_bear.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/clay_bear.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "5aad5f4f-52da-4436-82e5-30957423874e"
+			"uniqueId": "d3bf8bdf-6def-402b-8e71-14e79ea79036"
 		},
 		{
 			"name": "Daràk",
@@ -4290,7 +4298,7 @@
 				"L"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -4312,7 +4320,7 @@
 			"cr": "17",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/darak_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/darak_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4323,7 +4331,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/darak.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/darak.png"
 						}
 					}
 				]
@@ -4339,7 +4347,7 @@
 			"traitTags": [
 				"Legendary Resistances"
 			],
-			"uniqueId": "aa8847e2-f8f5-4750-bbee-92b70f3e507a"
+			"uniqueId": "d1c91957-8e7e-46cc-8fe7-c04d669000ba"
 		},
 		{
 			"name": "Faerìn",
@@ -4347,7 +4355,7 @@
 				"M"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				18
@@ -4374,7 +4382,7 @@
 			"cr": "18",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/faerin_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/faerin_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4385,7 +4393,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/faerin.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/faerin.png"
 						}
 					}
 				]
@@ -4408,14 +4416,14 @@
 				"Legendary Resistances",
 				"Magic Resistance"
 			],
-			"uniqueId": "ae4e234b-6b01-451f-b2fe-e91d7f9a1b08",
 			"languages": [
 				"all; telepathy 120 ft."
 			],
 			"languageTags": [
 				"XX",
 				"TP"
-			]
+			],
+			"uniqueId": "29b8ba92-2a10-4889-914f-a2c2e4241089"
 		},
 		{
 			"name": "Dau",
@@ -4423,7 +4431,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -4445,7 +4453,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dau_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dau_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4457,12 +4465,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dau.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dau.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "88aaafd7-2ac4-4219-8170-4e008ff00358"
+			"uniqueId": "53dac98e-577b-48e4-b43e-9c5017c8d4b4"
 		},
 		{
 			"name": "Gryor, Adult",
@@ -4475,7 +4483,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -4498,7 +4506,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/gryor_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gryor_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4509,7 +4517,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/gryor_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/gryor_adult.png"
 						}
 					}
 				]
@@ -4521,7 +4529,7 @@
 			"languages": [
 				"Ûr"
 			],
-			"uniqueId": "ed70a4df-efa5-4483-9bb2-693e48d39ff6"
+			"uniqueId": "9b158368-7810-47cd-b1ed-e8dce7623b6c"
 		},
 		{
 			"name": "Gryor Wyrmling",
@@ -4534,7 +4542,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				16
@@ -4557,7 +4565,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/gryor_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gryor_baby_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -4565,7 +4573,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/gryor_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/gryor_baby.png"
 						}
 					}
 				]
@@ -4577,7 +4585,7 @@
 			"languages": [
 				"Ûr"
 			],
-			"uniqueId": "e82a8c62-25f1-4507-97cf-70d735bcbe4f"
+			"uniqueId": "6d66c548-532a-41c4-b43a-53b0cf017697"
 		},
 		{
 			"name": "Kamen, Adult",
@@ -4585,7 +4593,7 @@
 				"L"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4609,7 +4617,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kamen_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kamen_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4620,13 +4628,13 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kamen_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kamen_adult.png"
 						}
 					}
 				]
 			},
 			"dragonAge": "adult",
-			"uniqueId": "93bc6867-fd53-45e7-b45d-ee81fa9e2a00"
+			"uniqueId": "732f0a6f-9a68-4d8e-9fc2-494766e62420"
 		},
 		{
 			"name": "Kamen Wyrmling",
@@ -4634,7 +4642,7 @@
 				"M"
 			],
 			"type": "dragon",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -4657,7 +4665,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kamen_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kamen_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4668,12 +4676,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kamen_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kamen_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ac019e43-3b06-4ad5-95bc-3f7d450659e9"
+			"uniqueId": "66e73fe0-c804-4cbf-ab52-1ff524b31bb2"
 		},
 		{
 			"name": "Kar-zad",
@@ -4686,7 +4694,7 @@
 					"tek"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4710,7 +4718,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kar-zad_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kar-zad_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4721,12 +4729,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kar-zad.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kar-zad.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "07600a6f-f69f-44c1-b32c-60b319d761c6"
+			"uniqueId": "2f8572d1-fd4b-43e3-9556-875b08db0e95"
 		},
 		{
 			"name": "Nur-xao",
@@ -4739,7 +4747,7 @@
 					"mas"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4761,7 +4769,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "7c365b02-abef-44ae-8c00-69220da863af"
+			"uniqueId": "54e92b5d-1156-445d-bbd5-dd2741ee2063"
 		},
 		{
 			"name": "Mir-lat",
@@ -4774,7 +4782,7 @@
 					"pen"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4798,7 +4806,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/mir-lat_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mir-lat_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4809,12 +4817,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/mir-lat.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/mir-lat.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "bfe5902c-9fdb-4cb1-a542-a4fee987cb76"
+			"uniqueId": "6c247340-01f7-4a9c-bfc0-ee066f22b94e"
 		},
 		{
 			"name": "Rashiki",
@@ -4822,7 +4830,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4844,7 +4852,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "645c2856-530a-432a-a918-0b2adca826e7"
+			"uniqueId": "27bebf58-b812-4461-a730-85b924f4211d"
 		},
 		{
 			"name": "Sil - Dark",
@@ -4852,7 +4860,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4876,7 +4884,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sil_dark_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_dark_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4887,12 +4895,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sil_dark.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sil_dark.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "3e64ce0e-f501-42d5-ae4e-18a1d2c528fd"
+			"uniqueId": "8a6a35d8-5854-4471-8cd7-e94412719c43"
 		},
 		{
 			"name": "Sil - Elusive",
@@ -4900,7 +4908,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4924,7 +4932,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sil_elusive_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_elusive_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4935,12 +4943,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sil_elusive.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sil_elusive.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "26cdbf19-b186-4d12-9c08-0d653d45b7d4"
+			"uniqueId": "636acf33-3166-4cba-aee0-d6669cc5be9c"
 		},
 		{
 			"name": "Sil - Soldier",
@@ -4948,7 +4956,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -4972,7 +4980,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sil_soldier_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_soldier_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4983,12 +4991,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sil_soldier.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sil_soldier.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "731d10b7-d7fd-4617-9761-fd3a7d035272"
+			"uniqueId": "056cb6a7-198b-4203-9fd7-bdf853f9ab9c"
 		},
 		{
 			"name": "Sil - Strong",
@@ -4996,7 +5004,7 @@
 				"M"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5020,7 +5028,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sil_strong_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_strong_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5031,12 +5039,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sil_strong.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sil_strong.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "0635f94b-ecce-4b29-a99e-12b630273f60"
+			"uniqueId": "e9b0a1a7-ef1d-4354-bf8a-84cca50fd09d"
 		},
 		{
 			"name": "Yakut, Sangrian",
@@ -5044,7 +5052,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5068,7 +5076,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/yakut_sangrian_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yakut_sangrian_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5076,12 +5084,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/yakut_sangrian.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/yakut_sangrian.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "6215aab4-4137-40fc-bba0-1142bdc53734"
+			"uniqueId": "e7d753e6-dd40-4d6d-bf16-7b8c708f1634"
 		},
 		{
 			"name": "Horse - Bachrian",
@@ -5089,7 +5097,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5111,7 +5119,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/horse_bachrian_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/horse_bachrian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5122,12 +5130,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/horse_bachrian.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/horse_bachrian.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "7155da47-bcb4-498c-a4a2-494d5c99dff9"
+			"uniqueId": "a0bab4f7-bc7a-4a34-91d1-171d0252a55e"
 		},
 		{
 			"name": "Horse - Dauthirian",
@@ -5135,7 +5143,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5157,7 +5165,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/horse_dauthirian_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/horse_dauthirian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5168,12 +5176,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/horse_dauthirian.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/horse_dauthirian.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ecd853cb-01fe-44d1-bf7b-fc4f6198156d"
+			"uniqueId": "7965674a-850f-43a1-a591-4e171806de89"
 		},
 		{
 			"name": "Nigris",
@@ -5181,7 +5189,7 @@
 				"L"
 			],
 			"type": "monstrosity",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5205,7 +5213,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nigris_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nigris_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5216,12 +5224,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nigris.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nigris.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d69fd680-b072-4357-9f2c-74f1751d0234"
+			"uniqueId": "4fcea3db-02f7-453d-aee1-793ae2c1e4c5"
 		},
 		{
 			"name": "Mor",
@@ -5229,7 +5237,7 @@
 				"G"
 			],
 			"type": "Primal",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5253,7 +5261,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/mor_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5264,12 +5272,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/mor.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/mor.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2ebdc395-5f77-4072-b9ae-7ebc0d32b0b7"
+			"uniqueId": "1923ab0f-86b8-432b-a3be-c37d1561d18b"
 		},
 		{
 			"name": "Lykor, Adult",
@@ -5277,7 +5285,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5301,7 +5309,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lykor_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5312,12 +5320,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lykor_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "06d76daa-7dc1-4d8a-990f-21027dfb9faa"
+			"uniqueId": "312cec26-068a-4ef9-a5e5-942ae3565334"
 		},
 		{
 			"name": "Pranker - Flicker",
@@ -5330,7 +5338,7 @@
 					"lin"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -5352,7 +5360,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "1/2",
-			"uniqueId": "48886070-f587-404a-9dd0-49325cea10dc",
 			"trait": [
 				{
 					"name": "Death Burst",
@@ -5369,7 +5376,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "fe2ce5a3-7f38-40af-aff8-123ef9fbb4de"
 		},
 		{
 			"name": "Darth",
@@ -5377,7 +5385,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5399,7 +5407,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/darth_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/darth_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5410,12 +5418,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/darth.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/darth.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "bf2dbfc2-47c4-403c-b99d-b02c9e495670"
+			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95"
 		},
 		{
 			"name": "Kallot",
@@ -5423,7 +5431,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5445,7 +5453,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kallot_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kallot_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5456,12 +5464,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kallot.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kallot.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "3b0e0cb8-5925-4024-8b4b-dc866d0ae969"
+			"uniqueId": "875bfd07-196a-43a6-aa8c-1154501db3a3"
 		},
 		{
 			"name": "Skit",
@@ -5469,7 +5477,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5491,7 +5499,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "92d26d5a-7250-4a10-9b65-9e6ad26f2d95"
+			"uniqueId": "58177636-8376-43f6-848e-61c181b69751"
 		},
 		{
 			"name": "Goar",
@@ -5499,7 +5507,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5519,7 +5527,6 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "73e49818-b72b-4b15-adbf-acab1853ef03",
 			"fluff": {
 				"entries": [
 					"Create a fantasy watercolor drawing of a creature for use in a D&D monster manual. The creature is a boar, but it has gray reptilian scales instead of fur. It has no ears, giving it a reptilian appearance and its tusks are thrust upwards as it roars at an opponent. Render the creature's full body on a white background with the entire drawing within the frame."
@@ -5529,15 +5536,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/goar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/goar.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/goar_token.png"
-			}
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/goar_token.png"
+			},
+			"uniqueId": "4c4417b9-c31d-4279-a053-ec205e5ce7e6"
 		},
 		{
 			"name": "Grall",
@@ -5545,7 +5553,7 @@
 				"L"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -5565,7 +5573,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "68fb11b2-2cd4-45ab-97e4-275d215457ac"
+			"uniqueId": "df2edabc-89fb-435f-99eb-4ca4afec627b"
 		},
 		{
 			"name": "Koràgh",
@@ -5573,7 +5581,7 @@
 				"M"
 			],
 			"type": "humanoid",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5597,7 +5605,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/koragh_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/koragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5608,12 +5616,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/koragh.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/koragh.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ce45e786-c9f3-42e1-8bca-938076dc2026"
+			"uniqueId": "91c04dd9-4a9b-4066-a968-ff1212717be5"
 		},
 		{
 			"name": "Verdant Dragon Wyrmling",
@@ -5626,7 +5634,7 @@
 					"drakal"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5651,7 +5659,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/dragon_verdant_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_baby_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5659,12 +5667,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/dragon_verdant_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "7f62efde-e8a2-4a75-91d9-d7712c9f0c2f"
+			"uniqueId": "c92bc67f-cf9c-46f9-ad84-19157f8912ed"
 		},
 		{
 			"name": "Zar'keth",
@@ -5672,7 +5680,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5696,7 +5704,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/zar'keth_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/zar'keth_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5707,12 +5715,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/zar'keth.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/zar'keth.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "17686162-1f37-4dd4-9a7f-7cb5cea078b0"
+			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356"
 		},
 		{
 			"name": "Ursa, Adult",
@@ -5720,7 +5728,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5744,7 +5752,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ursa_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5755,12 +5763,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ursa_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "782cc811-480a-4957-b8dd-1c138067b3b5"
+			"uniqueId": "b43693c0-f293-4965-85e7-6d0c988a14d2"
 		},
 		{
 			"name": "Kotal, Ancient",
@@ -5768,7 +5776,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5792,7 +5800,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kotal_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5803,12 +5811,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kotal_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "76446f5e-f39b-4273-8bc0-0f29096abbf2"
+			"uniqueId": "a3239980-485f-4694-bdec-97dbae293a1b"
 		},
 		{
 			"name": "Verrix",
@@ -5816,7 +5824,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5840,7 +5848,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/verrix_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/verrix_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5851,12 +5859,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/verrix.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/verrix.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "af604523-22f8-4566-8a96-f8ffaa647efe"
+			"uniqueId": "3d9bfe93-dc16-47a4-af41-273f327c51c4"
 		},
 		{
 			"name": "Krang",
@@ -5864,7 +5872,7 @@
 				"T"
 			],
 			"type": "aberration",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5888,7 +5896,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/k'rang_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/k'rang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5896,12 +5904,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/k'rang.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/k'rang.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "bfb459f8-f0dc-48b0-9768-2e2d54e326c1"
+			"uniqueId": "4f330ea3-06c1-42ea-81b1-b84e65397b47"
 		},
 		{
 			"name": "Krang Swarm",
@@ -5912,7 +5920,7 @@
 				"type": "aberration",
 				"swarmSize": "T"
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5936,7 +5944,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/k'rang_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/k'rang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5944,12 +5952,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/k'rang.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/k'rang.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "fd912c52-b76d-4591-9cc4-e9abe63168a1"
+			"uniqueId": "41440fc2-948c-47a7-b088-09ee8f747c67"
 		},
 		{
 			"name": "Stiltrix",
@@ -5957,7 +5965,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -5981,7 +5989,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/stiltrix_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/stiltrix_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5992,12 +6000,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/stiltrix.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/stiltrix.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "41cbe51b-948e-49b2-ac15-3375ad3dfa60"
+			"uniqueId": "18586bfc-53ee-43c6-9d00-4ceb39322756"
 		},
 		{
 			"name": "Sandstrider",
@@ -6005,7 +6013,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6029,7 +6037,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/sandstrider_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sandstrider_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6040,12 +6048,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/sandstrider.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/sandstrider.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "c82ab369-096e-4f01-b896-85b542ca5a04"
+			"uniqueId": "074cd31f-51dc-438f-91ac-46e1a2799109"
 		},
 		{
 			"name": "Meloki",
@@ -6053,7 +6061,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6077,7 +6085,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/meloki_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/meloki_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6088,12 +6096,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/meloki.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/meloki.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "f3028871-a37f-49d6-acae-59c44aa4e07f"
+			"uniqueId": "d490ce2e-7214-4955-8e63-90a154bc1566"
 		},
 		{
 			"name": "Nykal",
@@ -6101,7 +6109,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6125,7 +6133,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nykal_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nykal_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6136,12 +6144,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nykal.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nykal.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "470b4125-1ef1-4b97-a9cc-5e6a9a9175d6"
+			"uniqueId": "77ebddb1-23c5-4450-bb81-f46b90c5c09d"
 		},
 		{
 			"name": "Gnawk",
@@ -6149,7 +6157,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -6171,7 +6179,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/gnawk_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gnawk_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6182,12 +6190,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/gnawk.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/gnawk.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2c58bb89-a7e8-4d61-b77e-02a9ab6fc001"
+			"uniqueId": "e2ce65b8-3970-43df-95df-6fc1d1a63f11"
 		},
 		{
 			"name": "Kanghar",
@@ -6195,7 +6203,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6219,7 +6227,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kanghar_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kanghar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6230,12 +6238,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kanghar.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kanghar.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "5d8b4c38-6a24-4bcf-86b0-c271317fa91c"
+			"uniqueId": "333fc977-6374-4bd2-b070-73d739648a14"
 		},
 		{
 			"name": "Rukh, Hatchling",
@@ -6248,7 +6256,7 @@
 					"rukh"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6272,7 +6280,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/rukh_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6283,12 +6291,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/rukh_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "05293d28-e069-455b-bcf7-0cbb87bbd9b0"
+			"uniqueId": "955511e8-2b03-4308-b0e8-d6f951b400f5"
 		},
 		{
 			"name": "Tumbler",
@@ -6296,7 +6304,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6320,23 +6328,23 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/tumbler_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/tumbler_token.png"
 			},
 			"fluff": {
 				"entries": [
-					"Create a fantasy watercolor style drawing of a swarm of creatures for use in a D&D monster manual. The creature combines aspects of a tumbleweed and a lizard. It is the size of a typical tumbleweed and lives in arid, open roadways where it can easily catch the wind. The image should represent one creature in the front, sitting on its hind legs and sniffing the air, while other creatures are sleeping in the back, curled up into a ball with their bodies completely hidden by their fur. They have stuck their tails into the desert sand and sway in the wind. ready to float away on the breeze. Render the creature's full body on a white background with the entire drawing within the frame."
+					""
 				],
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/tumbler.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/tumbler.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "dab6a1e1-a729-4444-bb14-dfa73e1220c5"
+			"uniqueId": "f1178a82-5f19-4481-8e2a-3f20a6f38392"
 		},
 		{
 			"name": "S'kar, Adult",
@@ -6344,7 +6352,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6368,7 +6376,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/s'kar_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6379,12 +6387,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/s'kar_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "704023ad-51fd-4228-82dc-f024190e04fc"
+			"uniqueId": "d244bc36-0975-4c8d-ab89-d08a47f3ad70"
 		},
 		{
 			"name": "Rukh, Adult",
@@ -6397,7 +6405,7 @@
 					"rukh"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6421,7 +6429,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/rukh_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6432,12 +6440,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/rukh_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "a5621e26-45fc-402f-891e-981484c01f02"
+			"uniqueId": "27fbb0a7-83d9-48f6-82cd-15d7723cffa7"
 		},
 		{
 			"name": "Rukh, Ancient",
@@ -6450,7 +6458,7 @@
 					"rukh"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6474,7 +6482,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/rukh_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6485,12 +6493,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/rukh_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "156d0791-5f78-4134-9118-431b438f609d"
+			"uniqueId": "2dd930de-90c9-4553-8c7e-e2673d6865d5"
 		},
 		{
 			"name": "L'jai",
@@ -6498,7 +6506,7 @@
 				"L"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6520,7 +6528,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "fb99dade-a91f-47eb-afbc-d743cc5195b8"
+			"uniqueId": "5976390c-45a8-4888-9b0a-47db56b61658"
 		},
 		{
 			"name": "Ursa Cub",
@@ -6533,7 +6541,7 @@
 					"ursa"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6557,7 +6565,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ursa_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6568,12 +6576,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ursa_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "59e9d5d3-2999-4270-b80e-46c37a0b5e70"
+			"uniqueId": "f77fdb7c-03b3-4035-ac31-9c4b682b14c1"
 		},
 		{
 			"name": "Ursa, Young",
@@ -6586,7 +6594,7 @@
 					"ursa"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6610,7 +6618,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ursa_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6621,12 +6629,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ursa_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "be5992ec-6d93-488b-9946-5fcc62599e8b"
+			"uniqueId": "41a5a22e-c6c0-40a5-a995-2591b06c1a97"
 		},
 		{
 			"name": "Ursa, Ancient",
@@ -6634,7 +6642,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6658,7 +6666,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/ursa_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6669,12 +6677,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/ursa_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "0b817242-1ea5-4210-ac99-2e11fb136e84"
+			"uniqueId": "5750c774-973a-45ae-a3b8-8fbbd516ccd7"
 		},
 		{
 			"name": "S'kar, Young",
@@ -6682,7 +6690,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6706,7 +6714,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/s'kar_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6717,12 +6725,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/s'kar_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "9356a877-a9fb-40fd-9330-9d7a67e09105"
+			"uniqueId": "9c9226c9-5940-43f4-971f-9ddcc468b982"
 		},
 		{
 			"name": "S'kar, Ancient",
@@ -6730,7 +6738,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6754,7 +6762,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/s'kar_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6765,12 +6773,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/s'kar_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "84a3d53f-03ac-4aac-a893-be43c15d5c64"
+			"uniqueId": "88fc2811-98da-47cc-9c61-f42a98f94f38"
 		},
 		{
 			"name": "S'kar Kitten",
@@ -6778,7 +6786,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6802,7 +6810,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/s'kar_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6813,12 +6821,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/s'kar_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "35b9cd3e-f42c-41da-a891-2f3bc63d37d3"
+			"uniqueId": "12d9ff14-7ee3-4152-b7e0-9d5c0e86526b"
 		},
 		{
 			"name": "Lykor, Young",
@@ -6826,7 +6834,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6850,7 +6858,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lykor_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6861,12 +6869,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lykor_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "04e89b6a-e65a-4e87-bf25-9a956a07d5e7"
+			"uniqueId": "6f53d2be-2ac1-4cac-ba09-c51e5fc63bd1"
 		},
 		{
 			"name": "Lykor, Ancient",
@@ -6874,7 +6882,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6898,7 +6906,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lykor_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6909,12 +6917,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lykor_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "997dc607-47dc-4564-b38e-3d7c10e9db39"
+			"uniqueId": "7ee24a76-5480-4cc1-9d1c-0a64a5c0b405"
 		},
 		{
 			"name": "Lykor Cub",
@@ -6922,7 +6930,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6946,7 +6954,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lykor_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6957,12 +6965,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lykor_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "b92bbbf3-c259-489e-8898-57083fe22876"
+			"uniqueId": "298f9378-f82e-4f2b-b4d4-3e5a21776956"
 		},
 		{
 			"name": "Nerid, Adult",
@@ -6970,7 +6978,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -6994,7 +7002,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nerid_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7005,12 +7013,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nerid_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "126ef58e-9385-49c0-83bc-3aae80ff8ee1"
+			"uniqueId": "d4102c0a-23fc-4994-95b5-af7611576cec"
 		},
 		{
 			"name": "Elar, Adult",
@@ -7023,7 +7031,7 @@
 					"elar"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7045,7 +7053,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/elar_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7056,12 +7064,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/elar_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/elar_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "a55d84fd-0076-43c1-b67e-f837ea88c665"
+			"uniqueId": "ee88a908-3fb5-4434-b031-2a69c5de922e"
 		},
 		{
 			"name": "Kotal, Adult",
@@ -7069,7 +7077,7 @@
 				"L"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7093,7 +7101,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kotal_adult_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7104,12 +7112,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kotal_adult.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_adult.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "bd3ab54c-0616-4eb9-ac08-8c451402e823"
+			"uniqueId": "0f3aa586-0eda-4b73-9b54-aa78564d469d"
 		},
 		{
 			"name": "Kotal, Young",
@@ -7117,7 +7125,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7141,7 +7149,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kotal_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7152,12 +7160,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kotal_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d58d8f94-3266-42e1-a2e1-7e6110cb3a23"
+			"uniqueId": "f4acadf6-21d1-452a-a84d-fa6e6c10a4bf"
 		},
 		{
 			"name": "Kotal Hatchling",
@@ -7165,7 +7173,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7189,7 +7197,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/kotal_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7200,12 +7208,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/kotal_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "2566724c-ce0f-47a6-b1f7-500216ecd7af"
+			"uniqueId": "a0696011-8b35-4ea1-b6a4-142784d13aa0"
 		},
 		{
 			"name": "Elar Foal",
@@ -7218,7 +7226,7 @@
 					"elar"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7240,7 +7248,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/elar_foal_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_foal_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7251,15 +7259,15 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/elar_foal.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/elar_foal.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "72ee8d22-4c1f-470e-8178-75fbe9d67843",
 			"senses": [
 				"ghostsight 60 ft."
-			]
+			],
+			"uniqueId": "4f0bce61-175b-49c6-8c7b-f23622e6aac9"
 		},
 		{
 			"name": "Elar, Young",
@@ -7272,7 +7280,7 @@
 					"elar"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7294,7 +7302,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/elar_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7305,12 +7313,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/elar_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/elar_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "72389833-d327-49ec-a90a-456d54d4004c"
+			"uniqueId": "3f00423a-dfd3-4a27-8756-01bfce638d9e"
 		},
 		{
 			"name": "Elar, Ancient",
@@ -7323,7 +7331,7 @@
 					"elar"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7345,7 +7353,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/elar_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7356,12 +7364,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/elar_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/elar_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "6af29dc5-c2d3-4120-87f5-c3b70f0f5b8b"
+			"uniqueId": "5fb46c0a-f032-41aa-8332-d1616c643594"
 		},
 		{
 			"name": "Nerid, Young",
@@ -7369,7 +7377,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7393,7 +7401,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nerid_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7404,12 +7412,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nerid_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "497a705d-7d93-4e73-b925-87c1d544d663"
+			"uniqueId": "278fb753-ba42-440b-9517-e546302a52a6"
 		},
 		{
 			"name": "Nerid Calf",
@@ -7417,7 +7425,7 @@
 				"S"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7441,7 +7449,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nerid_baby_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7452,12 +7460,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nerid_baby.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_baby.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "916fccf7-4623-4013-8be5-1e9868284773"
+			"uniqueId": "58cb4029-7060-4eda-8e34-16481ca3592b"
 		},
 		{
 			"name": "Nerid, Ancient",
@@ -7465,7 +7473,7 @@
 				"H"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7489,7 +7497,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/nerid_ancient_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7500,12 +7508,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/nerid_ancient.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_ancient.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "ae635483-d917-4285-9b74-bd6a0d12df8a"
+			"uniqueId": "ac4ca33c-6875-48b6-847f-1f45516356b0"
 		},
 		{
 			"name": "Caustic Slime",
@@ -7513,7 +7521,7 @@
 				"L"
 			],
 			"type": "ooze",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7546,7 +7554,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/slime_red_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slime_red_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7557,12 +7565,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/slime_red.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/slime_red.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d63c70f6-cad9-48cf-aed4-63c59c6e30c7"
+			"uniqueId": "4cf420e4-34d4-4761-ad35-900fcad13ba1"
 		},
 		{
 			"name": "Ardent Slime",
@@ -7570,7 +7578,7 @@
 				"H"
 			],
 			"type": "ooze",
-			"source": "SJGtY",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7625,7 +7633,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/slime_red_huge_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slime_red_huge_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7636,12 +7644,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/slime_red_huge.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/slime_red_huge.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "dc9ab50f-461d-4965-8181-b551fd2910c2"
+			"uniqueId": "956fffd8-0ba2-420a-aeed-2ef5167290c2"
 		},
 		{
 			"name": "Infernal",
@@ -7654,7 +7662,7 @@
 					"pen"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7674,7 +7682,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "5",
-			"uniqueId": "c975f194-1db2-4a0b-9d8c-0048c401ba26"
+			"uniqueId": "b1fdd3ce-d67e-4c5b-8cd1-61fc91322fb3"
 		},
 		{
 			"name": "Lithian",
@@ -7687,7 +7695,7 @@
 					"mas"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7709,22 +7717,22 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "5b6aacad-c2e6-4708-8749-dfce6d108fba",
 			"fluff": {
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/lithian.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/lithian.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/lithian_token.png"
-			}
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lithian_token.png"
+			},
+			"uniqueId": "b47920d0-9c63-4107-9f8e-fdbf354c6cc5"
 		},
 		{
 			"name": "Tempest",
@@ -7737,7 +7745,7 @@
 					"tek"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7759,7 +7767,7 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "5",
-			"uniqueId": "3c3dd5a9-cef3-48ff-9fc2-c9b50b48da47"
+			"uniqueId": "92879ccd-5b53-49f5-bda3-0d2250edb521"
 		},
 		{
 			"name": "Rukh, Young",
@@ -7772,7 +7780,7 @@
 					"rukh"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7796,7 +7804,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/rukh_young_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7807,12 +7815,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/rukh_young.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_young.png"
 						}
 					}
 				]
 			},
-			"uniqueId": "d6d0442f-91bc-4512-9473-8f1b316aa096"
+			"uniqueId": "2ffddfdb-37ad-4bff-b537-ff21426815ad"
 		},
 		{
 			"name": "Misthaunt",
@@ -7820,7 +7828,7 @@
 				"L"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7842,7 +7850,7 @@
 			"cha": 12,
 			"passive": 10,
 			"cr": "5",
-			"uniqueId": "a018dc47-dd9f-4d65-8ce4-4d9a0229a19f"
+			"uniqueId": "49591865-3759-4048-b09c-806cb626e064"
 		},
 		{
 			"name": "Sandwraith",
@@ -7850,7 +7858,7 @@
 				"L"
 			],
 			"type": "Spirit",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"N"
 			],
@@ -7891,7 +7899,7 @@
 			"senseTags": [
 				"T"
 			],
-			"uniqueId": "c55fd5a1-4eff-4c49-9f0f-827d5b4e82d3"
+			"uniqueId": "db584739-4ca2-4851-9c57-6c5e4eb944b5"
 		},
 		{
 			"name": "Firebird",
@@ -7899,7 +7907,7 @@
 				"M"
 			],
 			"type": "beast",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -7920,10 +7928,9 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0",
-			"uniqueId": "d6547ab7-6d3a-43d6-a24a-d67cd4e6c726",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/firebird_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/firebird_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -7931,14 +7938,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/firebird.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/firebird.png"
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "5f8b9afa-5a29-4868-a026-f2bd07619aa8"
 		},
 		{
-			"uniqueId": "29cbd15b-d46d-4c7b-9047-e957bd19d255",
 			"name": "Pranker - Bluster",
 			"size": [
 				"S"
@@ -7949,7 +7956,7 @@
 					"dan"
 				]
 			},
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": [
 				"A"
 			],
@@ -7980,14 +7987,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/SJCC/pranker_dan.png"
+							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_dan.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/SJCC/pranker_dan_token.png"
+				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_dan_token.png"
 			},
 			"trait": [
 				{
@@ -8005,16 +8012,16 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "f9687ec2-07b8-4e3e-a35a-7fd932fb1cb6"
 		},
 		{
-			"uniqueId": "0e93104d-4964-4623-ae30-5a666b9d3e15",
 			"name": "Gripe",
 			"size": [
 				"M"
 			],
 			"type": "monstrosity",
-			"source": "SJCC",
+			"source": "EHCC",
 			"alignment": null,
 			"ac": [
 				10
@@ -8034,11 +8041,12 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "2"
+			"cr": "2",
+			"uniqueId": "2d445e77-5bb4-4ce7-9f3b-9134223f7bdc"
 		},
 		{
 			"name": "Primal Servant",
-			"source": "SJGtY",
+			"source": "EHCC",
 			"summonedBySpell": "Summon Elemental|XPHB",
 			"summonedBySpellLevel": 4,
 			"size": [
@@ -8191,2522 +8199,42 @@
 				"MA"
 			],
 			"hasFluffImages": true,
-			"uniqueId": "64be63d8-e3bd-468e-a74b-482be5b74df9",
 			"senses": [
 				"othersense 60 ft."
 			],
 			"token": {
 				"name": "",
 				"source": ""
-			}
-		}
-	],
-	"spell": [
-		{
-			"name": "Primal Darts",
-			"source": "SJGtY",
-			"level": 1,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
 			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You create three darts of magical force. Each dart hits a creature of your choice that you can see within range. The darts all strike simultaneously, and you can direct them to hit one creature or several. The type of darts created and the damage they inflict is based on your {@condition resonating|SJGtY} primal force, as listed in the Primal Forces table.",
-				{
-					"type": "table",
-					"caption": "Primal Forces",
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"colLabels": [
-						"Primal Force",
-						"Effect"
-					],
-					"rows": [
-						[
-							"Ahn",
-							"Multicolored darts dealing {@damage 1d4 + 1} Psychic damage"
-						],
-						[
-							"Dan",
-							"Golden darts dealing {@damage 1d4 + 1} Thunder damage"
-						],
-						[
-							"Fel",
-							"Green darts dealing {@damage 1d4 + 1} Poison damage"
-						],
-						[
-							"Lin",
-							"White darts dealing {@damage 1d4 + 1} Radiant damage"
-						],
-						[
-							"Mas",
-							"Pink darts dealing {@damage 1d4 + 1} Force damage"
-						],
-						[
-							"Nok",
-							"Black darts dealing {@damage 1d4 + 1} Necrotic damage"
-						],
-						[
-							"Pen",
-							"Fiery darts dealing {@damage 1d4 + 1} Fire damage"
-						],
-						[
-							"Tek",
-							"Blue darts dealing {@damage 1d4 + 1} Lightning damage"
-						]
-					]
-				}
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"The spell creates one more dart for each spell slot level above 1."
-					]
-				}
-			],
-			"damageInflict": [
-				"force"
-			],
-			"miscTags": [
-				"SGT"
-			],
-			"areaTags": [
-				"MT",
-				"ST"
-			],
-			"hasFluffImages": true,
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "SJCC"
-					},
-					{
-						"name": "Wizard",
-						"source": "SJCC"
-					}
-				]
-			},
-			"subschools": [
-				"Primal"
-			],
-			"uniqueId": "0bf28973-52d8-40d0-8bcf-c711d9a8bc6f"
+			"uniqueId": "ca3f8e90-cce9-4e0a-946c-523998c7ba80"
 		},
 		{
-			"name": "Othersense",
-			"source": "SJGtY",
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a dried carrot"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 8
-					}
-				}
-			],
-			"entries": [
-				"For the duration, a willing creature you touch has {@sense Othersense|SJGtY} with a range of 150 feet."
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "58638bdd-0045-4c4a-aa9d-8e1fecce6a9a"
-		},
-		{
-			"name": "Ghostsight",
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 8
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"For the duration, a willing creature you touch has {@sense Ghostsight|SJGtY} with a range of 150 feet."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "a1616207-d2ba-4242-9297-2b18904323ce"
-		},
-		{
-			"name": "Invigorate",
-			"level": 3,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"You invigorate a creature you touch with renewed energy. You can reduce the target's {@condition Exhaustion|XPHB} level by one, but gain one level of {@condition Exhaustion|XPHB} yourself."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "9256d2d0-4c42-41cf-bb45-02bc8a9eb76f"
-		},
-		{
-			"name": "Resonate",
-			"level": 3,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "SJCC"
-					},
-					{
-						"name": "Wizard",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"[Apply Resonating condition to the target with the primal force you resonate with.]"
-			],
-			"source": "SJGtY",
-			"subschools": [
-				"Primal"
-			],
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "1e2f162b-13b5-45fe-9761-c91c9591a55e"
-		},
-		{
-			"name": "Unveil",
-			"level": 4,
-			"school": "I",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"[Opens the veil between Realms in the area, making spirits and dream emanations visible to all. This is not as exact as ghostsight, but visualizes spirits through enhancing their auras.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "55bba84a-e4c0-4937-a437-2dd0390142c5"
-		},
-		{
-			"name": "Exorcism",
-			"level": 3,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"You attempt to stop a spirit from possessing a creature. The target must succeed on a Charisma saving throw or be exorcised from the creature it possesses."
-			],
-			"source": "SJGtY",
-			"meta": {
-				"ritual": true
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
-					]
-				}
-			],
-			"uniqueId": "20ee207c-4ed4-44ac-a58e-a15d52fdb298"
-		},
-		{
-			"name": "Call Totem",
-			"level": 1,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Call out a creature's totem, transforming it into a more powerful version of itself.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"uniqueId": "8a2775f0-6bf5-4db4-a788-647082ea027d"
-		},
-		{
-			"name": "Cleanse",
-			"level": 3,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Cleanse the target through {@condition infused|SJGtY} flames. The flames cause no harm, but each force cleanses the target of something bad. Multiple targets at higher levels?]",
-				{
-					"type": "table",
-					"caption": "Primal Forces",
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"colLabels": [
-						"Primal Force",
-						"Effect"
-					],
-					"rows": [
-						[
-							"Ahn",
-							"Remove charm or enchantments        "
-						],
-						[
-							"Dan",
-							""
-						],
-						[
-							"Fel",
-							"Remove poison or disease"
-						],
-						[
-							"Lin",
-							""
-						],
-						[
-							"Mas",
-							""
-						],
-						[
-							"Nok",
-							""
-						],
-						[
-							"Pen",
-							""
-						],
-						[
-							"Tek",
-							""
-						]
-					]
-				}
-			],
-			"source": "SJGtY",
-			"uniqueId": "331ed78a-a750-4862-8c0a-a3ac2d5b89ab",
-			"subschools": [
-				"Primal"
-			]
-		},
-		{
-			"name": "Conjure Minor Primals",
-			"level": 4,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "minute"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You conjure primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|SJGtY} primal force.",
-				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"subschools": [
-				"Primal"
-			],
-			"uniqueId": "ea381cdc-ff04-43af-adf6-0b4aec0744c4",
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"The damage increases by {@dice 2d8} for each spell slot level above 4."
-					]
-				}
-			]
-		},
-		{
-			"name": "Deluminate",
-			"level": 0,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[You remove the illumination of a single light source. This can be a candle, lantern, fireplace, etc. It just snuffs out the light, it can be lit again normally.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"uniqueId": "183ceebe-31c0-4e9d-874f-a624a91a6ca4"
-		},
-		{
-			"name": "Dispel Spirits",
-			"level": 5,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Paladin",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"For the duration, Spirits have {@variantrule Disadvantage|XPHB} on attack rolls against you. You can end the spell early by using either of the following special functions.",
-				{
-					"type": "entries",
-					"name": "Break Enchantment",
-					"entries": [
-						"As a {@action Magic|XPHB} action, you touch a creature that has the {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Possessed|SJGtY} condition from one or more creatures of the types above. The target is no longer {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Possessed|SJGtY} by such creatures."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dismissal",
-					"entries": [
-						"As a {@action Magic|XPHB} action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already."
-					]
-				}
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "powdered silver and iron"
-			},
-			"conditionInflict": [
-				"charmed",
-				"frightened",
-				"possessed|sjgty"
-			],
-			"uniqueId": "9b6d3597-da0d-4014-bf57-be1de1487de5"
-		},
-		{
-			"uniqueId": "eecba644-ca04-4ebb-8f96-611c2a516a10",
-			"name": "Obviate",
-			"level": 1,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take in response to taking damage"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Bard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You ward yourself against destructive energy, reducing the damage taken by {@dice 2d6} plus your spellcasting ability modifier."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true
-			},
-			"areaTags": [
-				"ST"
-			],
-			"miscTags": [
-				"HL"
-			]
-		},
-		{
-			"name": "Detect Spirits",
-			"source": "SJGtY",
-			"level": 1,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "sphere",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"For the duration, you sense the location of any Spirit within 30 feet of yourself. You also sense whether a creature within range has the {@condition Soulless|SJGtY} condition.",
-				"The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
-			],
-			"affectsCreatureType": [
-				"aberration",
-				"celestial",
-				"elemental",
-				"fey",
-				"fiend",
-				"undead"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "6853f152-a906-4c5c-ac7c-bcd0d8e189ca",
-			"conditionInflict": [
-				"soulless",
-				"soulless|sjgty"
-			]
-		},
-		{
-			"uniqueId": "8e1f66f7-69e0-4e75-8bb7-8c291977f0bd",
-			"name": "Read Aura",
-			"level": 1,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"For the duration, you can sense and examine the aura of any creature within 30 feet of you. If you examine an aura in this way, you can use your action to learn the creature's totem and to which force it is attuned.",
-				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
-			],
-			"source": "SJGtY",
-			"meta": {
-				"ritual": true
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"areaTags": [
-				"ST"
-			]
-		},
-		{
-			"uniqueId": "ee53b70c-250b-4309-84cf-62373655f10b",
-			"name": "Hexbeam",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Warlock",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"A beam of energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes damage based on the resonating primal force, as described below.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ahn",
-							"entries": [
-								"The beam is blue and causes {@damage 1d10} psychic damage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Dan",
-							"entries": [
-								"..."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Fel",
-							"entries": [
-								"..."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Lin",
-							"entries": [
-								"The beam is white and causes {@damage 1d10} radiant damage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Mas",
-							"entries": [
-								"..."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Nok",
-							"entries": [
-								"The beam is black and causes {@damage 1d10} necrotic damage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Pen",
-							"entries": [
-								"..."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Tek",
-							"entries": [
-								"..."
-							]
-						}
-					]
-				}
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Cantrip Upgrade",
-					"entries": [
-						"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
-					]
-				}
-			]
-		},
-		{
-			"uniqueId": "8827ce16-c60a-4e21-8aa7-8cfa3b99a88b",
-			"name": "Overflow",
-			"level": 5,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"For the duration, the primal force you are resonating with overflows from a point within range and fills a 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}.",
-				"If any of this spell's area overlaps with an area that Overflows with another primal force created by a spell of level 5 or lower, that other spell is dispelled."
-			],
-			"source": "SJGtY",
-			"subschools": [
-				"Primal"
-			],
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			}
-		},
-		{
-			"name": "Spirit Ward",
-			"source": "SJGtY",
-			"level": 1,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "a flask of Holy Water worth 25+ GP, which the spell consumes",
-					"cost": 2500,
-					"consume": true
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have {@variantrule Disadvantage|XPHB} on attack rolls against the target. The target also can't be possessed by or gain the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} conditions from them. If the target is already possessed, {@condition Charmed|XPHB}, or {@condition Frightened|XPHB} by such a creature, the target has {@variantrule Advantage|XPHB} on any new saving throw against the relevant effect."
-			],
-			"affectsCreatureType": [
-				"aberration",
-				"celestial",
-				"elemental",
-				"fey",
-				"fiend",
-				"undead"
-			],
-			"miscTags": [
-				"ADV"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Paladin",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "a4fdc4e0-873f-4f20-ad51-ee55122529d8"
-		},
-		{
-			"uniqueId": "ed0c6bd6-7ec1-46e4-b98e-a35629360b30",
-			"name": "Unphase",
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Remove the phased condition from a target]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true
-			}
-		},
-		{
-			"name": "Conjure Primal",
-			"source": "SJGtY",
-			"level": 6,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You conjure a Large, intangible Primal that appears in an unoccupied space within range. The Primal's damage type depends on your {@condition resonating|SJGtY} primal force. The Primal lasts for the duration.",
-				"Whenever a creature you can see enters the Primal's space or starts its turn within 5 feet of the primal, you can force that creature to make a Dexterity saving throw if the primal has no creature {@condition Restrained|XPHB}. On failed save, the target takes {@damage 10d8} damage of the Primal's type, and the target has the {@condition Restrained|XPHB} condition until the spell ends. At the start of each of its turns, the {@condition Restrained|XPHB} target repeats the save. On a failed save, the target takes {@damage 5d8} damage of the Primal's type, as described in the Primal Forces table. On a successful save, the target isn't {@condition Restrained|XPHB} by the Primal.",
-				{
-					"type": "table",
-					"caption": "Primal Forces",
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"colLabels": [
-						"Primal Force",
-						"Damage Type"
-					],
-					"rows": [
-						[
-							"Ahn",
-							"Psychic"
-						],
-						[
-							"Dan",
-							"Thunder"
-						],
-						[
-							"Fel",
-							"Poison"
-						],
-						[
-							"Lin",
-							"Radiant"
-						],
-						[
-							"Mas",
-							"Force"
-						],
-						[
-							"Nok",
-							"Necrotic"
-						],
-						[
-							"Pen",
-							"Fire"
-						],
-						[
-							"Tek",
-							"Lightning"
-						]
-					]
-				}
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"The damage increases by {@scaledamage 8d8;4d8|5-9|2d8} for each spell slot level above 6."
-					]
-				}
-			],
-			"damageInflict": [
-				"lightning",
-				"thunder",
-				"fire",
-				"cold"
-			],
-			"conditionInflict": [
-				"restrained"
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"miscTags": [
-				"SGT"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "424977af-b0d8-4bef-be2e-5773606930b6",
-			"subschools": [
-				"Primal"
-			]
-		},
-		{
-			"uniqueId": "be7f223f-f72e-4714-809b-daccdecd29f8",
-			"name": "Ignore",
-			"level": 0,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You magically befuddle the mind of one creature you can see within range. The target must succeed on a Wisdom saving throw or be unable to see you for the duration, as if you had the {@condition Invisibility|XPHB} condition. The target succeeds automatically if you have cast this spell on it within the past 24 hours."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"conditionInflict": [
-				"invisibility"
-			]
-		},
-		{
-			"name": "Soothe",
-			"level": 3,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"You invigorate a creature you touch with renewed energy. You can reduce the target's {@condition Dread|SJGtY} level by one, but gain one level of {@condition Dread|SJGtY} yourself."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "583707e0-844e-44ad-b01a-7a92933736dc"
-		},
-		{
-			"uniqueId": "7b2cae0a-16b8-4d5a-97fb-eb8f8aaae784",
-			"name": "Nullmass",
-			"level": 2,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.",
-				"The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can take a {@action Magic|XPHB} action to move the target, which must remain within the spell's range.",
-				"When the spell ends, the target floats gently to the ground if it is still aloft."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"name": "Primal Sword",
-			"source": "SJGtY",
-			"page": 302,
-			"level": 7,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "a miniature sword worth 250+ GP",
-					"cost": 25000
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You create a spectral sword that hovers within range. It lasts for the duration.",
-				"When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes damage equal to {@damage 4d12} plus your spellcasting ability modifier. The damage type depends on your {@condition resonating|SJGtY} primal force, as described in the Primal Forces table.",
-				{
-					"type": "table",
-					"caption": "Primal Forces",
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"colLabels": [
-						"Primal Force",
-						"Effect"
-					],
-					"rows": [
-						[
-							"Ahn",
-							"Psychic damage"
-						],
-						[
-							"Dan",
-							"Thunder damage"
-						],
-						[
-							"Fel",
-							"Poison damage"
-						],
-						[
-							"Lin",
-							"Radiant damage"
-						],
-						[
-							"Mas",
-							"Force damage"
-						],
-						[
-							"Nok",
-							"Necrotic damage"
-						],
-						[
-							"Pen",
-							"Fire damage"
-						],
-						[
-							"Tek",
-							"Lightning damage"
-						]
-					]
-				},
-				"On your later turns, you can take a {@variantrule Bonus Action|XPHB} to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one."
-			],
-			"spellAttack": [
+			"uniqueId": "c0456e0d-3b23-4733-b7c5-dd676d2e9589",
+			"name": "Ximir",
+			"size": [
 				"M"
 			],
-			"miscTags": [
-				"SGT",
-				"UBA"
+			"type": "primal",
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				10
 			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
 			},
-			"uniqueId": "e33f7bf1-8604-4eca-a566-cd45c610a37c",
-			"subschools": [
-				"Primal"
-			]
-		},
-		{
-			"uniqueId": "0461038c-5cbf-4eab-8059-0c53eced7b8d",
-			"name": "Primal Fountain",
-			"level": 6,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
+			"speed": {
+				"walk": 30
 			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Call forth a fountain of the primal force you resonate with to infuse all within 10 feet.]"
-			],
-			"source": "SJGtY",
-			"subschools": [
-				"Primal"
-			],
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			}
-		},
-		{
-			"uniqueId": "fb82a21b-7870-4257-818b-91e7d40a6a62",
-			"name": "Primal Wellspring",
-			"level": 4,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Call forth a wellspring of the primal force you resonate with to make all resonate with that primal force.]"
-			],
-			"source": "SJGtY",
-			"subschools": [
-				"Primal"
-			],
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"name": "Unravel",
-			"source": "SJGtY",
-			"level": 6,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a lodestone and dust"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You launch a purple ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by {@spell Wall of Force|XPHB}.",
-				"A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} Void damage. If this damage reduces it to 0 {@variantrule Hit Points|XPHB}, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
-				"This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-{@variantrule Cube [Area of Effect]|XPHB|Cube} portion of it."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"The damage increases by {@scaledamage 10d6 + 40|6-9|3d6} for each spell slot level above 6."
-					]
-				}
-			],
-			"savingThrow": [
-				"dexterity"
-			],
-			"miscTags": [
-				"OBJ",
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "54e7257b-5797-45dd-9bb8-86fa5a12e578",
-			"damageInflict": [
-				"void"
-			]
-		},
-		{
-			"uniqueId": "681de34e-c51a-46fd-9bca-fb097f5785ed",
-			"name": "Splice",
-			"level": 2,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Splice items into multiple, for example to launch a barrage of arrows or to stab your opponent with a dagger multiple times.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			}
-		},
-		{
-			"uniqueId": "4af155bb-8338-4867-8fe3-e87c5cb35c3e",
-			"name": "Trueshot",
-			"level": 1,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					}
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Touch an arrow or bullet. When fired, the arrow or bullet hits any target within range that the shooter can see.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"name": "Force Bolt",
-			"alias": [
-				"Firebolt"
-			],
-			"source": "SJGtY",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You hurl a mote of primal force at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} damage. The damage type depends on your resonating primal force, as listed in the Primal Forces table.",
-				{
-					"type": "table",
-					"caption": "Primal Forces",
-					"colStyles": [
-						"col-2",
-						"col-10"
-					],
-					"colLabels": [
-						"Primal Force",
-						"Effect"
-					],
-					"rows": [
-						[
-							"Ahn",
-							"Multicolored bolt dealing {@damage 1d10} Psychic damage"
-						],
-						[
-							"Dan",
-							"Golden bolt dealing {@damage 1d10} Thunder damage"
-						],
-						[
-							"Fel",
-							"Green bolt dealing {@damage 1d10} Poison damage"
-						],
-						[
-							"Lin",
-							"White bolt dealing {@damage 1d10} Radiant damage"
-						],
-						[
-							"Mas",
-							"Pink bolt dealing {@damage 1d10} Force damage"
-						],
-						[
-							"Nok",
-							"Black bolt dealing {@damage 1d10} Necrotic damage"
-						],
-						[
-							"Pen",
-							"Fiery bolt dealing {@damage 1d10} Fire damage"
-						],
-						[
-							"Tek",
-							"Blue bolt dealing {@damage 1d10} Lightning damage"
-						]
-					]
-				}
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Cantrip Upgrade",
-					"entries": [
-						"The damage increases by {@damage 1d10} when you reach levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10})."
-					]
-				}
-			],
-			"scalingLevelDice": {
-				"label": "Fire damage",
-				"scaling": {
-					"1": "1d10",
-					"5": "2d10",
-					"11": "3d10",
-					"17": "4d10"
-				}
-			},
-			"damageInflict": [
-				"fire"
-			],
-			"spellAttack": [
-				"R"
-			],
-			"miscTags": [
-				"OBJ",
-				"SCL"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "40d614a3-e59f-4f20-abe1-d8a1690e4a9b"
-		},
-		{
-			"name": "Reveal",
-			"level": 4,
-			"school": "I",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "SJCC"
-					}
-				]
-			},
-			"entries": [
-				"[Opens the veil between Realms in the area, making primal force emanations visible to all. This is not as precise as othersense, but creates points of light that visualize the flow of primal forces.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "645bb068-e9e3-4313-829b-e6dec183fa5b"
-		},
-		{
-			"name": "Stabilizing Field",
-			"source": "SJGtY",
-			"level": 4,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"[Create a stabilization field that prevents creatures from phasing.]"
-			],
-			"affectsCreatureType": [
-				"aberration",
-				"celestial",
-				"elemental",
-				"fey",
-				"fiend",
-				"undead"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "3f63e7b9-c033-4e6d-9682-2e46e9a72c7a"
-		},
-		{
-			"uniqueId": "2ca1254d-882b-47c3-a7a4-1529d0daa294",
-			"name": "Equalize",
-			"level": 4,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 10
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"An aura extends from you in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. All creatures in the aura start {@condition resonating|SJGtY} with the primal force you are {@condition resonating|SJGtY} with."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			}
-		},
-		{
-			"uniqueId": "41bfa4f7-63dc-436f-a009-44c6ec8ed885",
-			"name": "Recalibrate",
-			"level": 7,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 20
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Recalibrate the resonance of all creatures in the area to the desired primal force.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			}
-		},
-		{
-			"uniqueId": "a95e5869-c572-4475-bc77-089091e6c755",
-			"name": "Void",
-			"level": 7,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 20
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Create a void in the area.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"uniqueId": "c51afeac-f97c-4be3-9da1-da5aa9c9f80a",
-			"name": "Immovability",
-			"level": 3,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You can cause the object you touch to become magically fixed in place. The object doesn't move, even if it defies gravity. It can hold up to 1,000 pounds of weight. More weight causes the spell to break and the object to fall."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"uniqueId": "01c2088c-9097-446b-8c48-3d4b8969efaa",
-			"name": "Mind Void",
-			"level": 1,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take in response to taking Psychic damage"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"The creature that damaged you is {@condition Stunned} for one round. It makes a Wisdom saving throw, taking {@dice 2d10} Void damage on a failed save or half as much damage on a successful one."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"The damage increases by {@dice 1d10} for each spell slot level above 1."
-					]
-				}
-			]
-		},
-		{
-			"uniqueId": "815fc1fe-4f8f-49a6-b802-329027033402",
-			"name": "Wither",
-			"level": 0,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 120
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"You hurl a blob of dark slime at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Void damage and gains one stack of {@hazard withering|SJGtY}."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Cantrip Upgrade",
-					"entries": [
-						"The spell creates two blobs at level 5, three blobs at level 11, and four blobs at level 17. Make a separate attack roll for each blob. The target gains one stack of {@hazard withering|SJGtY} for each blob that hits."
-					]
-				}
-			]
-		},
-		{
-			"uniqueId": "8c2a1c87-27da-4b27-923f-d200a0126620",
-			"name": "Suppress Core",
-			"level": 8,
-			"school": "G",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "round",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Suppresses a creature's core and renders it Powerless.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"uniqueId": "bb0d527d-a116-43b0-8d6e-db151b5379b9",
-			"name": "Roam",
-			"level": 6,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"duration": [
-				{
-					"type": "permanent",
-					"ends": [
-						"dispel"
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": []
-			},
-			"entries": [
-				"You project your spirit into Din Iòmar (the spell ends instantly if you are not in Tal Urùk). Your body is left behind in a state of suspended animation; it has the {@condition Ageless|SJGtY} and {@condition Unconscious|XPHB} conditions and doesn't need food or air.",
-				"Your dream form resembles your body in almost every way, replicating its game statistics and possessions.",
-				"Any damage or other effects that apply to your dream form have no effect on your body and vice versa. If your body or dream form drops to 0 {@variantrule Hit Points|XPHB}, the spell ends. The spell also ends if you take a {@action Magic|XPHB} action to dismiss it.",
-				"When the spell ends and you are not dead, you reappear in your body and exit the state of suspended animation."
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true
-			}
-		},
-		{
-			"uniqueId": "ea78b05b-6958-471c-af1f-18a35014f532",
-			"name": "Primal Burst",
-			"level": 0,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Send bursts of primal force in all directions, causing effects to anyone who is hit. Effects are random, targets should roll {@dice 1d8} to see what happens.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"uniqueId": "e3eca170-f7fa-454b-bd82-910e208b33c6",
-			"name": "Phaselock",
-			"level": 3,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Lock a {@condition phased|SJGtY} creature or object in place.]"
-			],
-			"source": "SJGtY",
-			"components": {
-				"v": true,
-				"s": true
-			}
-		},
-		{
-			"name": "Summon Primal",
-			"source": "SJGtY",
-			"level": 5,
-			"school": "C",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 90
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "...",
-					"cost": 50000
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You call forth a Primal. It manifests in an unoccupied space that you can see within range and uses the {@creature Primal Servant|SJGtY} stat block. When you cast the spell, choose a primal force: ahn, dan, fel, lin, mas, nok, pen, or tek. The creature resembles a bipedal form wreathed in the chosen primal force, which determines certain details in its stat block. The creature disappears when it drops to 0 {@variantrule Hit Points|XPHB} or when the spell ends.",
-				"The creature is an ally to you and your allies. In combat, the creature shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "Using a Higher-Level Spell Slot",
-					"entries": [
-						"Use the spell slot's level for the spell's level in the stat block."
-					]
-				}
-			],
-			"miscTags": [
-				"SGT",
-				"SMN"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Ranger",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"uniqueId": "e45fc35d-cfe3-4024-a1a5-2688477e4e51"
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0"
 		}
 	]
 }
