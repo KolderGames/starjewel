@@ -144,7 +144,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "1dadc8d9-1f1a-4f98-b92c-012c57eff0b9"
 		},
 		{
 			"name": "Othersense",
@@ -198,7 +199,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "08f2294b-8c9b-4ff5-932e-4cbd85080832"
 		},
 		{
 			"name": "Ghostsight",
@@ -241,7 +243,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "20899469-f877-4908-8305-bc50efbab6a3"
 		},
 		{
 			"name": "Invigorate",
@@ -280,7 +283,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "5fac1889-4ce6-4d02-8a68-93ba033a288f"
 		},
 		{
 			"name": "` Resonate",
@@ -329,10 +333,11 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "00c70352-16f7-45c5-908f-8f69bebf2c13"
 		},
 		{
-			"name": "` Unveil",
+			"name": "Unveil",
 			"level": 4,
 			"school": "I",
 			"time": [
@@ -368,14 +373,15 @@
 				]
 			},
 			"entries": [
-				"[Opens the veil between Realms in the area, making spirits and dream emanations visible to all. This is not as exact as ghostsight, but visualizes spirits through enhancing their auras.]"
+				"An aura surrounds you in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Within the aura, the same scene as it exists in Din Iòmar becomes visible to all, as a translucent image superimposed on the scene."
 			],
 			"source": "EHGtI",
 			"components": {
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "25d54a8f-3f82-496a-ab29-ef35979fc6d3"
 		},
 		{
 			"name": "Exorcism",
@@ -427,7 +433,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "4da68b97-89d0-47be-9f9b-b6d5c39bc3a4"
 		},
 		{
 			"name": "` Call Totem",
@@ -465,7 +472,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "b1034025-b465-4934-8d23-c1421c482f5f"
 		},
 		{
 			"name": "Cleanse",
@@ -491,53 +499,53 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
 						"source": "XPHB"
 					}
 				]
 			},
 			"entries": [
-				"One creature you can see within range is engulfed by primal fire, cleansing it of a condition or effect based on the primal force used, as described below.",
+				"Primal force shoots forth from you. Each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
 				{
 					"type": "entries",
 					"name": "Ahn",
 					"entries": [
-						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
+						"Rainbow-colored flames cleanse each target, removing the {@condition Charmed|XPHB} condition. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dan",
 					"entries": [
-						"Light blue flames..."
+						"Light blue flames cleanse each target, removing..."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fel",
 					"entries": [
-						"Green flames..."
+						"Green flames cleanse each target, removing the {@condition Poisoned|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lin",
 					"entries": [
-						"White flames..."
+						"White flames cleanse each target, removing the {@condition Frightened|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mas",
 					"entries": [
-						"..."
+						"Golden flames cleanse each target, removing..."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Nok",
 					"entries": [
-						"Black flames..."
+						"Black flames cleanse each target, removing..."
 					]
 				},
 				{
@@ -551,11 +559,12 @@
 					"type": "entries",
 					"name": "Tek",
 					"entries": [
-						"..."
+						"Crackling lightning washes over each target, removing the {@condition Petrified|XPHB} condition."
 					]
 				}
 			],
 			"source": "EHGtI",
+			"uniqueId": "ecbf3099-0837-4e9b-9d47-675207bf03e5",
 			"components": {
 				"v": true,
 				"s": true,
@@ -613,7 +622,8 @@
 						"The damage increases by {@dice 2d8} for each spell slot level above 4."
 					]
 				}
-			]
+			],
+			"uniqueId": "9e5d8e93-7523-421c-845d-494e53a2842a"
 		},
 		{
 			"name": "` Deluminate",
@@ -651,7 +661,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "09abe10e-3004-4bda-bb56-5be6b96ef3d3"
 		},
 		{
 			"name": "Dispel Spirits",
@@ -719,7 +730,8 @@
 				"charmed",
 				"frightened",
 				"possessed|EHGtI"
-			]
+			],
+			"uniqueId": "25c1b940-b66e-469f-960b-c16857a24689"
 		},
 		{
 			"name": "Obviate",
@@ -771,7 +783,8 @@
 			],
 			"miscTags": [
 				"HL"
-			]
+			],
+			"uniqueId": "75ccf82d-f074-413f-822a-163f752016aa"
 		},
 		{
 			"name": "Detect Spirits",
@@ -832,7 +845,8 @@
 			"conditionInflict": [
 				"soulless",
 				"soulless|EHGtI"
-			]
+			],
+			"uniqueId": "a6e46ef5-846d-46e6-892b-a0bae1b91db9"
 		},
 		{
 			"name": "Read Aura",
@@ -883,7 +897,8 @@
 			},
 			"areaTags": [
 				"ST"
-			]
+			],
+			"uniqueId": "8904aec0-168e-4736-b718-3d7f41ae89c5"
 		},
 		{
 			"name": "Hexbeam",
@@ -993,7 +1008,8 @@
 						"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
 					]
 				}
-			]
+			],
+			"uniqueId": "d05acafe-41a4-4f76-8494-700d77906254"
 		},
 		{
 			"name": "Overflow",
@@ -1040,7 +1056,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "7e6e5e24-f6f4-4a59-834d-faaf1b3eb373"
 		},
 		{
 			"name": "Spirit Ward",
@@ -1118,7 +1135,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "d982a3b8-2fbb-431c-95fd-66eb332bfe4c"
 		},
 		{
 			"name": "` Unphase",
@@ -1155,7 +1173,8 @@
 			"source": "EHGtI",
 			"components": {
 				"v": true
-			}
+			},
+			"uniqueId": "da74c113-3698-40eb-829e-dc90cb8d0612"
 		},
 		{
 			"name": "Conjure Primal",
@@ -1274,7 +1293,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "869ca36c-8d3f-4a68-b187-82c69bbe8817"
 		},
 		{
 			"name": "Ignore",
@@ -1316,7 +1336,8 @@
 			},
 			"conditionInflict": [
 				"invisibility"
-			]
+			],
+			"uniqueId": "1b10dd33-ab76-4078-8d35-8836e33771f5"
 		},
 		{
 			"name": "Soothe",
@@ -1355,7 +1376,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "f1964f88-ac39-4aa7-8b9f-e42797b663f3"
 		},
 		{
 			"name": "Nullmass",
@@ -1402,7 +1424,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "1ccf10fb-a3ba-4bb6-a49f-e08d8b44774f"
 		},
 		{
 			"name": "Primal Sword",
@@ -1513,7 +1536,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "5fba0002-e019-43ed-96db-787e525d499d"
 		},
 		{
 			"name": "` Primal Fountain",
@@ -1552,7 +1576,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "3a6458e4-4bc6-4458-8dc7-0554be50ca77"
 		},
 		{
 			"name": "` Primal Wellspring",
@@ -1597,7 +1622,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "736d2272-c401-4a58-ad61-c1f4db091cd7"
 		},
 		{
 			"name": "Unravel",
@@ -1665,7 +1691,8 @@
 			},
 			"damageInflict": [
 				"void"
-			]
+			],
+			"uniqueId": "6cbe2c82-5616-4cd0-ac0e-fb74ac7b1c49"
 		},
 		{
 			"name": "` Splice",
@@ -1704,7 +1731,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "95590d01-4453-4c1d-819e-f2f78439e039"
 		},
 		{
 			"name": "` Trueshot",
@@ -1746,7 +1774,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "7ef948d2-ce85-4705-b034-793d72d5f74e"
 		},
 		{
 			"name": "Force Bolt",
@@ -1869,10 +1898,11 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "7db7cd83-71ca-4ae4-9daa-919d15c0859d"
 		},
 		{
-			"name": "` Reveal",
+			"name": "Reveal",
 			"level": 4,
 			"school": "I",
 			"time": [
@@ -1908,14 +1938,15 @@
 				]
 			},
 			"entries": [
-				"[Opens the veil between Realms in the area, making primal force emanations visible to all. This is not as precise as othersense, but creates points of light that visualize the flow of primal forces.]"
+				"An aura surrounds you in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Within the aura, the same scene as it exists in Din Feidh becomes visible to all, as a translucent image superimposed on the scene."
 			],
 			"source": "EHGtI",
 			"components": {
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "69b5cd6b-0fb7-4e7c-b425-a47893de2a1c"
 		},
 		{
 			"name": "Stabilizing Field",
@@ -1979,6 +2010,7 @@
 					}
 				]
 			},
+			"uniqueId": "c9a5f71e-ed60-4d28-b68a-54be91dc9c3e",
 			"conditionInflict": [
 				"phased|eh:set"
 			]
@@ -2027,7 +2059,8 @@
 				"v": true,
 				"s": true,
 				"m": "..."
-			}
+			},
+			"uniqueId": "3edd58fe-942a-4a73-9c47-ab45f6126189"
 		},
 		{
 			"name": "Void",
@@ -2071,6 +2104,7 @@
 				"s": true,
 				"m": "..."
 			},
+			"uniqueId": "1ecc8952-7205-47d0-bd0b-1dc7e722c6f7",
 			"entries": [
 				"A void extends from you in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. No one can cast spells, take {@action Magic|XPHB} actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.",
 				"Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.",
@@ -2120,7 +2154,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "96a67bd8-d572-4491-a01d-86c6c0c04b30"
 		},
 		{
 			"name": "Mind Void",
@@ -2169,7 +2204,8 @@
 						"The damage increases by {@dice 1d10} for each spell slot level above 1."
 					]
 				}
-			]
+			],
+			"uniqueId": "d4419beb-5bf8-4b0d-b592-485c0aca4515"
 		},
 		{
 			"name": "Wither",
@@ -2217,7 +2253,8 @@
 						"The spell creates two blobs at level 5, three blobs at level 11, and four blobs at level 17. Make a separate attack roll for each blob. The target gains one stack of {@hazard withering|EHGtI} for each blob that hits."
 					]
 				}
-			]
+			],
+			"uniqueId": "e7cd8b2a-7763-4065-9b8d-c728e870b5ed"
 		},
 		{
 			"name": "` Suppress Core",
@@ -2261,7 +2298,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "55225046-a680-4ba9-9500-5a0e148ab7d8"
 		},
 		{
 			"name": "Roam",
@@ -2299,7 +2337,8 @@
 			"source": "EHGtI",
 			"components": {
 				"v": true
-			}
+			},
+			"uniqueId": "934ab007-1dd1-49a6-bba2-98e7baee0a62"
 		},
 		{
 			"name": "` Primal Burst",
@@ -2338,7 +2377,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "d0b38711-01cf-4dbb-8f9f-934e15fbe8b6"
 		},
 		{
 			"name": "Phaselock",
@@ -2382,7 +2422,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "6db71be3-327e-4ccd-85e6-337896ddd3d4"
 		},
 		{
 			"name": "Summon Primal",
@@ -2452,7 +2493,8 @@
 						"source": "XPHB"
 					}
 				]
-			}
+			},
+			"uniqueId": "318181af-3e18-4058-8da9-2d2b32b536d8"
 		}
 	],
 	"monster": [
@@ -2577,7 +2619,8 @@
 			],
 			"savingThrowForced": [
 				"strength"
-			]
+			],
+			"uniqueId": "ff5a2fe4-1b4b-49fc-bc41-1ccb177e4a14"
 		},
 		{
 			"name": "Brite",
@@ -2721,7 +2764,8 @@
 			],
 			"damageTags": [
 				"R"
-			]
+			],
+			"uniqueId": "1ce7e962-26ce-466e-8bd3-807d123decc5"
 		},
 		{
 			"name": "Chaka",
@@ -2766,7 +2810,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "660ac24a-6191-477b-96c4-792daca5049b"
 		},
 		{
 			"name": "Chimeris",
@@ -2831,7 +2876,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "08c99182-92be-487e-a0d9-556e14262007"
 		},
 		{
 			"name": "Cloud of Darkness",
@@ -2896,7 +2942,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d8232b51-14c2-490f-9d85-100853c8972d"
 		},
 		{
 			"name": "Felkar",
@@ -2956,7 +3003,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6be2b577-5137-4152-8d62-b1a09938dce3"
 		},
 		{
 			"name": "Foliet",
@@ -2998,7 +3046,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f0897c78-4669-459c-ac64-9ed2c23f072f"
 		},
 		{
 			"name": "Glimmerfang",
@@ -3082,7 +3131,8 @@
 			},
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "ad625964-4092-466c-8c5b-b8df6d5e31d4"
 		},
 		{
 			"name": "Figment of Imagination",
@@ -3132,7 +3182,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "5365a706-df3d-4bfe-b795-60d688591698"
 		},
 		{
 			"name": "Force of Light",
@@ -3210,7 +3261,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6191d1dd-8d4e-465f-b263-9bf565e06b3d"
 		},
 		{
 			"name": "Gray Walker",
@@ -3255,7 +3307,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f8cd1043-4965-45bf-8a76-81550064d6b5"
 		},
 		{
 			"name": "Furius",
@@ -3305,7 +3358,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "46afb363-023d-46d7-9447-bcd31b7c028e"
 		},
 		{
 			"name": "Miregrim",
@@ -3352,7 +3406,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a6b2569a-6d9e-4ab8-ba28-83d3c2c6a0cd"
 		},
 		{
 			"name": "Hand of Fate",
@@ -3402,7 +3457,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "cda0d9b1-4ffd-462e-ad72-5c394cc5179b"
 		},
 		{
 			"name": "Mass of Fury",
@@ -3454,7 +3510,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "846eb2ab-7165-4702-9e9a-7e5a2129322b"
 		},
 		{
 			"name": "Relek",
@@ -3501,7 +3558,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a1e03284-5d31-430e-810f-765b14d917ef"
 		},
 		{
 			"name": "Pandemonial",
@@ -3550,7 +3608,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "49c3e0b6-b9de-4a94-a8b8-a65bef9e6e8a"
 		},
 		{
 			"name": "Slythermink",
@@ -3594,7 +3653,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "baa42cc8-bc3f-46ed-a67e-26052e3e1f35"
 		},
 		{
 			"name": "Tenebrian",
@@ -3646,7 +3706,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "9c0da805-02fd-43b3-8b03-7ae0c87d1ed0"
 		},
 		{
 			"name": "Yakut, Peairnean",
@@ -3690,7 +3751,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "63105c7b-331f-48d2-9208-6c574f2e8edb"
 		},
 		{
 			"name": "Scribblet",
@@ -3734,7 +3796,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "ce41c589-7d1d-4d31-aa52-4f52d28f7d1d"
 		},
 		{
 			"name": "Chaka Swarm",
@@ -3782,7 +3845,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "474ae8a5-9198-4573-aa42-3f0a616f89fc"
 		},
 		{
 			"name": "Gnarl - Akaragh",
@@ -3839,7 +3903,8 @@
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "35a78d2c-7d82-4af6-9bb6-2f57118c6201"
 		},
 		{
 			"name": "Gnarl - Andragh",
@@ -3896,7 +3961,8 @@
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "85b336e0-2282-40ea-9818-65f667959480"
 		},
 		{
 			"name": "Gnarl - Lithuar",
@@ -3954,7 +4020,8 @@
 			"skill": {
 				"perception": "+4",
 				"survival": "+2"
-			}
+			},
+			"uniqueId": "5163510a-ca8a-40e4-afc7-a26ee763e5f1"
 		},
 		{
 			"name": "Gnarl - Grolagh",
@@ -4012,7 +4079,8 @@
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "b037842e-732c-4ec5-983e-1d30174de338"
 		},
 		{
 			"name": "Gnarl - Kolar",
@@ -4070,7 +4138,8 @@
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "ea401dff-7de5-4a1d-bd90-29e88e67688e"
 		},
 		{
 			"name": "Gnarl - Eralar",
@@ -4127,7 +4196,8 @@
 			"skill": {
 				"perception": "+4",
 				"stealth": "+5"
-			}
+			},
+			"uniqueId": "b584caee-5ae5-41a5-8760-d7185636cf14"
 		},
 		{
 			"name": "Gnarl - Ildar",
@@ -4184,7 +4254,8 @@
 			},
 			"languages": [
 				"Kresh"
-			]
+			],
+			"uniqueId": "e98d47fb-e0b0-4798-90be-746e986ec09e"
 		},
 		{
 			"name": "Ghost",
@@ -4234,7 +4305,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "936d085f-a915-45bc-89e8-cf6faa03e4b5"
 		},
 		{
 			"name": "Nalkor",
@@ -4278,7 +4350,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "7baca1f8-ba0a-49ba-aa65-51669c50230f"
 		},
 		{
 			"name": "Ember Dragon Wyrmling",
@@ -4329,7 +4402,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "233a036e-9df0-4991-a593-028e0576bb28"
 		},
 		{
 			"name": "Glacier Dragon Wyrmling",
@@ -4380,7 +4454,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_baby_token.png"
-			}
+			},
+			"uniqueId": "b34c238c-eb43-4220-b0ee-8d95016dfc2e"
 		},
 		{
 			"name": "Reef Dragon Wyrmling",
@@ -4428,7 +4503,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "8b371ab9-0bc9-41d3-aa00-79cd2143f459"
 		},
 		{
 			"name": "Verdant Dragon, Young",
@@ -4478,7 +4554,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "11d30088-0e43-4c59-9136-5be31ffff364"
 		},
 		{
 			"name": "Mimora",
@@ -4525,7 +4602,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "1701e83a-49d8-41fc-afb2-4204ef3e1a76"
 		},
 		{
 			"name": "Rell",
@@ -4554,7 +4632,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "593932e8-40e6-47c6-bcf1-0608d03ab1f0"
 		},
 		{
 			"name": "Szinek, Adult",
@@ -4602,7 +4681,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "bee20ebd-904d-42c4-90ef-849b55ef689e"
 		},
 		{
 			"name": "Pranker - Jinxer",
@@ -4671,7 +4751,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "23f35e4e-b119-406a-ac1b-8a63299d8c72"
 		},
 		{
 			"name": "Shiner",
@@ -4723,7 +4804,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_lin_token.png"
-			}
+			},
+			"uniqueId": "20ed75f3-d9e6-4f2e-8774-838a9617a221"
 		},
 		{
 			"name": "Pranker - Gagger",
@@ -4792,7 +4874,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "b8315b1c-0b7d-4b0d-b776-7c7c3ec36153"
 		},
 		{
 			"name": "Pranker - Larker",
@@ -4843,7 +4926,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "9b9b6247-de34-4c03-b0cd-436022e01e07"
 		},
 		{
 			"name": "Pranker - Reveler",
@@ -4912,7 +4996,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "ecca3369-9321-44fc-974a-67897e83f481"
 		},
 		{
 			"name": "Pranker - Caper",
@@ -4996,7 +5081,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "f07ec9a4-f749-4aa8-8126-d7ce88ccabfa"
 		},
 		{
 			"name": "Pranker - Hotfoot",
@@ -5047,7 +5133,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "2cd58473-30c2-4720-a3f0-e8de3b66682e"
 		},
 		{
 			"name": "Pranker - Shocker",
@@ -5098,7 +5185,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "d870e4e5-2c13-4d19-a42d-cab62bf4d759"
 		},
 		{
 			"name": "Eldritch Orb",
@@ -5140,7 +5228,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "9b6b39c0-bd9b-426f-950e-087f955be19d"
 		},
 		{
 			"name": "Szinek Wyrmling",
@@ -5188,7 +5277,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f0035f16-7ec1-41a2-8866-f9db70637b6b"
 		},
 		{
 			"name": "Ember Dragon, Young",
@@ -5239,7 +5329,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f6a425de-996e-406b-a341-60c5eefa574c"
 		},
 		{
 			"name": "Ember Dragon, Adult",
@@ -5290,7 +5381,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "c1679801-400a-448c-a2e4-593cdd8296b6"
 		},
 		{
 			"name": "Ember Dragon, Ancient",
@@ -5341,7 +5433,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "cd1825c5-60b0-4737-9a15-41ccce9abde0"
 		},
 		{
 			"name": "Glacier Dragon, Young",
@@ -5392,7 +5485,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f6b3f156-8121-438c-8d82-b81472109f7a"
 		},
 		{
 			"name": "Glacier Dragon, Adult",
@@ -5443,7 +5537,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "29023149-8e84-4987-920e-29437229d89b"
 		},
 		{
 			"name": "Glacier Dragon, Ancient",
@@ -5494,7 +5589,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "fd449564-b996-465a-a239-cbf188c0cfdd"
 		},
 		{
 			"name": "Reef Dragon, Young",
@@ -5542,7 +5638,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "0351f09c-c670-44a3-bc9e-5b65eea17f65"
 		},
 		{
 			"name": "Reef Dragon, Adult",
@@ -5590,7 +5687,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "e01bb4b4-6cc7-403f-b7d6-9defe195b112"
 		},
 		{
 			"name": "Reef Dragon, Ancient",
@@ -5638,7 +5736,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "587c8601-cde5-4dcf-ba7e-a41e8bb4311c"
 		},
 		{
 			"name": "Verdant Dragon, Adult",
@@ -5691,7 +5790,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d4defe30-a02b-45ca-a847-d5206c04ce15"
 		},
 		{
 			"name": "Verdant Dragon, Ancient",
@@ -5744,7 +5844,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6bae2a04-3d75-48ea-9fea-b59f2369ac91"
 		},
 		{
 			"name": "Melder - Bol-daragh",
@@ -5791,7 +5892,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/bol-daragh_token.webp"
-			}
+			},
+			"uniqueId": "0d11f796-7fad-41eb-8d58-edf47c21fdc5"
 		},
 		{
 			"name": "Borovis",
@@ -5854,7 +5956,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "63219963-7e39-4eda-8bb7-4944b203c1c4"
 		},
 		{
 			"name": "Brum",
@@ -5909,7 +6012,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "75ec0acd-ea30-43a8-9b2d-def23394ad42"
 		},
 		{
 			"name": "Cruor",
@@ -5956,7 +6060,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "dd88a7d5-d09b-4bba-8728-039879c71617"
 		},
 		{
 			"name": "Cruor Swarm",
@@ -6006,7 +6111,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "494b8527-405f-4e21-8f65-9066fdbb3d3f"
 		},
 		{
 			"name": "Melder - Ealàiagh",
@@ -6053,7 +6159,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "9b119be7-542d-45af-b2d8-5f85c10ef36c"
 		},
 		{
 			"name": "Grom",
@@ -6098,7 +6205,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "866fb5ac-527a-4f28-9af1-d97979ad17ab"
 		},
 		{
 			"name": "Melder - Laidìr",
@@ -6145,7 +6253,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "7cdf737f-2d4b-439c-abf0-909ef2844b09"
 		},
 		{
 			"name": "Gnarl - Nuàragh",
@@ -6202,7 +6311,8 @@
 			"skill": {
 				"perception": "+4",
 				"stealth": "+5"
-			}
+			},
+			"uniqueId": "f3712b21-2b69-4d34-bd96-79640bbc9129"
 		},
 		{
 			"name": "Snowraven",
@@ -6249,7 +6359,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d586a043-c4cd-4994-9ee1-1a887207ef79"
 		},
 		{
 			"name": "Shadowraven",
@@ -6293,7 +6404,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "e60df10b-3d5a-4447-a118-223c11c55a2b"
 		},
 		{
 			"name": "T'kari",
@@ -6372,7 +6484,8 @@
 			},
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "c035bb95-408d-4c5a-acd0-2a945ba8fa25"
 		},
 		{
 			"name": "Yi'chin",
@@ -6450,7 +6563,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "5a7284f2-9b86-4c10-bb7a-072f1814ec82"
 		},
 		{
 			"name": "Syphir",
@@ -6479,7 +6593,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "351104ed-a1ec-4c5a-a30d-4775897d7cdf"
 		},
 		{
 			"name": "Ruàth",
@@ -6508,7 +6623,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "e1ad9acc-9479-408f-a8cc-b4308fb277af"
 		},
 		{
 			"name": "Mor-tag",
@@ -6555,7 +6671,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "643e0708-ed5b-4e70-9ac0-350deda01eeb"
 		},
 		{
 			"name": "Melder - Sildar",
@@ -6602,7 +6719,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "47d6189d-1fe0-48a4-815b-208b9bee1503"
 		},
 		{
 			"name": "Clay Bear",
@@ -6646,7 +6764,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d3bf8bdf-6def-402b-8e71-14e79ea79036"
 		},
 		{
 			"name": "Daràk",
@@ -6702,7 +6821,8 @@
 			],
 			"traitTags": [
 				"Legendary Resistances"
-			]
+			],
+			"uniqueId": "d1c91957-8e7e-46cc-8fe7-c04d669000ba"
 		},
 		{
 			"name": "Faerìn",
@@ -6777,7 +6897,8 @@
 			"languageTags": [
 				"XX",
 				"TP"
-			]
+			],
+			"uniqueId": "29b8ba92-2a10-4889-914f-a2c2e4241089"
 		},
 		{
 			"name": "Dau",
@@ -6823,7 +6944,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "53dac98e-577b-48e4-b43e-9c5017c8d4b4"
 		},
 		{
 			"name": "Gryor, Adult",
@@ -6881,7 +7003,8 @@
 			},
 			"languages": [
 				"Ûr"
-			]
+			],
+			"uniqueId": "9b158368-7810-47cd-b1ed-e8dce7623b6c"
 		},
 		{
 			"name": "Gryor Wyrmling",
@@ -6936,7 +7059,8 @@
 			},
 			"languages": [
 				"Ûr"
-			]
+			],
+			"uniqueId": "6d66c548-532a-41c4-b43a-53b0cf017697"
 		},
 		{
 			"name": "Kamen, Adult",
@@ -6984,7 +7108,8 @@
 					}
 				]
 			},
-			"dragonAge": "adult"
+			"dragonAge": "adult",
+			"uniqueId": "732f0a6f-9a68-4d8e-9fc2-494766e62420"
 		},
 		{
 			"name": "Kamen Wyrmling",
@@ -7030,7 +7155,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "66e73fe0-c804-4cbf-ab52-1ff524b31bb2"
 		},
 		{
 			"name": "Kar-zad",
@@ -7082,7 +7208,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "2f8572d1-fd4b-43e3-9556-875b08db0e95"
 		},
 		{
 			"name": "Nur-xao",
@@ -7116,7 +7243,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "54e92b5d-1156-445d-bbd5-dd2741ee2063"
 		},
 		{
 			"name": "Mir-lat",
@@ -7168,7 +7296,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6c247340-01f7-4a9c-bfc0-ee066f22b94e"
 		},
 		{
 			"name": "Rashiki",
@@ -7197,7 +7326,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "27bebf58-b812-4461-a730-85b924f4211d"
 		},
 		{
 			"name": "Sil - Dark",
@@ -7244,7 +7374,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "8a6a35d8-5854-4471-8cd7-e94412719c43"
 		},
 		{
 			"name": "Sil - Elusive",
@@ -7291,7 +7422,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "636acf33-3166-4cba-aee0-d6669cc5be9c"
 		},
 		{
 			"name": "Sil - Soldier",
@@ -7338,7 +7470,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "056cb6a7-198b-4203-9fd7-bdf853f9ab9c"
 		},
 		{
 			"name": "Sil - Strong",
@@ -7385,7 +7518,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "e9b0a1a7-ef1d-4354-bf8a-84cca50fd09d"
 		},
 		{
 			"name": "Yakut, Sangrian",
@@ -7429,7 +7563,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "e7d753e6-dd40-4d6d-bf16-7b8c708f1634"
 		},
 		{
 			"name": "Horse - Bachrian",
@@ -7474,7 +7609,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a0bab4f7-bc7a-4a34-91d1-171d0252a55e"
 		},
 		{
 			"name": "Horse - Dauthirian",
@@ -7519,7 +7655,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "7965674a-850f-43a1-a591-4e171806de89"
 		},
 		{
 			"name": "Nigris",
@@ -7566,7 +7703,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "4fcea3db-02f7-453d-aee1-793ae2c1e4c5"
 		},
 		{
 			"name": "Mor",
@@ -7613,7 +7751,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "1923ab0f-86b8-432b-a3be-c37d1561d18b"
 		},
 		{
 			"name": "Lykor, Adult",
@@ -7660,7 +7799,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "312cec26-068a-4ef9-a5e5-942ae3565334"
 		},
 		{
 			"name": "Pranker - Flicker",
@@ -7711,7 +7851,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "fe2ce5a3-7f38-40af-aff8-123ef9fbb4de"
 		},
 		{
 			"name": "Darth",
@@ -7756,7 +7897,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95"
 		},
 		{
 			"name": "Kallot",
@@ -7801,7 +7943,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "875bfd07-196a-43a6-aa8c-1154501db3a3"
 		},
 		{
 			"name": "Skit",
@@ -7830,7 +7973,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "58177636-8376-43f6-848e-61c181b69751"
 		},
 		{
 			"name": "Goar",
@@ -7875,7 +8019,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/goar_token.png"
-			}
+			},
+			"uniqueId": "4c4417b9-c31d-4279-a053-ec205e5ce7e6"
 		},
 		{
 			"name": "Grall",
@@ -7902,7 +8047,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "df2edabc-89fb-435f-99eb-4ca4afec627b"
 		},
 		{
 			"name": "Koràgh",
@@ -7949,7 +8095,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "91c04dd9-4a9b-4066-a968-ff1212717be5"
 		},
 		{
 			"name": "Verdant Dragon Wyrmling",
@@ -7999,7 +8146,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "c92bc67f-cf9c-46f9-ad84-19157f8912ed"
 		},
 		{
 			"name": "Zar'keth",
@@ -8046,7 +8194,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356"
 		},
 		{
 			"name": "Ursa, Adult",
@@ -8093,7 +8242,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "b43693c0-f293-4965-85e7-6d0c988a14d2"
 		},
 		{
 			"name": "Kotal, Ancient",
@@ -8140,7 +8290,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a3239980-485f-4694-bdec-97dbae293a1b"
 		},
 		{
 			"name": "Verrix",
@@ -8187,7 +8338,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "3d9bfe93-dc16-47a4-af41-273f327c51c4"
 		},
 		{
 			"name": "Krang",
@@ -8231,7 +8383,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "4f330ea3-06c1-42ea-81b1-b84e65397b47"
 		},
 		{
 			"name": "Krang Swarm",
@@ -8278,7 +8431,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "41440fc2-948c-47a7-b088-09ee8f747c67"
 		},
 		{
 			"name": "Stiltrix",
@@ -8325,7 +8479,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "18586bfc-53ee-43c6-9d00-4ceb39322756"
 		},
 		{
 			"name": "Sandstrider",
@@ -8372,7 +8527,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "074cd31f-51dc-438f-91ac-46e1a2799109"
 		},
 		{
 			"name": "Meloki",
@@ -8419,7 +8575,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d490ce2e-7214-4955-8e63-90a154bc1566"
 		},
 		{
 			"name": "Nykal",
@@ -8466,7 +8623,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "77ebddb1-23c5-4450-bb81-f46b90c5c09d"
 		},
 		{
 			"name": "Gnawk",
@@ -8511,7 +8669,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "e2ce65b8-3970-43df-95df-6fc1d1a63f11"
 		},
 		{
 			"name": "Kanghar",
@@ -8558,7 +8717,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "333fc977-6374-4bd2-b070-73d739648a14"
 		},
 		{
 			"name": "Rukh, Hatchling",
@@ -8610,7 +8770,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "955511e8-2b03-4308-b0e8-d6f951b400f5"
 		},
 		{
 			"name": "Tumbler",
@@ -8657,7 +8818,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f1178a82-5f19-4481-8e2a-3f20a6f38392"
 		},
 		{
 			"name": "S'kar, Adult",
@@ -8704,7 +8866,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d244bc36-0975-4c8d-ab89-d08a47f3ad70"
 		},
 		{
 			"name": "Rukh, Adult",
@@ -8756,7 +8919,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "27fbb0a7-83d9-48f6-82cd-15d7723cffa7"
 		},
 		{
 			"name": "Rukh, Ancient",
@@ -8808,7 +8972,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "2dd930de-90c9-4553-8c7e-e2673d6865d5"
 		},
 		{
 			"name": "L'jai",
@@ -8837,7 +9002,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "0",
+			"uniqueId": "5976390c-45a8-4888-9b0a-47db56b61658"
 		},
 		{
 			"name": "Ursa Cub",
@@ -8889,7 +9055,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f77fdb7c-03b3-4035-ac31-9c4b682b14c1"
 		},
 		{
 			"name": "Ursa, Young",
@@ -8941,7 +9108,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "41a5a22e-c6c0-40a5-a995-2591b06c1a97"
 		},
 		{
 			"name": "Ursa, Ancient",
@@ -8988,7 +9156,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "5750c774-973a-45ae-a3b8-8fbbd516ccd7"
 		},
 		{
 			"name": "S'kar, Young",
@@ -9035,7 +9204,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "9c9226c9-5940-43f4-971f-9ddcc468b982"
 		},
 		{
 			"name": "S'kar, Ancient",
@@ -9082,7 +9252,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "88fc2811-98da-47cc-9c61-f42a98f94f38"
 		},
 		{
 			"name": "S'kar Kitten",
@@ -9129,7 +9300,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "12d9ff14-7ee3-4152-b7e0-9d5c0e86526b"
 		},
 		{
 			"name": "Lykor, Young",
@@ -9176,7 +9348,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6f53d2be-2ac1-4cac-ba09-c51e5fc63bd1"
 		},
 		{
 			"name": "Lykor, Ancient",
@@ -9223,7 +9396,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "7ee24a76-5480-4cc1-9d1c-0a64a5c0b405"
 		},
 		{
 			"name": "Lykor Cub",
@@ -9270,7 +9444,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "298f9378-f82e-4f2b-b4d4-3e5a21776956"
 		},
 		{
 			"name": "Nerid, Adult",
@@ -9317,7 +9492,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "d4102c0a-23fc-4994-95b5-af7611576cec"
 		},
 		{
 			"name": "Elar, Adult",
@@ -9367,7 +9543,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "ee88a908-3fb5-4434-b031-2a69c5de922e"
 		},
 		{
 			"name": "Kotal, Adult",
@@ -9414,7 +9591,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "0f3aa586-0eda-4b73-9b54-aa78564d469d"
 		},
 		{
 			"name": "Kotal, Young",
@@ -9461,7 +9639,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "f4acadf6-21d1-452a-a84d-fa6e6c10a4bf"
 		},
 		{
 			"name": "Kotal Hatchling",
@@ -9508,7 +9687,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a0696011-8b35-4ea1-b6a4-142784d13aa0"
 		},
 		{
 			"name": "Elar Foal",
@@ -9561,7 +9741,8 @@
 			},
 			"senses": [
 				"ghostsight 60 ft."
-			]
+			],
+			"uniqueId": "4f0bce61-175b-49c6-8c7b-f23622e6aac9"
 		},
 		{
 			"name": "Elar, Young",
@@ -9611,7 +9792,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "3f00423a-dfd3-4a27-8756-01bfce638d9e"
 		},
 		{
 			"name": "Elar, Ancient",
@@ -9661,7 +9843,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "5fb46c0a-f032-41aa-8332-d1616c643594"
 		},
 		{
 			"name": "Nerid, Young",
@@ -9708,7 +9891,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "278fb753-ba42-440b-9517-e546302a52a6"
 		},
 		{
 			"name": "Nerid Calf",
@@ -9755,7 +9939,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "58cb4029-7060-4eda-8e34-16481ca3592b"
 		},
 		{
 			"name": "Nerid, Ancient",
@@ -9802,7 +9987,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "ac4ca33c-6875-48b6-847f-1f45516356b0"
 		},
 		{
 			"name": "Caustic Slime",
@@ -9858,7 +10044,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "4cf420e4-34d4-4761-ad35-900fcad13ba1"
 		},
 		{
 			"name": "Ardent Slime",
@@ -9936,7 +10123,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "956fffd8-0ba2-420a-aeed-2ef5167290c2"
 		},
 		{
 			"name": "Infernal",
@@ -9968,7 +10156,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "5"
+			"cr": "5",
+			"uniqueId": "b1fdd3ce-d67e-4c5b-8cd1-61fc91322fb3"
 		},
 		{
 			"name": "Lithian",
@@ -10017,7 +10206,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lithian_token.png"
-			}
+			},
+			"uniqueId": "b47920d0-9c63-4107-9f8e-fdbf354c6cc5"
 		},
 		{
 			"name": "Tempest",
@@ -10051,7 +10241,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "5"
+			"cr": "5",
+			"uniqueId": "92879ccd-5b53-49f5-bda3-0d2250edb521"
 		},
 		{
 			"name": "Rukh, Young",
@@ -10103,7 +10294,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "2ffddfdb-37ad-4bff-b537-ff21426815ad"
 		},
 		{
 			"name": "Misthaunt",
@@ -10132,7 +10324,8 @@
 			"wis": 10,
 			"cha": 12,
 			"passive": 10,
-			"cr": "5"
+			"cr": "5",
+			"uniqueId": "49591865-3759-4048-b09c-806cb626e064"
 		},
 		{
 			"name": "Sandwraith",
@@ -10180,7 +10373,8 @@
 			],
 			"senseTags": [
 				"T"
-			]
+			],
+			"uniqueId": "db584739-4ca2-4851-9c57-6c5e4eb944b5"
 		},
 		{
 			"name": "Firebird",
@@ -10223,7 +10417,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "5f8b9afa-5a29-4868-a026-f2bd07619aa8"
 		},
 		{
 			"name": "Pranker - Bluster",
@@ -10292,7 +10487,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "f9687ec2-07b8-4e3e-a35a-7fd932fb1cb6"
 		},
 		{
 			"name": "Gripe",
@@ -10320,7 +10516,8 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "2"
+			"cr": "2",
+			"uniqueId": "2d445e77-5bb4-4ce7-9f3b-9134223f7bdc"
 		},
 		{
 			"name": "Primal Servant",
@@ -10483,9 +10680,11 @@
 			"token": {
 				"name": "",
 				"source": ""
-			}
+			},
+			"uniqueId": "ca3f8e90-cce9-4e0a-946c-523998c7ba80"
 		},
 		{
+			"uniqueId": "c0456e0d-3b23-4733-b7c5-dd676d2e9589",
 			"name": "Ximir",
 			"size": [
 				"M"

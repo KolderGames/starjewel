@@ -27,7 +27,7 @@
 			"name": "Primal Darts",
 			"source": "EHGtI",
 			"level": 1,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -131,9 +131,6 @@
 					}
 				]
 			},
-			"subschools": [
-				"Primal"
-			],
 			"uniqueId": "1dadc8d9-1f1a-4f98-b92c-012c57eff0b9"
 		},
 		{
@@ -278,7 +275,7 @@
 		{
 			"name": "` Resonate",
 			"level": 3,
-			"school": "E",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -318,9 +315,6 @@
 				"[Apply Resonating condition to the target with the primal force you resonate with.]"
 			],
 			"source": "EHGtI",
-			"subschools": [
-				"Primal"
-			],
 			"components": {
 				"v": true,
 				"s": true,
@@ -329,7 +323,7 @@
 			"uniqueId": "00c70352-16f7-45c5-908f-8f69bebf2c13"
 		},
 		{
-			"name": "` Unveil",
+			"name": "Unveil",
 			"level": 4,
 			"school": "I",
 			"time": [
@@ -365,7 +359,7 @@
 				]
 			},
 			"entries": [
-				"[Opens the veil between Realms in the area, making spirits and dream emanations visible to all. This is not as exact as ghostsight, but visualizes spirits through enhancing their auras.]"
+				"An aura surrounds you in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Within the aura, the same scene as it exists in Din Iòmar becomes visible to all, as a translucent image superimposed on the scene."
 			],
 			"source": "EHGtI",
 			"components": {
@@ -470,7 +464,7 @@
 		{
 			"name": "Cleanse",
 			"level": 3,
-			"school": "A",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -491,53 +485,53 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
 						"source": "XPHB"
 					}
 				]
 			},
 			"entries": [
-				"One creature you can see within range is engulfed by primal fire, cleansing it of a condition or effect based on the primal force used, as described below.",
+				"Primal force shoots forth from you. Each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
 				{
 					"type": "entries",
 					"name": "Ahn",
 					"entries": [
-						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
+						"Rainbow-colored flames cleanse each target, removing the {@condition Charmed|XPHB} condition. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dan",
 					"entries": [
-						"Light blue flames..."
+						"Light blue flames cleanse each target, removing..."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fel",
 					"entries": [
-						"Green flames..."
+						"Green flames cleanse each target, removing the {@condition Poisoned|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lin",
 					"entries": [
-						"White flames..."
+						"White flames cleanse each target, removing the {@condition Frightened|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mas",
 					"entries": [
-						"..."
+						"Golden flames cleanse each target, removing..."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Nok",
 					"entries": [
-						"Black flames..."
+						"Black flames cleanse each target, removing..."
 					]
 				},
 				{
@@ -551,14 +545,11 @@
 					"type": "entries",
 					"name": "Tek",
 					"entries": [
-						"..."
+						"Crackling lightning washes over each target, removing the {@condition Petrified|XPHB} condition."
 					]
 				}
 			],
 			"source": "EHGtI",
-			"subschools": [
-				"Primal"
-			],
 			"uniqueId": "ecbf3099-0837-4e9b-9d47-675207bf03e5",
 			"components": {
 				"v": true,
@@ -569,7 +560,7 @@
 		{
 			"name": "Conjure Minor Primals",
 			"level": 4,
-			"school": "C",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -609,9 +600,6 @@
 				"v": true,
 				"s": true
 			},
-			"subschools": [
-				"Primal"
-			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
@@ -1012,7 +1000,7 @@
 		{
 			"name": "Overflow",
 			"level": 5,
-			"school": "C",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -1050,9 +1038,6 @@
 				"If any of this spell's area overlaps with an area that Overflows with another primal force created by a spell of level 5 or lower, that other spell is dispelled."
 			],
 			"source": "EHGtI",
-			"subschools": [
-				"Primal"
-			],
 			"components": {
 				"v": true,
 				"s": true,
@@ -1181,7 +1166,7 @@
 			"name": "Conjure Primal",
 			"source": "EHGtI",
 			"level": 6,
-			"school": "C",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -1295,9 +1280,6 @@
 					}
 				]
 			},
-			"subschools": [
-				"Primal"
-			],
 			"uniqueId": "869ca36c-8d3f-4a68-b187-82c69bbe8817"
 		},
 		{
@@ -1436,7 +1418,7 @@
 			"source": "EHGtI",
 			"page": 302,
 			"level": 7,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -1541,15 +1523,12 @@
 					}
 				]
 			},
-			"subschools": [
-				"Primal"
-			],
 			"uniqueId": "5fba0002-e019-43ed-96db-787e525d499d"
 		},
 		{
 			"name": "` Primal Fountain",
 			"level": 6,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -1579,9 +1558,6 @@
 				"[Call forth a fountain of the primal force you resonate with to infuse all within 10 feet.]"
 			],
 			"source": "EHGtI",
-			"subschools": [
-				"Primal"
-			],
 			"components": {
 				"v": true,
 				"s": true,
@@ -1592,7 +1568,7 @@
 		{
 			"name": "` Primal Wellspring",
 			"level": 4,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -1629,9 +1605,6 @@
 				"[Call forth a wellspring of the primal force you resonate with to make all resonate with that primal force.]"
 			],
 			"source": "EHGtI",
-			"subschools": [
-				"Primal"
-			],
 			"components": {
 				"v": true,
 				"s": true
@@ -1915,7 +1888,7 @@
 			"uniqueId": "7db7cd83-71ca-4ae4-9daa-919d15c0859d"
 		},
 		{
-			"name": "` Reveal",
+			"name": "Reveal",
 			"level": 4,
 			"school": "I",
 			"time": [
@@ -1951,7 +1924,7 @@
 				]
 			},
 			"entries": [
-				"[Opens the veil between Realms in the area, making primal force emanations visible to all. This is not as precise as othersense, but creates points of light that visualize the flow of primal forces.]"
+				"An aura surrounds you in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Within the aura, the same scene as it exists in Din Feidh becomes visible to all, as a translucent image superimposed on the scene."
 			],
 			"source": "EHGtI",
 			"components": {
@@ -2356,7 +2329,7 @@
 		{
 			"name": "` Primal Burst",
 			"level": 0,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
