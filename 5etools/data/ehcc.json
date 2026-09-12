@@ -236,7 +236,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/brite_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/brite_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -247,7 +247,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/brite.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/brite.png"
 						}
 					}
 				]
@@ -320,7 +320,7 @@
 			"cr": "1/8",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chaka_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/chaka_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -331,7 +331,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/chaka.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/chaka.png"
 						}
 					}
 				]
@@ -386,7 +386,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chimeris_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/chimeris_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -397,7 +397,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/chimeris.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/chimeris.png"
 						}
 					}
 				]
@@ -452,7 +452,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cloud_of_darkness_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/cloud_of_darkness_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -463,7 +463,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/cloud_of_darkness.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/cloud_of_darkness.png"
 						}
 					}
 				]
@@ -513,7 +513,7 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/felkar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/felkar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -524,7 +524,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/felkar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/felkar.png"
 						}
 					}
 				]
@@ -559,7 +559,7 @@
 			"cr": "1/4",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/foliet_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/foliet_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -567,7 +567,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/foliet.jpg"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/foliet.jpg"
 						}
 					}
 				]
@@ -641,7 +641,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/glimmerfang_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/glimmerfang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -649,7 +649,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/glimmerfang.jpg"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/glimmerfang.jpg"
 						}
 					}
 				]
@@ -692,7 +692,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/figment_of_imagination_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/figment_of_imagination_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -703,7 +703,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/figment_of_imagination.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/figment_of_imagination.png"
 						}
 					}
 				]
@@ -771,7 +771,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/force_of_light_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/force_of_light_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -782,7 +782,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/force_of_light.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/force_of_light.png"
 						}
 					}
 				]
@@ -817,7 +817,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gray_walker_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/gray_walker_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -828,7 +828,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/gray_walker.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/gray_walker.png"
 						}
 					}
 				]
@@ -868,7 +868,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/furius_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/furius_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -879,7 +879,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/furius.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/furius.png"
 						}
 					}
 				]
@@ -916,7 +916,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/miregrim_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/miregrim_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -927,7 +927,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/miregrim.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/miregrim.png"
 						}
 					}
 				]
@@ -967,7 +967,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/hand_of_fate_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/hand_of_fate_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -978,7 +978,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/hand_of_fate.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/hand_of_fate.png"
 						}
 					}
 				]
@@ -1020,7 +1020,7 @@
 			"cr": "11",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mass_of_fury_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/mass_of_fury_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1031,7 +1031,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/mass_of_fury.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/mass_of_fury.png"
 						}
 					}
 				]
@@ -1068,7 +1068,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/relek_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/relek_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1079,7 +1079,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/relek.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/relek.png"
 						}
 					}
 				]
@@ -1121,7 +1121,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pandemonial_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pandemonial_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1129,7 +1129,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pandemonial.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pandemonial.png"
 						}
 					}
 				]
@@ -1166,7 +1166,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slythermink_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/slythermink_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1174,7 +1174,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/slythermink.jpg"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/slythermink.jpg"
 						}
 					}
 				]
@@ -1216,7 +1216,7 @@
 			"cr": "5",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/tenebrian_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/tenebrian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1227,7 +1227,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/tenebrian.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/tenebrian.png"
 						}
 					}
 				]
@@ -1264,7 +1264,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yakut_peairnean_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/yakut_peairnean_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1272,7 +1272,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/yakut_peairnean.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/yakut_peairnean.png"
 						}
 					}
 				]
@@ -1309,7 +1309,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/scribblet_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/scribblet_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1317,7 +1317,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/scribblet.jpg"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/scribblet.jpg"
 						}
 					}
 				]
@@ -1355,7 +1355,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/chaka_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/chaka_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1366,7 +1366,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/chaka.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/chaka.png"
 						}
 					}
 				]
@@ -1406,7 +1406,7 @@
 			"cr": "3",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/akaragh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/akaragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1417,7 +1417,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/akaragh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/akaragh.png"
 						}
 					}
 				]
@@ -1464,7 +1464,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/andragh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/andragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1475,7 +1475,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/andragh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/andragh.png"
 						}
 					}
 				]
@@ -1523,7 +1523,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lithuar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lithuar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1534,7 +1534,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lithuar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lithuar.png"
 						}
 					}
 				]
@@ -1582,7 +1582,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/grolagh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/grolagh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1593,7 +1593,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/grolagh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/grolagh.png"
 						}
 					}
 				]
@@ -1641,7 +1641,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kolar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kolar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1652,7 +1652,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kolar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kolar.png"
 						}
 					}
 				]
@@ -1699,7 +1699,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/eralar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/eralar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1710,7 +1710,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/eralar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/eralar.png"
 						}
 					}
 				]
@@ -1757,7 +1757,7 @@
 			"cr": "1",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ildar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ildar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1768,7 +1768,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ildar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ildar.png"
 						}
 					}
 				]
@@ -1815,7 +1815,7 @@
 			"cr": "4",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ghost_ythlantean_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ghost_ythlantean_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1826,7 +1826,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ghost_ythlantean.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ghost_ythlantean.png"
 						}
 					}
 				]
@@ -1863,7 +1863,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nalkor_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nalkor_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1871,7 +1871,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nalkor.jpg"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nalkor.jpg"
 						}
 					}
 				]
@@ -1912,7 +1912,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_ember_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -1923,7 +1923,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_ember_baby.png"
 						}
 					}
 				]
@@ -1971,14 +1971,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_glacier_baby.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_glacier_baby_token.png"
 			},
 			"uniqueId": "b34c238c-eb43-4220-b0ee-8d95016dfc2e"
 		},
@@ -2013,7 +2013,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_reef_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2024,7 +2024,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_reef_baby.png"
 						}
 					}
 				]
@@ -2067,7 +2067,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_verdant_young_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -2075,7 +2075,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_verdant_young.png"
 						}
 					}
 				]
@@ -2112,7 +2112,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mimora_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/mimora_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2123,7 +2123,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/mimora.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/mimora.png"
 						}
 					}
 				]
@@ -2191,7 +2191,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/szinek_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/szinek_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2202,7 +2202,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/szinek_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/szinek_adult.png"
 						}
 					}
 				]
@@ -2251,14 +2251,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_fel.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pranker_fel.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_fel_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pranker_fel_token.png"
 			},
 			"trait": [
 				{
@@ -2321,14 +2321,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_lin.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pranker_lin.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_lin_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pranker_lin_token.png"
 			},
 			"uniqueId": "20ed75f3-d9e6-4f2e-8774-838a9617a221"
 		},
@@ -2374,14 +2374,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_nok.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pranker_nok.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_nok_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pranker_nok_token.png"
 			},
 			"trait": [
 				{
@@ -2496,14 +2496,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_ahn.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pranker_ahn.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_ahn_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pranker_ahn_token.png"
 			},
 			"trait": [
 				{
@@ -2741,7 +2741,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/eldritch_orb_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/eldritch_orb_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -2749,7 +2749,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/eldritch_orb.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/eldritch_orb.png"
 						}
 					}
 				]
@@ -2787,7 +2787,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/szinek_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/szinek_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2798,7 +2798,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/szinek_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/szinek_baby.png"
 						}
 					}
 				]
@@ -2839,7 +2839,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_ember_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2850,7 +2850,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_ember_young.png"
 						}
 					}
 				]
@@ -2891,7 +2891,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_ember_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2902,7 +2902,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_ember_adult.png"
 						}
 					}
 				]
@@ -2943,7 +2943,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_ember_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_ember_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -2954,7 +2954,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_ember_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_ember_ancient.png"
 						}
 					}
 				]
@@ -2995,7 +2995,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_glacier_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3006,7 +3006,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_glacier_young.png"
 						}
 					}
 				]
@@ -3047,7 +3047,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_glacier_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3058,7 +3058,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_glacier_adult.png"
 						}
 					}
 				]
@@ -3099,7 +3099,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_glacier_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_glacier_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3110,7 +3110,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_glacier_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_glacier_ancient.png"
 						}
 					}
 				]
@@ -3148,7 +3148,7 @@
 			"dragonAge": "young",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_reef_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3159,7 +3159,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_reef_young.png"
 						}
 					}
 				]
@@ -3197,7 +3197,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_reef_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3208,7 +3208,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_reef_adult.png"
 						}
 					}
 				]
@@ -3246,7 +3246,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_reef_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_reef_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3257,7 +3257,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_reef_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_reef_ancient.png"
 						}
 					}
 				]
@@ -3300,7 +3300,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_verdant_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3311,7 +3311,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_verdant_adult.png"
 						}
 					}
 				]
@@ -3354,7 +3354,7 @@
 			"dragonAge": "ancient",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_verdant_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3365,7 +3365,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_verdant_ancient.png"
 						}
 					}
 				]
@@ -3409,14 +3409,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/bol-daragh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/bol-daragh.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/bol-daragh_token.webp"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/bol-daragh_token.webp"
 			},
 			"uniqueId": "0d11f796-7fad-41eb-8d58-edf47c21fdc5"
 		},
@@ -3448,7 +3448,7 @@
 			"cr": "2",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/borovis_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/borovis_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3460,7 +3460,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/borovis.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/borovis.png"
 						}
 					}
 				]
@@ -3522,7 +3522,7 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/brum_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/brum_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3533,7 +3533,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/brum.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/brum.png"
 						}
 					}
 				]
@@ -3570,7 +3570,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cruor_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/cruor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3581,7 +3581,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/cruor.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/cruor.png"
 						}
 					}
 				]
@@ -3621,7 +3621,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/cruor_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/cruor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3632,7 +3632,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/cruor.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/cruor.png"
 						}
 					}
 				]
@@ -3669,7 +3669,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ealaiagh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ealaiagh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3680,7 +3680,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ealaiagh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ealaiagh.png"
 						}
 					}
 				]
@@ -3715,7 +3715,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/grom_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/grom_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3726,7 +3726,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/grom.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/grom.png"
 						}
 					}
 				]
@@ -3763,7 +3763,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/laidir_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/laidir_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3774,7 +3774,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/laidir.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/laidir.png"
 						}
 					}
 				]
@@ -3814,7 +3814,7 @@
 			"cr": "2",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nuaragh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nuaragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3825,7 +3825,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nuaragh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nuaragh.png"
 						}
 					}
 				]
@@ -3869,7 +3869,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/snowraven_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/snowraven_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -3880,7 +3880,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/snowraven.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/snowraven.png"
 						}
 					}
 				]
@@ -3917,7 +3917,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/shadowraven_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/shadowraven_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -3925,7 +3925,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/shadowraven.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/shadowraven.png"
 						}
 					}
 				]
@@ -3991,7 +3991,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/t'kari_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/t'kari_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4002,7 +4002,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/t'kari.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/t'kari.png"
 						}
 					}
 				]
@@ -4042,7 +4042,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yi'chin_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/yi'chin_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4053,7 +4053,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/yi'chin.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/yi'chin.png"
 						}
 					}
 				]
@@ -4181,7 +4181,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mor-tag_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/mor-tag_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4192,7 +4192,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/mor-tag.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/mor-tag.png"
 						}
 					}
 				]
@@ -4229,7 +4229,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sildar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sildar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4240,7 +4240,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sildar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sildar.png"
 						}
 					}
 				]
@@ -4277,7 +4277,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/clay_bear_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/clay_bear_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -4285,7 +4285,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/clay_bear.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/clay_bear.png"
 						}
 					}
 				]
@@ -4320,7 +4320,7 @@
 			"cr": "17",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/darak_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/darak_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4331,7 +4331,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/darak.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/darak.png"
 						}
 					}
 				]
@@ -4382,7 +4382,7 @@
 			"cr": "18",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/faerin_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/faerin_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4393,7 +4393,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/faerin.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/faerin.png"
 						}
 					}
 				]
@@ -4453,7 +4453,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dau_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dau_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4465,7 +4465,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dau.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dau.png"
 						}
 					}
 				]
@@ -4506,7 +4506,7 @@
 			"dragonAge": "adult",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gryor_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/gryor_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4517,7 +4517,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/gryor_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/gryor_adult.png"
 						}
 					}
 				]
@@ -4565,7 +4565,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gryor_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/gryor_baby_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -4573,7 +4573,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/gryor_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/gryor_baby.png"
 						}
 					}
 				]
@@ -4617,7 +4617,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kamen_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kamen_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4628,7 +4628,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kamen_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kamen_adult.png"
 						}
 					}
 				]
@@ -4665,7 +4665,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kamen_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kamen_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4676,7 +4676,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kamen_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kamen_baby.png"
 						}
 					}
 				]
@@ -4718,7 +4718,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kar-zad_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kar-zad_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4729,7 +4729,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kar-zad.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kar-zad.png"
 						}
 					}
 				]
@@ -4806,7 +4806,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mir-lat_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/mir-lat_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4817,7 +4817,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/mir-lat.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/mir-lat.png"
 						}
 					}
 				]
@@ -4884,7 +4884,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_dark_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sil_dark_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4895,7 +4895,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sil_dark.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sil_dark.png"
 						}
 					}
 				]
@@ -4932,7 +4932,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_elusive_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sil_elusive_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4943,7 +4943,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sil_elusive.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sil_elusive.png"
 						}
 					}
 				]
@@ -4980,7 +4980,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_soldier_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sil_soldier_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4991,7 +4991,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sil_soldier.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sil_soldier.png"
 						}
 					}
 				]
@@ -5028,7 +5028,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sil_strong_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sil_strong_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5039,7 +5039,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sil_strong.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sil_strong.png"
 						}
 					}
 				]
@@ -5076,7 +5076,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/yakut_sangrian_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/yakut_sangrian_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5084,7 +5084,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/yakut_sangrian.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/yakut_sangrian.png"
 						}
 					}
 				]
@@ -5119,7 +5119,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/horse_bachrian_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/horse_bachrian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5130,7 +5130,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/horse_bachrian.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/horse_bachrian.png"
 						}
 					}
 				]
@@ -5165,7 +5165,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/horse_dauthirian_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/horse_dauthirian_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5176,7 +5176,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/horse_dauthirian.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/horse_dauthirian.png"
 						}
 					}
 				]
@@ -5213,7 +5213,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nigris_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nigris_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5224,7 +5224,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nigris.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nigris.png"
 						}
 					}
 				]
@@ -5261,7 +5261,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/mor_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/mor_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5272,7 +5272,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/mor.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/mor.png"
 						}
 					}
 				]
@@ -5309,7 +5309,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lykor_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5320,7 +5320,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lykor_adult.png"
 						}
 					}
 				]
@@ -5407,7 +5407,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/darth_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/darth_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5418,7 +5418,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/darth.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/darth.png"
 						}
 					}
 				]
@@ -5453,7 +5453,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kallot_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kallot_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5464,7 +5464,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kallot.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kallot.png"
 						}
 					}
 				]
@@ -5536,14 +5536,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/goar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/goar.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/goar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/goar_token.png"
 			},
 			"uniqueId": "4c4417b9-c31d-4279-a053-ec205e5ce7e6"
 		},
@@ -5605,7 +5605,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/koragh_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/koragh_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5616,7 +5616,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/koragh.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/koragh.png"
 						}
 					}
 				]
@@ -5659,7 +5659,7 @@
 			"dragonAge": "wyrmling",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/dragon_verdant_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dragon_verdant_baby_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5667,7 +5667,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/dragon_verdant_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dragon_verdant_baby.png"
 						}
 					}
 				]
@@ -5704,7 +5704,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/zar'keth_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/zar'keth_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5715,7 +5715,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/zar'keth.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/zar'keth.png"
 						}
 					}
 				]
@@ -5752,7 +5752,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ursa_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5763,7 +5763,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ursa_adult.png"
 						}
 					}
 				]
@@ -5800,7 +5800,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kotal_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5811,7 +5811,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kotal_ancient.png"
 						}
 					}
 				]
@@ -5848,7 +5848,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/verrix_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/verrix_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -5859,7 +5859,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/verrix.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/verrix.png"
 						}
 					}
 				]
@@ -5896,7 +5896,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/k'rang_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/k'rang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5904,7 +5904,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/k'rang.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/k'rang.png"
 						}
 					}
 				]
@@ -5944,7 +5944,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/k'rang_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/k'rang_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -5952,7 +5952,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/k'rang.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/k'rang.png"
 						}
 					}
 				]
@@ -5989,7 +5989,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/stiltrix_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/stiltrix_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6000,7 +6000,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/stiltrix.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/stiltrix.png"
 						}
 					}
 				]
@@ -6037,7 +6037,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/sandstrider_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/sandstrider_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6048,7 +6048,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/sandstrider.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/sandstrider.png"
 						}
 					}
 				]
@@ -6085,7 +6085,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/meloki_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/meloki_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6096,7 +6096,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/meloki.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/meloki.png"
 						}
 					}
 				]
@@ -6133,7 +6133,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nykal_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nykal_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6144,7 +6144,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nykal.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nykal.png"
 						}
 					}
 				]
@@ -6179,7 +6179,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/gnawk_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/gnawk_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6190,7 +6190,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/gnawk.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/gnawk.png"
 						}
 					}
 				]
@@ -6227,7 +6227,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kanghar_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kanghar_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6238,7 +6238,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kanghar.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kanghar.png"
 						}
 					}
 				]
@@ -6280,7 +6280,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/rukh_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6291,7 +6291,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/rukh_baby.png"
 						}
 					}
 				]
@@ -6328,7 +6328,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/tumbler_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/tumbler_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6339,7 +6339,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/tumbler.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/tumbler.png"
 						}
 					}
 				]
@@ -6376,7 +6376,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/s'kar_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6387,7 +6387,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/s'kar_adult.png"
 						}
 					}
 				]
@@ -6429,7 +6429,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/rukh_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6440,7 +6440,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/rukh_adult.png"
 						}
 					}
 				]
@@ -6482,7 +6482,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/rukh_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6493,7 +6493,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/rukh_ancient.png"
 						}
 					}
 				]
@@ -6565,7 +6565,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ursa_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6576,7 +6576,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ursa_baby.png"
 						}
 					}
 				]
@@ -6618,7 +6618,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ursa_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6629,7 +6629,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ursa_young.png"
 						}
 					}
 				]
@@ -6666,7 +6666,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/ursa_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/ursa_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6677,7 +6677,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/ursa_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/ursa_ancient.png"
 						}
 					}
 				]
@@ -6714,7 +6714,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/s'kar_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6725,7 +6725,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/s'kar_young.png"
 						}
 					}
 				]
@@ -6762,7 +6762,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/s'kar_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6773,7 +6773,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/s'kar_ancient.png"
 						}
 					}
 				]
@@ -6810,7 +6810,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/s'kar_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/s'kar_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6821,7 +6821,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/s'kar_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/s'kar_baby.png"
 						}
 					}
 				]
@@ -6858,7 +6858,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lykor_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6869,7 +6869,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lykor_young.png"
 						}
 					}
 				]
@@ -6906,7 +6906,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lykor_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6917,7 +6917,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lykor_ancient.png"
 						}
 					}
 				]
@@ -6954,7 +6954,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lykor_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lykor_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -6965,7 +6965,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lykor_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lykor_baby.png"
 						}
 					}
 				]
@@ -7002,7 +7002,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nerid_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7013,7 +7013,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nerid_adult.png"
 						}
 					}
 				]
@@ -7053,7 +7053,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/elar_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7064,7 +7064,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/elar_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/elar_adult.png"
 						}
 					}
 				]
@@ -7101,7 +7101,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_adult_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kotal_adult_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7112,7 +7112,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_adult.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kotal_adult.png"
 						}
 					}
 				]
@@ -7149,7 +7149,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kotal_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7160,7 +7160,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kotal_young.png"
 						}
 					}
 				]
@@ -7197,7 +7197,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/kotal_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/kotal_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7208,7 +7208,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/kotal_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/kotal_baby.png"
 						}
 					}
 				]
@@ -7248,7 +7248,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_foal_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/elar_foal_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7259,7 +7259,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/elar_foal.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/elar_foal.png"
 						}
 					}
 				]
@@ -7302,7 +7302,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/elar_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7313,7 +7313,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/elar_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/elar_young.png"
 						}
 					}
 				]
@@ -7353,7 +7353,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/elar_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/elar_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7364,7 +7364,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/elar_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/elar_ancient.png"
 						}
 					}
 				]
@@ -7401,7 +7401,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nerid_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7412,7 +7412,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nerid_young.png"
 						}
 					}
 				]
@@ -7449,7 +7449,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_baby_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nerid_baby_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7460,7 +7460,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_baby.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nerid_baby.png"
 						}
 					}
 				]
@@ -7497,7 +7497,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/nerid_ancient_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/nerid_ancient_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7508,7 +7508,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/nerid_ancient.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/nerid_ancient.png"
 						}
 					}
 				]
@@ -7554,7 +7554,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slime_red_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/slime_red_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7565,7 +7565,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/slime_red.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/slime_red.png"
 						}
 					}
 				]
@@ -7633,7 +7633,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/slime_red_huge_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/slime_red_huge_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7644,7 +7644,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/slime_red_huge.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/slime_red_huge.png"
 						}
 					}
 				]
@@ -7723,14 +7723,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/lithian.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/lithian.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/lithian_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/lithian_token.png"
 			},
 			"uniqueId": "b47920d0-9c63-4107-9f8e-fdbf354c6cc5"
 		},
@@ -7804,7 +7804,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/rukh_young_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/rukh_young_token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -7815,7 +7815,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/rukh_young.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/rukh_young.png"
 						}
 					}
 				]
@@ -7930,7 +7930,7 @@
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/firebird_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/firebird_token.png"
 			},
 			"fluff": {
 				"images": [
@@ -7938,7 +7938,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/firebird.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/firebird.png"
 						}
 					}
 				]
@@ -7987,14 +7987,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "http://5etools:5050/img/bestiary/EHCC/pranker_dan.png"
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/pranker_dan.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "http://5etools:5050/img/bestiary/tokens/EHCC/pranker_dan_token.png"
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/pranker_dan_token.png"
 			},
 			"trait": [
 				{
