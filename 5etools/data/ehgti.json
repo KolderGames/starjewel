@@ -612,7 +612,7 @@
 			"uniqueId": "9e5d8e93-7523-421c-845d-494e53a2842a"
 		},
 		{
-			"name": "` Deluminate",
+			"name": "Deluminate",
 			"level": 0,
 			"school": "G",
 			"time": [
@@ -624,7 +624,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "self"
+					"type": "feet",
+					"amount": 120
 				}
 			},
 			"duration": [
@@ -641,14 +642,23 @@
 				]
 			},
 			"entries": [
-				"[You remove the illumination of a single light source. This can be a candle, lantern, fireplace, etc. It just snuffs out the light, it can be lit again normally.]"
+				"You remove the illumination of a single source of light. This can be a candle, lantern, fireplace, etc. It just snuffs out the light, it can be lit again normally."
 			],
 			"source": "EHGtI",
 			"components": {
 				"v": true,
 				"s": true
 			},
-			"uniqueId": "09abe10e-3004-4bda-bb56-5be6b96ef3d3"
+			"uniqueId": "09abe10e-3004-4bda-bb56-5be6b96ef3d3",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"You can snuff out two sources of light at level 5, three at level 11, and four at level 17."
+					]
+				}
+			]
 		},
 		{
 			"name": "Dispel Spirits",
@@ -2481,6 +2491,55 @@
 				]
 			},
 			"uniqueId": "318181af-3e18-4058-8da9-2d2b32b536d8"
+		},
+		{
+			"uniqueId": "72d8309e-8ab8-42ee-b10a-3904d243c439",
+			"name": "Voidbeam",
+			"level": 0,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You hurl a beam of black energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes {@damage 1d10} Void damage."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+					]
+				}
+			]
 		}
 	]
 }
