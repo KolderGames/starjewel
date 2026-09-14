@@ -586,13 +586,17 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
 						"name": "Wizard",
 						"source": "XPHB"
 					}
 				]
 			},
 			"entries": [
-				"You conjure primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHGtI} primal force.",
+				"You conjure primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHSet} primal force.",
 				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies."
 			],
 			"source": "EHGtI",
@@ -1977,7 +1981,7 @@
 				}
 			],
 			"entries": [
-				"An aura of antiphasing surrounds you in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. No one can initiate Phasing inside the aura, and anything with the {@condition Phased|EH:Set} condition has it instantly removed."
+				"An aura of antiphasing surrounds you in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. No one can initiate Phasing inside the aura, and anything with the {@condition Phased|EHSet} condition has it instantly removed."
 			],
 			"affectsCreatureType": [
 				"aberration",
@@ -2253,8 +2257,8 @@
 			"uniqueId": "e7cd8b2a-7763-4065-9b8d-c728e870b5ed"
 		},
 		{
-			"name": "` Suppress Core",
-			"level": 8,
+			"name": "Sever",
+			"level": 6,
 			"school": "G",
 			"time": [
 				{
@@ -2265,7 +2269,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "touch"
+					"type": "feet",
+					"amount": 60
 				}
 			},
 			"duration": [
@@ -2282,20 +2287,46 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
 						"name": "Wizard",
 						"source": "XPHB"
 					}
 				]
 			},
 			"entries": [
-				"[Suppresses a creature's core and renders it Powerless.]"
+				"Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the {@condition Coreless|EHSet} condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success."
 			],
 			"source": "EHGtI",
 			"components": {
 				"v": true,
-				"s": true
+				"s": true,
+				"m": "..."
 			},
-			"uniqueId": "55225046-a680-4ba9-9500-5a0e148ab7d8"
+			"uniqueId": "55225046-a680-4ba9-9500-5a0e148ab7d8",
+			"conditionInflict": [
+				"coreless|ehgti",
+				"coreless|ehset"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 6."
+					]
+				}
+			]
 		},
 		{
 			"name": "Roam",
@@ -2412,7 +2443,7 @@
 				]
 			},
 			"entries": [
-				"Each {@condition Phased|EH:GtI} creature or object in a 20-foot radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within range becomes becomes {@condition Fused|EH:GtI} for the duration."
+				"Each {@condition Phased|EHSet} creature or object in a 20-foot radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within range becomes {@condition Fused|EHSet} for the duration."
 			],
 			"source": "EHGtI",
 			"components": {

@@ -505,11 +505,11 @@
 			]
 		},
 		{
-			"name": "Powerless",
+			"name": "Coreless",
 			"source": "EHSet",
 			"page": 0,
 			"entries": [
-				"While you have the Powerless condition, you experience the following effects.",
+				"While you have the Coreless condition, you experience the following effects.",
 				{
 					"type": "entries",
 					"entries": [
@@ -583,9 +583,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Powerless",
+							"name": "Coreless",
 							"entries": [
-								"You have the {@condition Powerless|EHSet} condition."
+								"You have the {@condition Coreless|EHSet} condition."
 							]
 						},
 						{
