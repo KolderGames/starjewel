@@ -19,7 +19,9 @@
 		"optionalFeatureTypes": {
 			"AU": "Auspice",
 			"GL": "Gameplay Level",
-			"RE": "Resonance"
+			"RE": "Resonance",
+			"G": "Negation",
+			"R": "Primal"
 		}
 	},
 	"spell": [
@@ -570,8 +572,7 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "feet",
-					"amount": 90
+					"type": "self"
 				}
 			},
 			"duration": [
@@ -596,7 +597,7 @@
 				]
 			},
 			"entries": [
-				"You conjure primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHSet} primal force.",
+				"You conjure Primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHSet} primal force.",
 				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies."
 			],
 			"source": "EHGtI",
@@ -903,7 +904,7 @@
 		{
 			"name": "Hexbeam",
 			"level": 0,
-			"school": "V",
+			"school": "R",
 			"time": [
 				{
 					"number": 1,
@@ -938,56 +939,56 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Ahn",
+							"name": "ahn",
 							"entries": [
 								"The beam is blue and causes {@damage 1d10} psychic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Dan",
+							"name": "dan",
 							"entries": [
 								"..."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Fel",
+							"name": "fel",
 							"entries": [
 								"..."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Lin",
+							"name": "lin",
 							"entries": [
 								"The beam is white and causes {@damage 1d10} radiant damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Mas",
+							"name": "mas",
 							"entries": [
 								"..."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Nok",
+							"name": "nok",
 							"entries": [
 								"The beam is black and causes {@damage 1d10} necrotic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Pen",
+							"name": "pen",
 							"entries": [
 								"..."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Tek",
+							"name": "tek",
 							"entries": [
 								"..."
 							]
@@ -1822,35 +1823,35 @@
 					],
 					"rows": [
 						[
-							"Ahn",
+							"ahn",
 							"Multicolored bolt dealing {@damage 1d10} Psychic damage"
 						],
 						[
-							"Dan",
+							"dan",
 							"Golden bolt dealing {@damage 1d10} Thunder damage"
 						],
 						[
-							"Fel",
+							"fel",
 							"Green bolt dealing {@damage 1d10} Poison damage"
 						],
 						[
-							"Lin",
+							"lin",
 							"White bolt dealing {@damage 1d10} Radiant damage"
 						],
 						[
-							"Mas",
+							"mas",
 							"Pink bolt dealing {@damage 1d10} Force damage"
 						],
 						[
-							"Nok",
+							"nok",
 							"Black bolt dealing {@damage 1d10} Necrotic damage"
 						],
 						[
-							"Pen",
+							"pen",
 							"Fiery bolt dealing {@damage 1d10} Fire damage"
 						],
 						[
-							"Tek",
+							"tek",
 							"Blue bolt dealing {@damage 1d10} Lightning damage"
 						]
 					]
