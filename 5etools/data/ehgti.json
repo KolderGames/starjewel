@@ -53,10 +53,10 @@
 				}
 			],
 			"entries": [
-				"You create three darts of magical force. Each dart hits a creature of your choice that you can see within range. The darts all strike simultaneously, and you can direct them to hit one creature or several. The type of darts created and the damage they inflict is based on your {@condition resonating|EHGtI} primal force, as listed in the Primal Forces table.",
+				"You create three darts of magical force. Each dart hits a creature of your choice that you can see within range. The darts all strike simultaneously, and you can direct them to hit one creature or several. The type of darts created and the damage they inflict is based on your {@condition resonating|EHGtI} primal force, as listed in the Primal Darts Effects table.",
 				{
 					"type": "table",
-					"caption": "Primal Forces",
+					"caption": "Primal Darts Effects",
 					"colStyles": [
 						"col-2",
 						"col-10"
@@ -67,35 +67,35 @@
 					],
 					"rows": [
 						[
-							"Ahn",
+							"ahn",
 							"Multicolored darts dealing {@damage 1d4 + 1} Psychic damage"
 						],
 						[
-							"Dan",
+							"dan",
 							"Golden darts dealing {@damage 1d4 + 1} Thunder damage"
 						],
 						[
-							"Fel",
+							"fel",
 							"Green darts dealing {@damage 1d4 + 1} Poison damage"
 						],
 						[
-							"Lin",
+							"lin",
 							"White darts dealing {@damage 1d4 + 1} Radiant damage"
 						],
 						[
-							"Mas",
+							"mas",
 							"Pink darts dealing {@damage 1d4 + 1} Force damage"
 						],
 						[
-							"Nok",
+							"nok",
 							"Black darts dealing {@damage 1d4 + 1} Necrotic damage"
 						],
 						[
-							"Pen",
+							"pen",
 							"Fiery darts dealing {@damage 1d4 + 1} Fire damage"
 						],
 						[
-							"Tek",
+							"tek",
 							"Blue darts dealing {@damage 1d4 + 1} Lightning damage"
 						]
 					]
@@ -275,56 +275,6 @@
 			"uniqueId": "5fac1889-4ce6-4d02-8a68-93ba033a288f"
 		},
 		{
-			"name": "` Resonate",
-			"level": 3,
-			"school": "R",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 10,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Apply Resonating condition to the target with the primal force you resonate with.]"
-			],
-			"source": "EHGtI",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "00c70352-16f7-45c5-908f-8f69bebf2c13"
-		},
-		{
 			"name": "Unveil",
 			"level": 4,
 			"school": "I",
@@ -493,61 +443,61 @@
 				]
 			},
 			"entries": [
-				"Primal force shoots forth from you. Each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
+				"A creature you touch bursts into primal flames and is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
 				{
 					"type": "entries",
-					"name": "Ahn",
+					"name": "ahn",
 					"entries": [
-						"Rainbow-colored flames cleanse each target, removing the {@condition Charmed|XPHB} condition. "
+						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dan",
+					"name": "dan",
 					"entries": [
-						"Light blue flames cleanse each target, removing..."
+						"Light blue flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fel",
+					"name": "fel",
 					"entries": [
-						"Green flames cleanse each target, removing the {@condition Poisoned|XPHB} condition."
+						"Green flames cleanse the target, removing the {@condition Poisoned|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Lin",
+					"name": "lin",
 					"entries": [
-						"White flames cleanse each target, removing the {@condition Frightened|XPHB} condition."
+						"White flames cleanse the target, removing the {@condition Frightened|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mas",
+					"name": "mas",
 					"entries": [
-						"Golden flames cleanse each target, removing..."
+						"Golden flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Nok",
+					"name": "nok",
 					"entries": [
-						"Black flames cleanse each target, removing..."
+						"Black flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Pen",
+					"name": "pen",
 					"entries": [
-						"..."
+						"Bright blue flames wash over the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tek",
+					"name": "tek",
 					"entries": [
-						"Crackling lightning washes over each target, removing the {@condition Petrified|XPHB} condition."
+						"Crackling lightning washes over the target, removing the {@condition Petrified|XPHB} condition."
 					]
 				}
 			],
@@ -597,8 +547,54 @@
 				]
 			},
 			"entries": [
-				"You conjure Primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHSet} primal force.",
-				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies."
+				"You conjure Primals that flit around you in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The type of damage depends on your {@condition resonating|EHSet} primal force as listed in the Conjure Minor Primals Effects table.",
+				"In addition, the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Difficult Terrain|XPHB} for your enemies.",
+				{
+					"type": "table",
+					"caption": "Conjure Minor Primals Effects",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Effect"
+					],
+					"rows": [
+						[
+							"ahn",
+							"Psychic damage"
+						],
+						[
+							"dan",
+							"Thunder damage"
+						],
+						[
+							"fel",
+							"Poison damage"
+						],
+						[
+							"lin",
+							"Radiant damage"
+						],
+						[
+							"mas",
+							"Force damage"
+						],
+						[
+							"nok",
+							"Necrotic damage"
+						],
+						[
+							"pen",
+							"Fire damage"
+						],
+						[
+							"tek",
+							"Lightning damage"
+						]
+					]
+				}
 			],
 			"source": "EHGtI",
 			"components": {
@@ -941,56 +937,56 @@
 							"type": "item",
 							"name": "ahn",
 							"entries": [
-								"The beam is blue and causes {@damage 1d10} psychic damage."
+								"The beam is rainbow colored and causes {@damage 1d10} Psychic damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "dan",
 							"entries": [
-								"..."
+								"The beam is light blue and causes {@damage 1d10} Thunder damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "fel",
 							"entries": [
-								"..."
+								"The beam is green and causes {@damage 1d10} Poison damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "lin",
 							"entries": [
-								"The beam is white and causes {@damage 1d10} radiant damage."
+								"The beam is white and causes {@damage 1d10} Radiant damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "mas",
 							"entries": [
-								"..."
+								"The beam is gold and causes {@damage 1d10} Force damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "nok",
 							"entries": [
-								"The beam is black and causes {@damage 1d10} necrotic damage."
+								"The beam is black and causes {@damage 1d10} Necrotic damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "pen",
 							"entries": [
-								"..."
+								"The beam is orange and causes {@damage 1d10} Fire damage"
 							]
 						},
 						{
 							"type": "item",
 							"name": "tek",
 							"entries": [
-								"..."
+								"The beam crackles like lightning and causes {@damage 1d10} Lightning damage."
 							]
 						}
 					]
@@ -1211,10 +1207,10 @@
 			],
 			"entries": [
 				"You conjure a Large, intangible Primal that appears in an unoccupied space within range. The Primal's damage type depends on your {@condition resonating|EHGtI} primal force. The Primal lasts for the duration.",
-				"Whenever a creature you can see enters the Primal's space or starts its turn within 5 feet of the primal, you can force that creature to make a Dexterity saving throw if the primal has no creature {@condition Restrained|XPHB}. On failed save, the target takes {@damage 10d8} damage of the Primal's type, and the target has the {@condition Restrained|XPHB} condition until the spell ends. At the start of each of its turns, the {@condition Restrained|XPHB} target repeats the save. On a failed save, the target takes {@damage 5d8} damage of the Primal's type, as described in the Primal Forces table. On a successful save, the target isn't {@condition Restrained|XPHB} by the Primal.",
+				"Whenever a creature you can see enters the Primal's space or starts its turn within 5 feet of the primal, you can force that creature to make a Dexterity saving throw if the primal has no creature {@condition Restrained|XPHB}. On failed save, the target takes {@damage 10d8} damage of the Primal's type, and the target has the {@condition Restrained|XPHB} condition until the spell ends. At the start of each of its turns, the {@condition Restrained|XPHB} target repeats the save. On a failed save, the target takes {@damage 5d8} damage of the Primal's type, as described in the Conjure Primal Effects table. On a successful save, the target isn't {@condition Restrained|XPHB} by the Primal.",
 				{
 					"type": "table",
-					"caption": "Primal Forces",
+					"caption": "Conjure Primal Effects",
 					"colStyles": [
 						"col-2",
 						"col-10"
@@ -1225,35 +1221,35 @@
 					],
 					"rows": [
 						[
-							"Ahn",
+							"ahn",
 							"Psychic"
 						],
 						[
-							"Dan",
+							"dan",
 							"Thunder"
 						],
 						[
-							"Fel",
+							"fel",
 							"Poison"
 						],
 						[
-							"Lin",
+							"lin",
 							"Radiant"
 						],
 						[
-							"Mas",
+							"mas",
 							"Force"
 						],
 						[
-							"Nok",
+							"nok",
 							"Necrotic"
 						],
 						[
-							"Pen",
+							"pen",
 							"Fire"
 						],
 						[
-							"Tek",
+							"tek",
 							"Lightning"
 						]
 					]
@@ -1467,10 +1463,10 @@
 			],
 			"entries": [
 				"You create a spectral sword that hovers within range. It lasts for the duration.",
-				"When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes damage equal to {@damage 4d12} plus your spellcasting ability modifier. The damage type depends on your {@condition resonating|EHGtI} primal force, as described in the Primal Forces table.",
+				"When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes damage equal to {@damage 4d12} plus your spellcasting ability modifier. The damage type depends on your {@condition resonating|EHGtI} primal force, as described in the Primal Sword Effects table.",
 				{
 					"type": "table",
-					"caption": "Primal Forces",
+					"caption": "Primal Sword Effects",
 					"colStyles": [
 						"col-2",
 						"col-10"
@@ -1481,35 +1477,35 @@
 					],
 					"rows": [
 						[
-							"Ahn",
+							"ahn",
 							"Psychic damage"
 						],
 						[
-							"Dan",
+							"dan",
 							"Thunder damage"
 						],
 						[
-							"Fel",
+							"fel",
 							"Poison damage"
 						],
 						[
-							"Lin",
+							"lin",
 							"Radiant damage"
 						],
 						[
-							"Mas",
+							"mas",
 							"Force damage"
 						],
 						[
-							"Nok",
+							"nok",
 							"Necrotic damage"
 						],
 						[
-							"Pen",
+							"pen",
 							"Fire damage"
 						],
 						[
-							"Tek",
+							"tek",
 							"Lightning damage"
 						]
 					]
@@ -1541,7 +1537,7 @@
 			"uniqueId": "5fba0002-e019-43ed-96db-787e525d499d"
 		},
 		{
-			"name": "` Primal Fountain",
+			"name": "Primal Fountain",
 			"level": 6,
 			"school": "R",
 			"time": [
@@ -1553,7 +1549,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "self"
+					"type": "feet",
+					"amount": 120
 				}
 			},
 			"duration": [
@@ -1656,8 +1653,8 @@
 			],
 			"entries": [
 				"You launch a purple ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by {@spell Wall of Force|XPHB}.",
-				"A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} Void damage. If this damage reduces it to 0 {@variantrule Hit Points|XPHB}, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
-				"This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-{@variantrule Cube [Area of Effect]|XPHB|Cube} portion of it."
+				"A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} Void damage. If this damage reduces it to 0 {@variantrule Hit Points|XPHB}, it and everything nonmagical it is wearing and carrying are unraveled into gray dust. The target can be revived only by a {@spell True Resurrection|XPHB} or a {@spell Wish|XPHB} spell.",
+				"This spell automatically unravels a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell unravels a 10-foot-{@variantrule Cube [Area of Effect]|XPHB|Cube} portion of it."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2017,53 +2014,6 @@
 			]
 		},
 		{
-			"name": "` Recalibrate",
-			"level": 7,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "emanation",
-				"distance": {
-					"type": "feet",
-					"amount": 20
-				}
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1,
-						"upTo": true
-					},
-					"concentration": true
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				]
-			},
-			"entries": [
-				"[Recalibrate the resonance of all creatures in the area to the desired primal force.]"
-			],
-			"source": "EHGtI",
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "..."
-			},
-			"uniqueId": "3edd58fe-942a-4a73-9c47-ab45f6126189"
-		},
-		{
 			"name": "Void",
 			"level": 7,
 			"school": "G",
@@ -2239,7 +2189,7 @@
 				]
 			},
 			"entries": [
-				"You hurl a blob of dark slime at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Void damage and gains one stack of {@hazard withering|EHGtI}."
+				"You hurl a blob of dark slime at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Void damage and gains one stack of {@hazard withering|EHSet}."
 			],
 			"source": "EHGtI",
 			"components": {
@@ -2251,7 +2201,7 @@
 					"type": "entries",
 					"name": "Cantrip Upgrade",
 					"entries": [
-						"The spell creates two blobs at level 5, three blobs at level 11, and four blobs at level 17. Make a separate attack roll for each blob. The target gains one stack of {@hazard withering|EHGtI} for each blob that hits."
+						"The spell creates two blobs at level 5, three blobs at level 11, and four blobs at level 17. Make a separate attack roll for each blob. The target gains one stack of {@hazard withering|EHSet} for each blob that hits."
 					]
 				}
 			],
@@ -2369,7 +2319,7 @@
 			"uniqueId": "934ab007-1dd1-49a6-bba2-98e7baee0a62"
 		},
 		{
-			"name": "` Primal Burst",
+			"name": "Primal Burst",
 			"level": 0,
 			"school": "R",
 			"time": [
@@ -2393,20 +2343,76 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Sorcerer",
 						"source": "XPHB"
 					}
 				]
 			},
 			"entries": [
-				"[Send bursts of primal force in all directions, causing effects to anyone who is hit. Effects are random, targets should roll {@dice 1d8} to see what happens.]"
+				"You cast primal energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} damage of a type related to the primal force you resonate with, as listed in the Primal Burst Effects table.",
+				{
+					"type": "table",
+					"caption": "Primal Burst Effects",
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"Primal Force",
+						"Effect"
+					],
+					"rows": [
+						[
+							"ahn",
+							"Psychic damage"
+						],
+						[
+							"dan",
+							"Thunder damage"
+						],
+						[
+							"fel",
+							"Poison damage"
+						],
+						[
+							"lin",
+							"Radiant damage"
+						],
+						[
+							"mas",
+							"Force damage"
+						],
+						[
+							"nok",
+							"Necrotic damage"
+						],
+						[
+							"pen",
+							"Fire damage"
+						],
+						[
+							"tek",
+							"Lightning damage"
+						]
+					]
+				},
+				"If you roll an 8 on a {@dice d8} for this spell, you can roll another {@dice d8}, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier."
 			],
 			"source": "EHGtI",
 			"components": {
 				"v": true,
 				"s": true
 			},
-			"uniqueId": "d0b38711-01cf-4dbb-8f9f-934e15fbe8b6"
+			"uniqueId": "d0b38711-01cf-4dbb-8f9f-934e15fbe8b6",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The damage increases by {@damage 1d8} when you reach levels 5 ({@damage 2d8}), 11 ({@damage 3d8}), and 17 ({@damage 4d8})."
+					]
+				}
+			]
 		},
 		{
 			"name": "Phaselock",
@@ -2572,6 +2578,588 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Destroy Magic",
+			"source": "EHGtI",
+			"level": 3,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability ({@dc 10} plus that spell's level). On a successful check, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use."
+					]
+				}
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "EFA"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Knowledge Domain",
+							"shortName": "Knowledge",
+							"source": "FRHoF"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Devotion",
+							"shortName": "Devotion",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Lunar Sorcery",
+							"shortName": "Lunar",
+							"source": "DSotDQ"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Clockwork Sorcery",
+							"shortName": "Clockwork",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Spellfire Sorcery",
+							"shortName": "Spellfire",
+							"source": "FRHoF"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Abjurer",
+							"shortName": "Abjurer",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Trickery Domain",
+							"shortName": "Trickery",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Devotion",
+							"shortName": "Devotion",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer",
+							"shortName": "Fey Wanderer",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul",
+							"shortName": "Clockwork Soul",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Lunar Sorcery",
+							"shortName": "Lunar",
+							"source": "DSotDQ"
+						}
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Boon of Siberys",
+					"source": "EFA"
+				},
+				{
+					"name": "Drow High Magic",
+					"source": "XGE"
+				}
+			],
+			"rewards": [
+				{
+					"name": "Charm of the Talons",
+					"source": "BMT"
+				},
+				{
+					"name": "Golgari Charm",
+					"source": "GGR"
+				},
+				{
+					"name": "Izzet Charm",
+					"source": "GGR"
+				}
+			],
+			"uniqueId": "027b5db9-92fc-4e44-83d3-c3932201c3df"
+		},
+		{
+			"uniqueId": "544d9959-1748-491d-88b3-6c1737672aaf",
+			"name": "Disjoin",
+			"level": 3,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"You hurl a straight black beam. Make a ranged spell attack against one creature in range. On a hit, the target loses one of its first level spell slots, if it has any available."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The target loses a spell slot one level higher for each spell slot level above 3."
+					]
+				}
+			]
+		},
+		{
+			"name": "Void Darts",
+			"source": "EHGtI",
+			"level": 1,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create three black darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals {@damage 1d4} Void damage to its target and applies one stack of {@hazard withering|EHSet}. The darts all strike simultaneously, and you can direct them to hit one creature or several."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The spell creates one more dart for each spell slot level above 1."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT",
+				"ST"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"uniqueId": "bd508aed-f1a0-4107-b872-dd157b6d059c"
+		},
+		{
+			"uniqueId": "d29f91ad-f838-4194-83a7-dc467d6951e2",
+			"name": "Greater Obfuscation",
+			"level": 4,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"A creature you touch has the {@condition Obfuscated|EHSet} condition until the spell ends."
+			],
+			"source": "EHGtI",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"obfuscated|ehset"
+			]
+		},
+		{
+			"name": "Invisibility",
+			"source": "EHGtI",
+			"level": 2,
+			"school": "G",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A creature you touch has the {@condition Obfuscated|EHSet} condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 2."
+					]
+				}
+			],
+			"conditionInflict": [
+				"invisible",
+				"obfuscated|ehset"
+			],
+			"miscTags": [
+				"SCT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "EFA"
+					}
+				]
+			},
+			"uniqueId": "ba7cb899-e35f-451a-b567-cec253584d07"
 		}
 	]
 }
