@@ -4,7 +4,7 @@
 			{
 				"json": "EHGtI",
 				"abbreviation": "EH:GtI",
-				"full": "Everhold: Guide to Ithlan",
+				"full": "Everhold: Guide to Ithir",
 				"version": "1.0.0",
 				"authors": [
 					"Kolder Games"
@@ -3160,6 +3160,45 @@
 				]
 			},
 			"uniqueId": "ba7cb899-e35f-451a-b567-cec253584d07"
+		},
+		{
+			"uniqueId": "4ecb57e9-928b-4c3a-9ac4-5afbaad3e977",
+			"name": "Recall",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"[Recall the soul of a creature if it has become lost in Tal Ailìn.]"
+			],
+			"source": "EHGtI"
 		}
 	]
 }
