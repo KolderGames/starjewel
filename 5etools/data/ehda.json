@@ -23,5 +23,168 @@
 		}
 	},
 	"monster": [
+		{
+			"uniqueId": "ba0fa804-1ab5-48b5-b269-ac44036d68c2",
+			"name": "Silaria",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "5"
+		},
+		{
+			"uniqueId": "6653ff5a-f8fe-4d56-a6fa-2e4a17f3e22b",
+			"name": "Silaria (Evolved)",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"source": "EHDA",
+			"alignment": null,
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "5"
+		},
+		{
+			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356",
+			"name": "Sledge",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"source": "EHDA",
+			"alignment": null,
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 + 1",
+				"average": 5
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 20,
+			"con": 12,
+			"int": 4,
+			"wis": 12,
+			"cha": 9,
+			"passive": 13,
+			"cr": "3",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/zar'keth_token.png"
+			},
+			"fluff": {
+				"entries": [
+					"Create a fantasy watercolor drawing of a creature for use in a D&D monster manual. The creature has the stature of a large cheetah, but with completely black fur. The creature is imbued with lightning which is reflected in stripes along its fur. Its eyes glow with a blue light. Render the creature's full body on a white background with the entire drawing within the frame."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/zar'keth.png"
+						}
+					}
+				]
+			},
+			"skill": {
+				"perception": "+3",
+				"stealth": "+7"
+			}
+		},
+		{
+			"uniqueId": "bbb38c2e-0577-47b0-a8e2-7fa4f127e8f6",
+			"name": "Maldurian",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "4"
+		},
+		{
+			"uniqueId": "04d5373b-d8b6-4f8d-b70f-55c07225d0ab",
+			"name": "Narana",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "4"
+		}
 	]
 }
