@@ -16,6 +16,20 @@
 				"colorNight": "cc4400"
 			},
 			{
+				"json": "EHDA",
+				"abbreviation": "EH:DA",
+				"full": "Everhold: Divine Aspirations",
+				"version": "1.0.0",
+				"authors": [
+					"Kolder Games"
+				],
+				"convertedBy": [
+					"Kolder"
+				],
+				"color": "cc4400",
+				"colorNight": "cc4400"
+			},
+			{
 				"json": "EHGtI",
 				"abbreviation": "EH:GtI",
 				"full": "Everhold: Guide to Ithir",
@@ -5490,20 +5504,21 @@
 				10
 			],
 			"hp": {
-				"average": 4,
-				"formula": "1d8"
+				"formula": "6d10 + 18",
+				"average": 51
 			},
 			"speed": {
-				"walk": 30
+				"walk": 40,
+				"burrow": 40
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
+			"str": 16,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
 			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0",
+			"cha": 11,
+			"passive": 12,
+			"cr": "3",
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/darth_token.png"
@@ -5522,7 +5537,25 @@
 					}
 				]
 			},
-			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95"
+			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95",
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+2"
+			},
+			"senses": [
+				"Tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"trait": [
+				{
+					"name": "Phasing",
+					"entries": [
+						"The darth can burrow through nonmagical, crystalline substances. While doing so, the darth doesn't disturb the material it moves through."
+					]
+				}
+			]
 		},
 		{
 			"name": "Kallot",
@@ -5787,19 +5820,19 @@
 				10
 			],
 			"hp": {
-				"average": 4,
-				"formula": "1d8"
+				"formula": "1d8 + 1",
+				"average": 5
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
+			"str": 15,
+			"dex": 20,
+			"con": 12,
+			"int": 4,
+			"wis": 12,
+			"cha": 9,
+			"passive": 13,
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
@@ -5819,7 +5852,11 @@
 					}
 				]
 			},
-			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356"
+			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356",
+			"skill": {
+				"perception": "+3",
+				"stealth": "+7"
+			}
 		},
 		{
 			"name": "Ursa, Adult",
@@ -7438,9 +7475,6 @@
 					}
 				]
 			},
-			"senses": [
-				"ghostsight 60 ft."
-			],
 			"uniqueId": "4f0bce61-175b-49c6-8c7b-f23622e6aac9"
 		},
 		{
@@ -8728,9 +8762,6 @@
 			"save": {
 				"wis": "+2"
 			},
-			"senses": [
-				"Ghostsight 60 ft."
-			],
 			"passive": 10,
 			"resist": [
 				"acid",
@@ -8762,12 +8793,6 @@
 			],
 			"cr": "4",
 			"trait": [
-				{
-					"name": "Detect Life",
-					"entries": [
-						"The banshee magically senses the direction of creatures up to 1 mile away that aren't Constructs or Spirits."
-					]
-				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
@@ -8897,6 +8922,12 @@
 				"type": "external",
 				"url": ""
 			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
 			"damageTags": [
 				"N",
 				"O",
@@ -8905,6 +8936,74 @@
 			"savingThrowForced": [
 				"constitution",
 				"wisdom"
+			]
+		},
+		{
+			"uniqueId": "efdc5602-2ad0-4861-9532-695a698c837f",
+			"name": "Essence Hunter",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"Melder"
+				]
+			},
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 13,
+			"int": 14,
+			"wis": 16,
+			"cha": 12,
+			"passive": 13,
+			"cr": "3",
+			"senses": [
+				"Othersence 60 ft."
+			],
+			"skill": {
+				"stealth": "+4"
+			},
+			"bonus": [
+				{
+					"name": "Sap Magic",
+					"entries": [
+						"{@actSave con} {@dc 13}, one Medium or smaller creature {@condition Grappled|XPHB} by the hunter. {@actSaveFail} 10 ({@damage 3d6}) Necrotic damage, and the target can't take the {@action Magic|XPHB} action until the start of the hunter's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grasping Tendrils",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}12 ({@damage 2d8 + 3}) Bludgeoning damage. If the target is a Medium or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 13}) from the tendrils."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"miscTags": [
+				"MA"
 			]
 		}
 	],
@@ -8951,35 +9050,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Multicolored darts dealing {@damage 1d4 + 1} Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Golden darts dealing {@damage 1d4 + 1} Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Green darts dealing {@damage 1d4 + 1} Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"White darts dealing {@damage 1d4 + 1} Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Pink darts dealing {@damage 1d4 + 1} Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Black darts dealing {@damage 1d4 + 1} Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fiery darts dealing {@damage 1d4 + 1} Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Blue darts dealing {@damage 1d4 + 1} Lightning damage"
 						]
 					]
@@ -9330,56 +9429,56 @@
 				"A creature you touch bursts into primal flames and is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
 				{
 					"type": "entries",
-					"name": "ahn",
+					"name": "Ahn",
 					"entries": [
 						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "dan",
+					"name": "Dan",
 					"entries": [
 						"Light blue flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "fel",
+					"name": "Fel",
 					"entries": [
 						"Green flames cleanse the target, removing the {@condition Poisoned|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "lin",
+					"name": "Lin",
 					"entries": [
 						"White flames cleanse the target, removing the {@condition Frightened|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "mas",
+					"name": "Mas",
 					"entries": [
 						"Golden flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "nok",
+					"name": "Nok",
 					"entries": [
 						"Black flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "pen",
+					"name": "Pen",
 					"entries": [
 						"Bright blue flames wash over the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "tek",
+					"name": "Tek",
 					"entries": [
 						"Crackling lightning washes over the target, removing the {@condition Petrified|XPHB} condition."
 					]
@@ -9446,35 +9545,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -9819,56 +9918,56 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "ahn",
+							"name": "Ahn",
 							"entries": [
 								"The beam is rainbow colored and causes {@damage 1d10} Psychic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "dan",
+							"name": "Dan",
 							"entries": [
 								"The beam is light blue and causes {@damage 1d10} Thunder damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "fel",
+							"name": "Fel",
 							"entries": [
 								"The beam is green and causes {@damage 1d10} Poison damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "lin",
+							"name": "Lin",
 							"entries": [
 								"The beam is white and causes {@damage 1d10} Radiant damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "mas",
+							"name": "Mas",
 							"entries": [
 								"The beam is gold and causes {@damage 1d10} Force damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "nok",
+							"name": "Nok",
 							"entries": [
 								"The beam is black and causes {@damage 1d10} Necrotic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "pen",
+							"name": "Pen",
 							"entries": [
 								"The beam is orange and causes {@damage 1d10} Fire damage"
 							]
 						},
 						{
 							"type": "item",
-							"name": "tek",
+							"name": "Tek",
 							"entries": [
 								"The beam crackles like lightning and causes {@damage 1d10} Lightning damage."
 							]
@@ -10105,35 +10204,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning"
 						]
 					]
@@ -10361,35 +10460,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -10704,35 +10803,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Multicolored bolt dealing {@damage 1d10} Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Golden bolt dealing {@damage 1d10} Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Green bolt dealing {@damage 1d10} Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"White bolt dealing {@damage 1d10} Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Pink bolt dealing {@damage 1d10} Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Black bolt dealing {@damage 1d10} Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fiery bolt dealing {@damage 1d10} Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Blue bolt dealing {@damage 1d10} Lightning damage"
 						]
 					]
@@ -11247,35 +11346,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -11966,7 +12065,7 @@
 			]
 		},
 		{
-			"name": "Invisibility",
+			"name": "Obfuscation",
 			"source": "EHGtI",
 			"level": 2,
 			"school": "G",

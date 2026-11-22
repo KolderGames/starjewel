@@ -1886,7 +1886,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -1938,7 +1938,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -1987,7 +1987,12 @@
 			"size": [
 				"M"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -2039,7 +2044,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -2813,7 +2818,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -2865,7 +2870,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -2917,7 +2922,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -2969,7 +2974,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -3021,7 +3026,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -3073,7 +3078,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -3122,7 +3127,12 @@
 			"size": [
 				"L"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -3171,7 +3181,12 @@
 			"size": [
 				"H"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -3220,7 +3235,12 @@
 			"size": [
 				"G"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -3326,7 +3346,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -3844,7 +3864,12 @@
 			"size": [
 				"S"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Rukh"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -3892,7 +3917,12 @@
 			"size": [
 				"S"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Rukh"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -4254,27 +4284,25 @@
 			],
 			"type": "beast",
 			"source": "EHCC",
-			"alignment": [
-				"N"
-			],
+			"alignment": null,
 			"ac": [
-				10
+				11
 			],
 			"hp": {
-				"average": 4,
-				"formula": "1d8"
+				"formula": "5d8 + 15",
+				"average": 37
 			},
 			"speed": {
-				"walk": 30
+				"walk": 40
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0",
+			"str": 18,
+			"dex": 12,
+			"con": 17,
+			"int": 2,
+			"wis": 13,
+			"cha": 5,
+			"passive": 13,
+			"cr": "2",
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/clay_bear_token.png"
@@ -4290,7 +4318,49 @@
 					}
 				]
 			},
-			"uniqueId": "d3bf8bdf-6def-402b-8e71-14e79ea79036"
+			"uniqueId": "d3bf8bdf-6def-402b-8e71-14e79ea79036",
+			"skill": {
+				"perception": "+3"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bear makes one Bite attack and one Claw attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}6 ({@damage 1d4 + 4}) Slashing damage. If the target is a Large or smaller creature, it has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MA"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
 		},
 		{
 			"name": "Daràk",
@@ -4480,7 +4550,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -4539,7 +4609,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -4592,7 +4662,12 @@
 			"size": [
 				"L"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -4641,7 +4716,12 @@
 			"size": [
 				"M"
 			],
-			"type": "dragon",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Drakal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": null,
 			"ac": [
@@ -5284,7 +5364,12 @@
 			"size": [
 				"L"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Lykor"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -5391,20 +5476,21 @@
 				10
 			],
 			"hp": {
-				"average": 4,
-				"formula": "1d8"
+				"formula": "6d10 + 18",
+				"average": 51
 			},
 			"speed": {
-				"walk": 30
+				"walk": 40,
+				"burrow": 40
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
+			"str": 16,
+			"dex": 15,
+			"con": 16,
+			"int": 12,
 			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "0",
+			"cha": 11,
+			"passive": 12,
+			"cr": "3",
 			"tokenHref": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/darth_token.png"
@@ -5423,7 +5509,25 @@
 					}
 				]
 			},
-			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95"
+			"uniqueId": "deea2e21-a18a-4133-81af-d5b05be57b95",
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+2"
+			},
+			"senses": [
+				"Tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"trait": [
+				{
+					"name": "Phasing",
+					"entries": [
+						"The darth can burrow through nonmagical, crystalline substances. While doing so, the darth doesn't disturb the material it moves through."
+					]
+				}
+			]
 		},
 		{
 			"name": "Kallot",
@@ -5631,7 +5735,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"drakal"
+					"Drakal"
 				]
 			},
 			"source": "EHCC",
@@ -5688,19 +5792,19 @@
 				10
 			],
 			"hp": {
-				"average": 4,
-				"formula": "1d8"
+				"formula": "1d8 + 1",
+				"average": 5
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
+			"str": 15,
+			"dex": 20,
+			"con": 12,
+			"int": 4,
+			"wis": 12,
+			"cha": 9,
+			"passive": 13,
 			"cr": "0",
 			"tokenHref": {
 				"type": "external",
@@ -5720,14 +5824,23 @@
 					}
 				]
 			},
-			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356"
+			"uniqueId": "129613ec-564f-438f-ba23-9f684552f356",
+			"skill": {
+				"perception": "+3",
+				"stealth": "+7"
+			}
 		},
 		{
 			"name": "Ursa, Adult",
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Ursa"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -5775,7 +5888,12 @@
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Kotal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6253,7 +6371,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"rukh"
+					"Rukh"
 				]
 			},
 			"source": "EHCC",
@@ -6351,7 +6469,12 @@
 			"size": [
 				"L"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"S'kar"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6402,7 +6525,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"rukh"
+					"Rukh"
 				]
 			},
 			"source": "EHCC",
@@ -6455,7 +6578,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"rukh"
+					"Rukh"
 				]
 			},
 			"source": "EHCC",
@@ -6505,7 +6628,12 @@
 			"size": [
 				"L"
 			],
-			"type": "Spirit",
+			"type": {
+				"type": "spirit",
+				"tags": [
+					"K'tar"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6538,7 +6666,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"ursa"
+					"Ursa"
 				]
 			},
 			"source": "EHCC",
@@ -6591,7 +6719,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"ursa"
+					"Ursa"
 				]
 			},
 			"source": "EHCC",
@@ -6641,7 +6769,12 @@
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Ursa"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6689,7 +6822,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"S'kar"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6737,7 +6875,12 @@
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"S'kar"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6785,7 +6928,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"S'kar"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6833,7 +6981,12 @@
 			"size": [
 				"L"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Lykor"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6881,7 +7034,12 @@
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Lykor"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6929,7 +7087,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Lykor"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -6977,7 +7140,12 @@
 			"size": [
 				"L"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Nerid"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7028,7 +7196,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"elar"
+					"Elar"
 				]
 			},
 			"source": "EHCC",
@@ -7076,7 +7244,12 @@
 			"size": [
 				"L"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Kotal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7124,7 +7297,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Kotal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7172,7 +7350,12 @@
 			"size": [
 				"S"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Kotal"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7223,7 +7406,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"elar"
+					"Elar"
 				]
 			},
 			"source": "EHCC",
@@ -7264,9 +7447,6 @@
 					}
 				]
 			},
-			"senses": [
-				"ghostsight 60 ft."
-			],
 			"uniqueId": "4f0bce61-175b-49c6-8c7b-f23622e6aac9"
 		},
 		{
@@ -7277,7 +7457,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"elar"
+					"Elar"
 				]
 			},
 			"source": "EHCC",
@@ -7328,7 +7508,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"elar"
+					"Elar"
 				]
 			},
 			"source": "EHCC",
@@ -7376,7 +7556,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Nerid"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7424,7 +7609,12 @@
 			"size": [
 				"S"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Nerid"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7472,7 +7662,12 @@
 			"size": [
 				"H"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Nerid"
+				]
+			},
 			"source": "EHCC",
 			"alignment": [
 				"N"
@@ -7777,7 +7972,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"rukh"
+					"Rukh"
 				]
 			},
 			"source": "EHCC",
@@ -8235,6 +8430,553 @@
 			"cha": 10,
 			"passive": 10,
 			"cr": "0"
+		},
+		{
+			"uniqueId": "14b5fa3a-245d-4aa7-bc30-07c58efc2d56",
+			"name": "Nobber",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "3d8",
+				"average": 13
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 9,
+			"dex": 19,
+			"con": 11,
+			"int": 7,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"cr": "1/2",
+			"fluff": {
+				"entries": [
+					"Hare-like animal with four very long legs and a tail like a squirrel. Very fast runner.",
+					"Maoltìr; silky soft white fur, red eyes, othersense and warping."
+				]
+			},
+			"environment": [
+				"forest",
+				"grassland"
+			]
+		},
+		{
+			"name": "Dreamwraith",
+			"source": "EHCC",
+			"size": [
+				"M"
+			],
+			"type": "spirit",
+			"alignment": null,
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 15,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Common plus two other languages"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The wraith can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}. It takes 5 ({@damage 1d10}) Force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the wraith has {@variantrule Disadvantage|XPHB} on ability checks and attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}21 ({@damage 4d8 + 3}) Necrotic damage. If the target is a creature, its {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the damage taken."
+					]
+				},
+				{
+					"name": "Dream Lash",
+					"entries": [
+						"{@atkr r} {@hit 6}, range 60 ft. {@h}16 ({@damage 3d8 + 3}) Psychic damage, and the target can't take reactions until the end of the dreamwraith's next turn."
+					]
+				},
+				{
+					"name": "Nightmare Pulse {@recharge 5}",
+					"entries": [
+						"{@actSave wis} {@dc 14}, each enemy in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the dreamwraith. {@actSaveFail} 17 ({@damage 4d6 + 3}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the start of the dreamwraith's next turn."
+					]
+				}
+			],
+			"environment": [
+				"dreadland"
+			],
+			"traitTags": [
+				"Incorporeal Movement",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MA",
+				"HPR",
+				"RA"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "section",
+						"name": "Wraith",
+						"entries": [
+							"{@i Essence of Evil}",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "Habitat:",
+										"entry": "{@filter Planar (Shadowfell)|bestiary|environment=planar, shadowfell}, {@filter Underdark|bestiary|environment=underdark}"
+									},
+									{
+										"type": "item",
+										"name": "Treasure:",
+										"entry": "None"
+									}
+								]
+							},
+							"Wraiths are spectral evils, life-hungry embodiments of malice and terror. Arising from the souls of tyrants, moments of catastrophic pain, or magical blasphemies, wraiths spread suffering and the torment of undeath. Humanoids that die near a wraith might be entrapped by the foul spirit and rise as specters bound to the wraith's sinister will.",
+							"Wraiths lurk in forgotten dungeons, accursed ruins, or lands influenced by sinister planes of existence. Such haunted domains might bear hints of the tragedies or foul magic that brought the wraiths into being.",
+							"Wraiths might arise from a single powerfully evil soul or other baleful forces. Roll on or choose a result from the Wraith Manifestations table to inspire the wickedness a wraith embodies.",
+							{
+								"type": "table",
+								"caption": "Wraith Manifestations",
+								"colLabels": [
+									"1d10",
+									"The Wraith Embodies..."
+								],
+								"colStyles": [
+									"col-2 text-center",
+									"col-10"
+								],
+								"rows": [
+									[
+										"1",
+										"The blasphemous magic of a cursed location."
+									],
+									[
+										"2",
+										"The exorcised evil of a redeemed villain."
+									],
+									[
+										"3",
+										"A legendary villain who returns once a century."
+									],
+									[
+										"4",
+										"Locals' fear of a superstition or legend."
+									],
+									[
+										"5",
+										"The memory of a tragedy."
+									],
+									[
+										"6",
+										"A profane idea or foul piece of lore."
+									],
+									[
+										"7",
+										"The torment of one or more suffering souls."
+									],
+									[
+										"8",
+										"The viciousness of a profane Artifact."
+									],
+									[
+										"9",
+										"The vile dreams of a slumbering god."
+									],
+									[
+										"10",
+										"The voracity of a life-hungry realm, such as the Shadowfell or Negative Plane."
+									]
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/EHCC/dreamwraith.png"
+						}
+					}
+				]
+			},
+			"uniqueId": "c41ececd-aac3-4013-9f19-9b79a2eb1a16",
+			"bonus": [
+				{
+					"name": "Slip Between Dreams {@recharge 5}",
+					"entries": [
+						"The dreamwraith teleports up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/KolderGames/starjewel/refs/heads/main/5etools/img/bestiary/tokens/EHCC/dreamwraith.png"
+			},
+			"damageTags": [
+				"N",
+				"O",
+				"Y"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Banshee, Ithirean",
+			"source": "EHCC",
+			"size": [
+				"M"
+			],
+			"type": "spirit",
+			"alignment": null,
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d8"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 14,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 17,
+			"save": {
+				"wis": "+2"
+			},
+			"passive": 10,
+			"resist": [
+				"acid",
+				"bludgeoning",
+				"fire",
+				"lightning",
+				"piercing",
+				"slashing",
+				"thunder"
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The banshee can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}. It takes 5 ({@damage 1d10}) Force damage if it ends its turn inside an object."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The banshee makes two Corrupting Touch attacks and uses Horrify."
+					]
+				},
+				{
+					"name": "Corrupting Touch",
+					"entries": [
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}7 ({@damage 1d8 + 3}) Necrotic damage."
+					]
+				},
+				{
+					"name": "Horrify",
+					"entries": [
+						"{@actSave wis} {@dc 13}, one creature the banshee can see within 60 feet that can see the banshee. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition until the start of the banshee's next turn. {@actSaveSuccess} The target is immune to this banshee's Horrify for 24 hours."
+					]
+				},
+				{
+					"name": "Deathly Wail (1/Day)",
+					"entries": [
+						"The banshee releases a mournful wail if it isn't in sunlight. {@actSave con} {@dc 13}, each creature within 30 feet that can hear the wail and isn't a Construct or an Undead. {@actSaveFail} If the target has 25 {@variantrule Hit Points|XPHB} or fewer, it drops to 0 {@variantrule Hit Points|XPHB}. Otherwise, the target takes 10 ({@damage 3d6}) Psychic damage."
+					]
+				}
+			],
+			"environment": [
+				"dreadland"
+			],
+			"treasure": [
+				"relics"
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MA",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "section",
+						"name": "Banshee",
+						"entries": [
+							"{@i Wailing Harbinger of Death}",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "Habitat:",
+										"entry": "{@filter Any|bestiary|environment=any}"
+									},
+									{
+										"type": "item",
+										"name": "Treasure:",
+										"entry": "{@table Random Magic Items - Relics|XDMG|Relics}"
+									}
+								]
+							},
+							"Heralds of doom and plagues on the living, banshees are spirits obsessed by unresolved bitterness or sorrow. These storied phantoms slay any who glimpse them or hear their baleful wails. Although any tormented soul can arise as a banshee, some elven communities particularly fear them and believe that those who hoard or destroy beauty—natural or otherwise—risk returning as a banshee.",
+							"All manner of torments might give rise to a banshee. Roll on or choose a result from the Banshee Sorrows table to inspire how a banshee's torment influences its behavior.",
+							{
+								"type": "table",
+								"caption": "Banshee Sorrows",
+								"colLabels": [
+									"1d6",
+									"Torment Compels the Banshee To..."
+								],
+								"colStyles": [
+									"col-2 text-center",
+									"col-10"
+								],
+								"rows": [
+									[
+										"1",
+										"Appear prior to a family member's death."
+									],
+									[
+										"2",
+										"Haunt the site where it was executed."
+									],
+									[
+										"3",
+										"Lament a lost love and haunt their grave."
+									],
+									[
+										"4",
+										"Presage a disaster or tragedy."
+									],
+									[
+										"5",
+										"Seek the return of a stolen treasure."
+									],
+									[
+										"6",
+										"Slay those more beautiful than it was in life."
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			"uniqueId": "061aee33-4d55-4da4-8b93-17fd51e33485",
+			"tokenHref": {
+				"type": "external",
+				"url": ""
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"Y"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"uniqueId": "efdc5602-2ad0-4861-9532-695a698c837f",
+			"name": "Essence Hunter",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "ooze",
+				"tags": [
+					"Melder"
+				]
+			},
+			"source": "EHCC",
+			"alignment": null,
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 13,
+			"int": 14,
+			"wis": 16,
+			"cha": 12,
+			"passive": 13,
+			"cr": "3",
+			"senses": [
+				"Othersence 60 ft."
+			],
+			"skill": {
+				"stealth": "+4"
+			},
+			"bonus": [
+				{
+					"name": "Sap Magic",
+					"entries": [
+						"{@actSave con} {@dc 13}, one Medium or smaller creature {@condition Grappled|XPHB} by the hunter. {@actSaveFail} 10 ({@damage 3d6}) Necrotic damage, and the target can't take the {@action Magic|XPHB} action until the start of the hunter's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Grasping Tendrils",
+					"entries": [
+						"{@atkr m} {@hit 6}, reach 5 ft. {@h}12 ({@damage 2d8 + 3}) Bludgeoning damage. If the target is a Medium or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 13}) from the tendrils."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"miscTags": [
+				"MA"
+			]
 		}
 	]
 }

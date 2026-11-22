@@ -67,35 +67,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Multicolored darts dealing {@damage 1d4 + 1} Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Golden darts dealing {@damage 1d4 + 1} Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Green darts dealing {@damage 1d4 + 1} Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"White darts dealing {@damage 1d4 + 1} Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Pink darts dealing {@damage 1d4 + 1} Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Black darts dealing {@damage 1d4 + 1} Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fiery darts dealing {@damage 1d4 + 1} Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Blue darts dealing {@damage 1d4 + 1} Lightning damage"
 						]
 					]
@@ -446,56 +446,56 @@
 				"A creature you touch bursts into primal flames and is cleansed of a condition or effect, based on the primal force you resonate with, as described below.",
 				{
 					"type": "entries",
-					"name": "ahn",
+					"name": "Ahn",
 					"entries": [
 						"Rainbow-colored flames cleanse the target, removing the {@condition Charmed|XPHB} condition. "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "dan",
+					"name": "Dan",
 					"entries": [
 						"Light blue flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "fel",
+					"name": "Fel",
 					"entries": [
 						"Green flames cleanse the target, removing the {@condition Poisoned|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "lin",
+					"name": "Lin",
 					"entries": [
 						"White flames cleanse the target, removing the {@condition Frightened|XPHB} condition."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "mas",
+					"name": "Mas",
 					"entries": [
 						"Golden flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "nok",
+					"name": "Nok",
 					"entries": [
 						"Black flames cleanse the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "pen",
+					"name": "Pen",
 					"entries": [
 						"Bright blue flames wash over the target, removing..."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "tek",
+					"name": "Tek",
 					"entries": [
 						"Crackling lightning washes over the target, removing the {@condition Petrified|XPHB} condition."
 					]
@@ -562,35 +562,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -935,56 +935,56 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "ahn",
+							"name": "Ahn",
 							"entries": [
 								"The beam is rainbow colored and causes {@damage 1d10} Psychic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "dan",
+							"name": "Dan",
 							"entries": [
 								"The beam is light blue and causes {@damage 1d10} Thunder damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "fel",
+							"name": "Fel",
 							"entries": [
 								"The beam is green and causes {@damage 1d10} Poison damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "lin",
+							"name": "Lin",
 							"entries": [
 								"The beam is white and causes {@damage 1d10} Radiant damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "mas",
+							"name": "Mas",
 							"entries": [
 								"The beam is gold and causes {@damage 1d10} Force damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "nok",
+							"name": "Nok",
 							"entries": [
 								"The beam is black and causes {@damage 1d10} Necrotic damage."
 							]
 						},
 						{
 							"type": "item",
-							"name": "pen",
+							"name": "Pen",
 							"entries": [
 								"The beam is orange and causes {@damage 1d10} Fire damage"
 							]
 						},
 						{
 							"type": "item",
-							"name": "tek",
+							"name": "Tek",
 							"entries": [
 								"The beam crackles like lightning and causes {@damage 1d10} Lightning damage."
 							]
@@ -1221,35 +1221,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning"
 						]
 					]
@@ -1477,35 +1477,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -1820,35 +1820,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Multicolored bolt dealing {@damage 1d10} Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Golden bolt dealing {@damage 1d10} Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Green bolt dealing {@damage 1d10} Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"White bolt dealing {@damage 1d10} Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Pink bolt dealing {@damage 1d10} Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Black bolt dealing {@damage 1d10} Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fiery bolt dealing {@damage 1d10} Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Blue bolt dealing {@damage 1d10} Lightning damage"
 						]
 					]
@@ -2363,35 +2363,35 @@
 					],
 					"rows": [
 						[
-							"ahn",
+							"Ahn",
 							"Psychic damage"
 						],
 						[
-							"dan",
+							"Dan",
 							"Thunder damage"
 						],
 						[
-							"fel",
+							"Fel",
 							"Poison damage"
 						],
 						[
-							"lin",
+							"Lin",
 							"Radiant damage"
 						],
 						[
-							"mas",
+							"Mas",
 							"Force damage"
 						],
 						[
-							"nok",
+							"Nok",
 							"Necrotic damage"
 						],
 						[
-							"pen",
+							"Pen",
 							"Fire damage"
 						],
 						[
-							"tek",
+							"Tek",
 							"Lightning damage"
 						]
 					]
@@ -3082,7 +3082,7 @@
 			]
 		},
 		{
-			"name": "Invisibility",
+			"name": "Obfuscation",
 			"source": "EHGtI",
 			"level": 2,
 			"school": "G",

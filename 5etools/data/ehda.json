@@ -1,0 +1,27 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EHDA",
+				"abbreviation": "EH:DA",
+				"full": "Everhold: Divine Aspirations",
+				"version": "1.0.0",
+				"authors": [
+					"Kolder Games"
+				],
+				"convertedBy": [
+					"Kolder"
+				],
+				"color": "cc4400",
+				"colorNight": "cc4400"
+			}
+		],
+		"optionalFeatureTypes": {
+			"AU": "Auspice",
+			"GL": "Gameplay Level",
+			"RE": "Resonance"
+		}
+	},
+	"monster": [
+	]
+}
